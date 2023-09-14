@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
+
+import NavigationBar from './Components/NavigationBar/NavigationBar';
+
+import { HomePage } from './Pages/Home/HomePage';
+import { AboutPage } from './Pages/About/AboutPage';
+import  Paralax  from './Pages/Paralax/Paralax';
+import ParalaxCss from './Pages/Paralax/ParalaxCss';
+import ParallaxMouse from './Pages/Paralax/ParallaxMouse';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+          <NavigationBar/>
+          <Routes>
+            <Route path='/' element={<HomePage/>} />
+            <Route path='/AboutPage' element={<AboutPage/>} />
+
+            <Route path='/Paralax' element={<Paralax/>} />
+            <Route path='/ParalaxCss' element={<ParalaxCss/>} />
+            <Route path='/ParallaxMouse' element={<ParallaxMouse/>} />
+          </Routes>
+        </Router>
     </div>
   );
 }

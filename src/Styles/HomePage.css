@@ -1,0 +1,156 @@
+.homePage{
+    background-color:  rebeccapurple;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.headerFrame{
+    height: 50rem;
+    width: auto;
+    background-color: rosybrown;
+    position: relative;
+}
+
+.headerFrame h1{
+    height: 10rem;
+    width: 60%;
+    background-color: goldenrod;
+    position: absolute;
+    border-radius: 20px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 185%);
+}
+
+
+.homePage section{
+    margin: auto;
+    background-color: yellowgreen;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage section:nth-child(3){
+    background-color: green;
+}
+
+.homePage section image{
+    height: 400px;
+    width: 30%;
+    background-color: rosybrown;
+    border-radius: 20px;
+}
+
+.homePage section p{
+    height: 300px;
+    width: 30%;
+    background-color: goldenrod;
+    border-radius: 20px;
+    margin-left: -100px;
+}
+
+.homePage section div{
+    height: 500px;
+    width: 550px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.homePage section div image{
+    height: 300px;
+    width: 500px;
+    background-color: rosybrown;
+    border-radius: 20px;
+    margin-left: -250px;
+}
+
+.homePage section div p{
+    height: 300px;
+    width: 500px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    margin-right: -250px;
+}
+
+
+.homePage .section2{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.homePage .section2 .imageFrame{
+    height: 400px;
+    width: 400px;
+    background-color: rosybrown;
+    border-radius: 40px;
+    position: relative;
+}
+
+.homePage .section2 .imageFrame image{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    background-color: gold;
+    border-radius: 20px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+
+.homePage .section2 p{
+    margin-left: -240px;
+    height: 300px;
+    width: 500px;
+    background-color: goldenrod;
+    border-radius: 20px;
+}
+
+
+
+
+
+.homePage .section2 .imageFrameOval{
+    height: 400px;
+    width: 400px;
+    background-color: rosybrown;
+    border-radius: 23% 77% 40% 60% / 57% 61% 39% 43%;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 72% 28% 12% 88% / 84% 49% 51% 16% ;
+      background-color: rgba(102, 51, 153, 0.281);
+    }
+}
+
+.homePage .section2 .imageFrameOval image{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    background-color: rgba(255, 217, 0, 0.493);
+    border-radius: 20px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}

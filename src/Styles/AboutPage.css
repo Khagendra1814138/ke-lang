@@ -1,0 +1,28 @@
+.aboutPage{
+    background-color:  royalblue;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.aboutPage section{
+    height: 20rem;
+    background-color:  burlywood;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    &:nth-child(2){
+        background-color:  green;
+    }
+
+    &:nth-child(3){
+        background-color:  sienna;
+    }
+
+    &:nth-child(4){
+        background-color:  Pink;
+    }
+
+    &:nth-child(5){
+        background-color:  palevioletred;
+    }
+}
