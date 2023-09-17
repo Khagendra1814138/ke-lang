@@ -4,7 +4,10 @@ import "./ParallaxMouse.css";
 
 import Background from "../../Images/kelangBackground.jpg";
 import Background2 from "../../Images/kelangBackground2.jpg";
-import Mountain from "../../Images/mountainPTrans.png";
+import Mountain2 from "../../Images/mt2.png";
+import Clung from "../../Images/cholung.png";
+import Illam from "../../Images/Illam.png";
+import Stat from "../../Images/statue.png";
 
 function ParallaxMouse() {
 
@@ -29,7 +32,7 @@ function ParallaxMouse() {
         translateX(${xValue}px) 
         rotateY(${rotateDegree * rotateSpeed}deg) 
         translateY(${yValue}px) 
-        perspective(13000px) translateZ(${zValue}px)
+        perspective(17000px) translateZ(${zValue}px)
       `;
     });
   }
@@ -42,7 +45,10 @@ function ParallaxMouse() {
           <div className="vignette"></div>
           <div className="back" value="2" data-rotation="0" style={{backgroundImage: `url(${Background})`}}></div>
           <h2 value="0">Parallax effect</h2>
-          <div className="mtn" value="-2" data-rotation="0.2" style={{backgroundImage: `url(${Mountain})`}}></div>
+          <div className="mtn" value="-2" data-rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
+          <div className="mtn3" value="-6" data-rotation="0.2" style={{backgroundImage: `url(${Illam})`}}></div>
+          <div className="mtn2" value="-2" data-rotation="0.2" style={{backgroundImage: `url(${Clung})`}}></div>
+          <div className="stat" value="-10" data-rotation="0.2" style={{backgroundImage: `url(${Stat})`}}></div>
         </div>
 
       </section>
