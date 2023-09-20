@@ -1,6 +1,5 @@
 .homePage{
     background-color:  rebeccapurple;
-    padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
@@ -11,17 +10,6 @@
     position: relative;
 }
 
-.headerFrame h1{
-    height: 10rem;
-    width: 60%;
-    background-color: goldenrod;
-    position: absolute;
-    border-radius: 20px;
-    
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 185%);
-}
 
 
 .homePage section{

@@ -2,11 +2,15 @@ import React from "react";
 
 import "../../Styles/HomePage.css"
 
+import ParallaxMouse from "../Paralax/ParallaxMouse";
+
 export const HomePage =() => {
     return (
         <div className="homePage">
+
+            <ParallaxMouse/>
+
             <header className="headerFrame">
-                <h1>Ke Lang</h1>
             </header>
 
             <section>
