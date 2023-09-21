@@ -1,5 +1,41 @@
 .NavagationBar{
+    height: 2.5rem;
     background-color: black;
     padding: 20px;
     z-index: 999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.homeLogo{
+    height: 62px;
+    width: 62px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    &:hover{
+        border: 2px solid skyblue;
+    }
+}
+
+.linksList{
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 4rem;
+}
+    .links {
+        text-decoration: none;
+        color: skyblue;
+        font-size: 25px;
+        transition: 0.5s ease;
+        &:hover{
+            color: white;
+        }
+    }
