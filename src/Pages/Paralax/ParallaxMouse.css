@@ -1,9 +1,8 @@
 .ParallaxMouse{
-  background-color: skyblue;
+  border-bottom: 10px solid black;
 }
 
 .ParallaxMouse section{
-  background-color: skyblue;
   height: 100vh;
 }
 
@@ -12,13 +11,13 @@
   color: white;
   height: 10rem;
   width: 60%;
-  background-color: goldenrod;
+  background-color: black;
   position: absolute;
   border-radius: 20px;
   z-index: 10;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 245%);
+  transform: translate(-50%, 250%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +43,7 @@
 .vignette{
   position: absolute;
   z-index: 10;
-  width: 100%;
+  width: 102%;
   height: 102%;
   top: -10px;
   left: -10px;
@@ -58,7 +57,7 @@
   filter: blur(1.5px);
 
   top: -20px;
-  left: -1.6vw;
+  left: -20px;
   z-index: 1;
 
   background-position: center;
@@ -68,57 +67,85 @@
 }
   .PhaktanglungLayer1{
     height: 600px;
-    width: 1500px;
+    width: 1400px;
     position: absolute;
     /* border: 1px solid rebeccapurple; */
 
     bottom: 0;
-    left: -1.6vw;
+    left: -20px;
     z-index: 1;
 
-    background-position-y: -150px;
+    background-position-y: -100px;
     background-size: cover;
     background-repeat: no-repeat;
   }
-    .IllamLayer2{
-      height: 650px;
-      width: 1000px;
+    .Pathibhara{
+      height: 400px;
+      width: 800px;
       position: absolute;
 
-      bottom: -20px;
-      right: -1.6vw;
+      bottom: 0;
+      left: 20%;
       z-index: 1;
 
-      background-position-y: -0px;
+      background-position-y: -220px;
+      background-position-x: 0px;
       background-size: cover;
       background-repeat: no-repeat;
     }
-      .CholungLayer3{
-        height: 700px;
+      .Guphapokhari{
+        height: 400px;
         width: 1000px;
         position: absolute;
 
         bottom: 0;
-        left: -1.6vw;
+        right: 30%;
         z-index: 1;
 
-        background-position-y: -0px;
+        background-position-y: -120px;
+        background-position-x: -0px;
         background-size: cover;
         background-repeat: no-repeat;
       }
-        .ChyabrungLayer4{
-          height: 350px;
-          width: 400px;
+        .IllamLayer2{
+          height: 750px;
+          width: 1000px;
           position: absolute;
 
-          bottom: 0;
-          right: 38%;
+          bottom: -20px;
+          right: -20px;
           z-index: 1;
 
-          background-position-y: -150px;
+          background-position-y: -0px;
           background-size: cover;
           background-repeat: no-repeat;
         }
+          .CholungLayer3{
+            height: 700px;
+            width: 1000px;
+            position: absolute;
+
+            bottom: 0;
+            left: -20px;
+            z-index: 1;
+
+            background-position-y: -0px;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+            .ChyabrungLayer4{
+              height: 350px;
+              width: 400px;
+              position: absolute;
+
+              bottom: 0;
+              right: 38%;
+              z-index: 1;
+
+              background-position-y: -100px;
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
 
 
 

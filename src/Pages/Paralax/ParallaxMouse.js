@@ -5,10 +5,11 @@ import "./ParallaxMouse.css";
 import Background from "../../Images/kelangBackground.jpg";
 // import Background2 from "../../Images/kelangBackground2.jpg";
 import Mountain2 from "../../Images/mt2.png";
+import Pathibhara from "../../Images/Pathibhara.png";
+import Guphapokhari from "../../Images/Guphapokhari.png";
 import Clung from "../../Images/cholung2.png";
 import Illam from "../../Images/Illam.png";
 import Stat from "../../Images/statue.png";
-
 
 function ParallaxMouse() {
 
@@ -101,7 +102,9 @@ function ParallaxMouse() {
           <div className="vignette"></div>
           <div className="backgroundLayer0" value="2" rotation="0" style={{backgroundImage: `url(${Background})`}}></div>
 
-          <div className="PhaktanglungLayer1" value="-2" rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
+          <div className="PhaktanglungLayer1" value="2" rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
+          <div className="Pathibhara" value="3" rotation="0.2" style={{backgroundImage: `url(${Pathibhara})`}}></div>
+          <div className="Guphapokhari" value="-3" rotation="0.2" style={{backgroundImage: `url(${Guphapokhari})`}}></div>
           <div className="IllamLayer2" value="-6" rotation="0.5" style={{backgroundImage: `url(${Illam})`}}></div>
           <div className="CholungLayer3" value="-2" rotation="0.3" style={{backgroundImage: `url(${Clung})`}}></div>
           <div className="ChyabrungLayer4" value="-10" rotation="0.2" style={{backgroundImage: `url(${Stat})`}}></div>
