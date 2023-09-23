@@ -1,0 +1,45 @@
+
+.footer{
+    height: 20rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 4rem;
+}
+
+.homeLogoFooter{
+    height: 102px;
+    width: 102px;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+
+    /* &:hover{
+        border: 1px solid skyblue;
+    } */
+
+}
+
+.quickLinks{
+    width: 90%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+}   .quickLinks ul{
+        width: 6rem;
+        padding: 1rem;
+        list-style-type: none;
+        text-align: center;
+    } 
+
+    

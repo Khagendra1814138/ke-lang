@@ -2,6 +2,7 @@ import React from "react";
 
 import "./ParallaxMouse.css";
 
+//Images Imports
 import Background from "../../Images/kelangBackground.jpg";
 // import Background2 from "../../Images/kelangBackground2.jpg";
 import Mountain2 from "../../Images/mt2.png";
@@ -72,10 +73,10 @@ function ParallaxMouse() {
 
   document.addEventListener("mousemove", parallax);
   function parallax(event) {
-    this.querySelectorAll(".parallax-wrap *").forEach((shift) => {
+    this.querySelectorAll(".parallax-wrap *").forEach((element) => {
 
-      const rotateSpeed = shift.getAttribute("rotation");
-      const position = shift.getAttribute("value");
+      const rotateSpeed = element.getAttribute("rotation");
+      const position = element.getAttribute("value");
 
       const xValue = (window.innerWidth - event.pageX * position) / 200;
       const yValue = (window.innerHeight - event.pageY * position) / 200;
@@ -83,11 +84,10 @@ function ParallaxMouse() {
       const rotateDegree = (xValue / (window.innerWidth / 2)) * 20;
 
       //This is for the Z feature
-      const isInLeft = parseFloat(getComputedStyle(shift).left) < window.innerWidth / 2 ? 1 : -1;
-      const zValue = event.pageX - parseFloat(getComputedStyle(shift).left) * isInLeft * 1;
+      const isInLeft = parseFloat(getComputedStyle(element).left) < window.innerWidth / 2 ? 1 : -1;
+      const zValue = event.pageX - parseFloat(getComputedStyle(element).left) * isInLeft * 1;
 
-      shift.style.transform = 
-      `
+      element.style.transform = `
         translateX(${xValue}px) 
         rotateY(${rotateDegree * rotateSpeed}deg) 
         translateY(${yValue}px) 
@@ -102,8 +102,8 @@ function ParallaxMouse() {
           <div className="vignette"></div>
           <div className="backgroundLayer0" value="2" rotation="0" style={{backgroundImage: `url(${Background})`}}></div>
 
-          <div className="PhaktanglungLayer1" value="2" rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
-          <div className="Pathibhara" value="3" rotation="0.2" style={{backgroundImage: `url(${Pathibhara})`}}></div>
+          <div className="PhaktanglungLayer1" value="3" rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
+          <div className="Pathibhara" value="4" rotation="0.2" style={{backgroundImage: `url(${Pathibhara})`}}></div>
           <div className="Guphapokhari" value="-3" rotation="0.2" style={{backgroundImage: `url(${Guphapokhari})`}}></div>
           <div className="IllamLayer2" value="-6" rotation="0.5" style={{backgroundImage: `url(${Illam})`}}></div>
           <div className="CholungLayer3" value="-2" rotation="0.3" style={{backgroundImage: `url(${Clung})`}}></div>

@@ -4,7 +4,10 @@ import "../../Styles/HomePage.css"
 
 import ParallaxMouse from "../Paralax/ParallaxMouse";
 
-export const HomePage =() => {
+//Images Imports
+
+
+export const HomePage = () => {
     return (
         <div className="homePage">
 

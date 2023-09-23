@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import { Link } from "react-router-dom";
 import "./NavigationBar.css";
 
@@ -6,14 +6,24 @@ import { NavigationLinksArray } from "./navigationArray";
 import SilamSakma from "../../Images/silamsakmaLogo.png";
 
 function NavigationBar() {
-   return (
+    const navResponsiveRef = useRef(); 
+    const showNavbar = () => {
+        navResponsiveRef.current.classList.toggle("responsive_nav");
+    }
+
+    return (
         <div className="NavagationBar">
-            <logo className="homeLogo" style={{backgroundImage: `url(${SilamSakma})`}}></logo>
-            <ul className="linksList">
+            <Link to="/" className="homeLogo" style={{backgroundImage: `url(${SilamSakma})`}}></Link>
+            
+            <nav ref={navResponsiveRef}>
                 {NavigationLinksArray.map((item) => (
                     <Link className="links" to={item.link}> {item.title} </Link>
                 ))}
-            </ul>
+                <button className="nav-btn nav-close-btn" onClick={showNavbar}>x</button>
+                <Link to="/" className="homeLogoResponsive" style={{backgroundImage: `url(${SilamSakma})`}}></Link>
+            </nav>
+
+            <button className="nav-btn" onClick={showNavbar}>+</button>
         </div>
     );
 };

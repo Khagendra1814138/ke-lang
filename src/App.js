@@ -7,9 +7,11 @@ import NavigationBar from './Components/NavigationBar/NavigationBar';
 
 import { HomePage } from './Pages/Home/HomePage';
 import { AboutPage } from './Pages/About/AboutPage';
-import  Paralax  from './Pages/Paralax/Paralax';
+import Paralax  from './Pages/Paralax/Paralax';
 import ParalaxCss from './Pages/Paralax/ParalaxCss';
 import ParallaxMouse from './Pages/Paralax/ParallaxMouse';
+
+import { Footer } from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
             <Route path='/ParalaxCss' element={<ParalaxCss/>} />
             <Route path='/ParallaxMouse' element={<ParallaxMouse/>} />
           </Routes>
+          <Footer/>
         </Router>
     </div>
   );

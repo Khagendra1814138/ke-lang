@@ -1,13 +1,14 @@
-.NavagationBar{
-    height: 2.5rem;
-    background-color: black;
-    padding: 20px;
-    z-index: 999;
 
+.NavagationBar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: black;
+    color: skyblue;
 }
+
 .homeLogo{
     height: 62px;
     width: 62px;
@@ -18,24 +19,86 @@
     background-size: contain;
     background-repeat: no-repeat;
     transition: 0.5s ease;
-    &:hover{
+    /* &:hover{
         border: 2px solid skyblue;
+    } */
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .links{
+    padding: 1rem;
+    text-decoration: none;
+    color: skyblue;
+    font-size: 20px;
+    transition: 0.5s ease;
+
+    &:hover{
+        color: white;
     }
 }
 
-.linksList{
-    width: 700px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-right: 4rem;
+.NavagationBar .nav-btn{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    display: none;
 }
-    .links {
-        text-decoration: none;
-        color: skyblue;
-        font-size: 25px;
-        transition: 0.5s ease;
-        &:hover{
-            color: white;
-        }
+
+nav .homeLogoResponsive{
+    height: 62px;
+    width: 62px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .NavagationBar .nav-btn{
+        display: block;
     }
+
+    .NavagationBar nav {
+        position: fixed;
+        top: 0;
+        left: -100vh;
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        z-index: 1000;
+        transition: 0.5s ease;
+    }
+
+    .NavagationBar .responsive_nav {
+        transform: translateX(100vh);
+        z-index: 1000;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 20px;
+        right: 32px;
+    }
+
+    nav .homeLogoResponsive{
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 32px;
+    }
+}
