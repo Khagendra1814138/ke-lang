@@ -3,10 +3,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 90%;
     height: 80px;
+    border-radius: 50px;
     padding: 0 2rem;
     background-color: black;
     color: skyblue;
+    z-index: 1000;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -550%);
 }
 
 .homeLogo{
@@ -18,17 +26,17 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    transition: 0.5s ease;
+    animation: logoChange 10s linear infinite;
     /* &:hover{
         border: 2px solid skyblue;
     } */
 }
 
 nav{
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: black;
 }
 
 nav .links{
@@ -73,13 +81,16 @@ nav .homeLogoResponsive{
         position: fixed;
         top: 0;
         left: -100vh;
-        height: 60%;
+        height: auto;
         width: 100%;
+        border-radius: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        gap: 0rem;
         z-index: 1000;
         transition: 0.5s ease;
     }
@@ -102,3 +113,12 @@ nav .homeLogoResponsive{
         left: 32px;
     }
 }
+
+
+
+@keyframes logoChange {
+    0%, 100% {background-image: url(../../Images/silamSakma/silamSakma1.png);}
+    25%  {background-image: url(../../Images/silamSakma/silamSakma6.png);}
+    50%  {background-image: url(../../Images/silamSakma/silamSakma7.png);}
+    75%  {background-image: url(../../Images/silamSakma/silamSakma8.png);}
+  }

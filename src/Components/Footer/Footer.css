@@ -1,6 +1,6 @@
 
 .footer{
-    height: 20rem;
+    min-height: 20rem;
     background-color: black;
     color: white;
     display: flex;
@@ -19,7 +19,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    transition: 0.5s ease;
+    animation: logoChange 10s linear infinite;
 
     /* &:hover{
         border: 1px solid skyblue;
@@ -30,6 +30,7 @@
 .quickLinks{
     width: 90%;
     padding: 2rem;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

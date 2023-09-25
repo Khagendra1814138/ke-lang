@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./NavigationBar.css";
 
 import { NavigationLinksArray } from "./navigationArray";
-import SilamSakma from "../../Images/silamsakmaLogo.png";
+import SilamSakma from "../../Images/silamSakma/silamSakma1.png";
 
 function NavigationBar() {
     const navResponsiveRef = useRef(); 
@@ -13,7 +13,7 @@ function NavigationBar() {
 
     return (
         <div className="NavagationBar">
-            <Link to="/" className="homeLogo" style={{backgroundImage: `url(${SilamSakma})`}}></Link>
+            <Link to="/" className="homeLogo"></Link>
             
             <nav ref={navResponsiveRef}>
                 {NavigationLinksArray.map((item) => (

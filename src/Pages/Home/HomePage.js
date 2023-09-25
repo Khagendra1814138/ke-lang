@@ -10,16 +10,22 @@ import ParallaxMouse from "../Paralax/ParallaxMouse";
 export const HomePage = () => {
     return (
         <div className="homePage">
-
+            
             <ParallaxMouse/>
 
-            <header className="headerFrame">
-            </header>
+
+            <section>
+                
+            </section>
+        
+            <sectioncurvedtop className="curvedTop"></sectioncurvedtop>
 
             <section>
                 <image>Image</image>
                 <p>Paragapah</p>
             </section>
+
+            <sectioncurvedbottom className="curvedBottom"></sectioncurvedbottom>
 
             <section>
                 <div>
@@ -27,7 +33,7 @@ export const HomePage = () => {
                     <p>Paragapah</p>
                 </div>
             </section>
-
+            
             <section className="section2">
                 <div className="imageFrame">
                     <image>Image</image>

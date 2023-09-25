@@ -1,18 +1,65 @@
 .homePage{
-    background-color:  rebeccapurple;
     padding-bottom: 10rem;
 }
 
+
 .headerFrame{
-    height: 50rem;
-    width: auto;
+    height: 60rem;
+    width: 100%;
     background-color: rosybrown;
-    position: relative;
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%);
 }
 
+.curvedTop{
+    position: relative;
+    height: 100vh;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    &::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 100vw;
+        height: 100vh;
+        background-color: firebrick;
+        border-radius: 50%;
+        transform-origin: bottom;
+        transform: translateX(-50%) translateY(100%) scale(2);
+        z-index: -1;
+    }
+}
+
+.curvedBottom{
+    position: relative;
+    height: 100vh;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before{
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 100vw;
+        height: 100vh;
+        background-color: firebrick;
+        border-radius: 50%;
+        transform-origin: bottom;
+        transform: translateX(-50%) scale(2);
+        z-index: -1;
+    }
+}
 
 .homePage section{
+    height: 60rem;
     margin: auto;
     background-color: yellowgreen;
     padding-top: 10rem;
