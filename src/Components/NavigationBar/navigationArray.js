@@ -19,5 +19,9 @@ export const NavigationLinksArray = [
         title: "ParallaxMouse", 
         link: "/ParallaxMouse",
     },
+    {
+        title: "steps", 
+        link: "/ChyabrungSteps",
+    },
 
 ]

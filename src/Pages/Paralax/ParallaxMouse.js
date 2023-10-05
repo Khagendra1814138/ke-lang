@@ -98,19 +98,19 @@ function ParallaxMouse() {
 
   return (
     <div className="ParallaxMouse">
-        <div class="parallax-wrap">
-          <div className="vignette"></div>
-          <div className="backgroundLayer0" value="2" rotation="0" style={{backgroundImage: `url(${Background})`}}></div>
+      <div class="parallax-wrap">
+        <div className="vignette"></div>
+        <div className="backgroundLayer0" value="2" rotation="0" style={{backgroundImage: `url(${Background})`}}></div>
 
-          <div className="PhaktanglungLayer1" value="3" rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
-          <div className="Pathibhara" value="4" rotation="0.2" style={{backgroundImage: `url(${Pathibhara})`}}></div>
-          <div className="Guphapokhari" value="-3" rotation="0.2" style={{backgroundImage: `url(${Guphapokhari})`}}></div>
-          <div className="IllamLayer2" value="-6" rotation="0.5" style={{backgroundImage: `url(${Illam})`}}></div>
-          <div className="CholungLayer3" value="-2" rotation="0.3" style={{backgroundImage: `url(${Clung})`}}></div>
-          <div className="ChyabrungLayer4" value="-10" rotation="0.2" style={{backgroundImage: `url(${Stat})`}}></div>
-        </div>
+        <div className="PhaktanglungLayer1" value="3" rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
+        <div className="Pathibhara" value="4" rotation="0.2" style={{backgroundImage: `url(${Pathibhara})`}}></div>
+        <div className="Guphapokhari" value="-3" rotation="0.2" style={{backgroundImage: `url(${Guphapokhari})`}}></div>
+        <div className="IllamLayer2" value="-6" rotation="0.5" style={{backgroundImage: `url(${Illam})`}}></div>
+        <div className="CholungLayer3" value="-2" rotation="0.3" style={{backgroundImage: `url(${Clung})`}}></div>
+        <div className="ChyabrungLayer4" value="-10" rotation="0.2" style={{backgroundImage: `url(${Stat})`}}></div>
+      </div>
 
-      <h1>Ke Lang</h1>
+      {/* <h1>Ke Lang</h1> */}
       
       {/* <section>
 

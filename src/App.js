@@ -11,6 +11,14 @@ import Paralax  from './Pages/Paralax/Paralax';
 import ParalaxCss from './Pages/Paralax/ParalaxCss';
 import ParallaxMouse from './Pages/Paralax/ParallaxMouse';
 
+import { ChyabrungStepsPage } from './Pages/Steps/Steps';
+import { HowItsPlayedPage } from './Pages/HowItsPlayed/HowItsPlayed';
+import { OtherInstrumentsPage } from './Pages/OtherInstruments/Instruments';
+import { HowItsMadePage } from './Pages/HowItsMade/HowItsMade';
+import { DressesPage } from './Pages/Dresses/Dresses';
+import { WhenPerformedPage } from './Pages/WhenPerformed/WhenPerformed';
+import { WhyImportantPage } from './Pages/WhyItsImportant/WhyImportant';
+
 import { Footer } from './Components/Footer/Footer';
 
 function App() {
@@ -21,6 +29,13 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage/>} />
             <Route path='/AboutPage' element={<AboutPage/>} />
+            <Route path='/ChyabrungSteps' element={<ChyabrungStepsPage/>} />
+            <Route path='/HowItsPlayed' element={<HowItsPlayedPage/>} />
+            <Route path='/Instruments' element={<OtherInstrumentsPage/>} />
+            <Route path='/HowItsMade' element={<HowItsMadePage/>} />
+            <Route path='/Dresses' element={<DressesPage/>} />
+            <Route path='/WhenPerformed' element={<WhenPerformedPage/>} />
+            <Route path='/WhyImportant' element={<WhyImportantPage/>} />
 
             <Route path='/Paralax' element={<Paralax/>} />
             <Route path='/ParalaxCss' element={<ParalaxCss/>} />

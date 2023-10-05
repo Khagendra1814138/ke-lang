@@ -1,5 +1,5 @@
 .ParallaxMouse{
-  border-bottom: 0px solid black;
+  position: relative;
 }
 
 .ParallaxMouse section{
@@ -7,21 +7,22 @@
 }
 
 .ParallaxMouse h1 {
-  font-size: 80px;
   color: skyblue;
   height: 10rem;
-  width: 50%;
+  width: 74%;
   background-color: black;
   position: absolute;
-  border-radius: 100px;
+  border-radius: 50px;
   z-index: 10;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 210%);
+  transform: translate(-50%, 208%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 .parallax-wrap {
   position: relative;
@@ -32,10 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 5rem;
-  border-bottom-right-radius: 5rem;
   transition: 0.45s cubic-bezier(.19,.48,.31,.98);
-
   &:hover .backgroundLayer0{
     filter: blur(0px);
   } 

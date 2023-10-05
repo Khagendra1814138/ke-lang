@@ -1,5 +1,7 @@
 .homePage{
-    padding-bottom: 10rem;
+    padding-bottom: 30rem;
+    display: grid;
+    gap: 10rem;
 }
 
 
@@ -8,6 +10,29 @@
     width: 100%;
     background-color: rosybrown;
     clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0 100%);
+}
+
+.largeImage{
+    position: relative;
+    width: 98%;
+    height: 40rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &::before{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.192) 45%, rgb(61, 89, 90));
+        border-radius: 20px;
+    }
 }
 
 .curvedTop{
@@ -26,7 +51,7 @@
         left: 50%;
         width: 100vw;
         height: 100vh;
-        background-color: firebrick;
+        background-color: #50B9A4;
         border-radius: 50%;
         transform-origin: bottom;
         transform: translateX(-50%) translateY(100%) scale(2);
@@ -50,7 +75,7 @@
         left: 50%;
         width: 100vw;
         height: 100vh;
-        background-color: firebrick;
+        background-color: #50B9A4;
         border-radius: 50%;
         transform-origin: bottom;
         transform: translateX(-50%) scale(2);
@@ -58,62 +83,312 @@
     }
 }
 
-.homePage section{
-    height: 60rem;
-    margin: auto;
-    background-color: yellowgreen;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+
+
+.splitSection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-around;
+}   
+.splitSection .flex{
+    height: fit-content;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &:nth-child(2),  &:nth-child(4){
+        margin-top: 8rem;
+    }
+}
+
+
+
+.splitSection image{
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #50B9A4;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1800px) {
+    .splitSection .flex{
+        &:nth-child(2),  &:nth-child(4){
+            margin-top: 0rem;
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+    .splitSection image{
+        border-radius: 20px;
+        height: 350px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #50B9A4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.sectionSplitY{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.sectionSplitY .flexRow{
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectionSplitY .flexRow div{
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   .sectionSplitY .flexRow div:nth-child(1){
+        background-color: #2E78F6;
+    }   .sectionSplitY .flexRow div:nth-child(2){
+            background-color: #AA78DF;
+        } .sectionSplitY .flexRow div:nth-child(3){
+            background-color: rebeccapurple;
+        }
+        
+        
+.sectionSplitY .flexRow span{
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: #D0DBE3;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.homePage section:nth-child(3){
-    background-color: green;
+
+
+@media only screen and (max-width: 900px) {
+    .splitSection span{
+        border-radius: 20px;
+        height: 350px;
+        width: 350px;
+    }
+
+
+    .sectionSplitY .flexRow div{
+        border-radius: 20px;
+        height: 350px;
+        width: 350px;
+    }
+    .sectionSplitY .flexRow span{
+        border-radius: 20px;
+        height: 350px;
+        width: 350px;
+    }
 }
 
-.homePage section image{
-    height: 400px;
-    width: 30%;
-    background-color: rosybrown;
-    border-radius: 20px;
+
+
+.sectionContainer{
+    position: relative;
 }
 
-.homePage section p{
-    height: 300px;
-    width: 30%;
-    background-color: goldenrod;
-    border-radius: 20px;
-    margin-left: -100px;
+
+.dressButton{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.madeButton{
+    position: absolute;
+    bottom: 0%;
+    right: 25%;
+    transform: translate(50%, 50%);
 }
 
-.homePage section div{
-    height: 500px;
-    width: 550px;
-    background-color: white;
-    border-radius: 40px;
+
+
+
+.secOverflowHidden{
+    position: relative;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    flex-wrap: wrap;
 }
 
-.homePage section div image{
-    height: 300px;
-    width: 500px;
+.secOverflowHidden image{
+    height: 450px;
+    width: 660px;
     background-color: rosybrown;
-    border-radius: 20px;
-    margin-left: -250px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.homePage section div p{
-    height: 300px;
-    width: 500px;
-    background-color: goldenrod;
+.secOverflowHidden p{
+    height: 400px;
+    width: 600px;
+    background-color: purple;
     border-radius: 20px;
-    margin-right: -250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+@media only screen and (max-width: 1500px) {
+    .secOverflowHidden{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .secOverflowHidden image{
+        height: 450px;
+        width: 560px;
+        border-radius: 20px;
+    }
+    
+    .secOverflowHidden p{
+        height: 300px;
+        width: 500px;
+    } 
+}
+
+@media only screen and (max-width: 900px) {
+    .secOverflowHidden image{
+        height: 350px;
+        width: 350px;
+    }
+    
+    .secOverflowHidden p{
+        height: 350px;
+        width: 350px;
+    } 
+
+    .secOverflowHidden .madeButton{
+        right: 50%;
+    }
+}
+
+
+
+
+
+
+
+.whitebox{
+    position: relative;
+    height: 600px;
+    width: 750px;
+    background-color: white;
+    border-radius: 40px;
+}
+    .whitebox image{
+        position: absolute;
+        height: 400px;
+        width: 600px;
+        background-color: rosybrown;
+        border-radius: 20px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(-10%, 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whitebox p{
+        position: absolute;
+        height: 400px;
+        width: 600px;
+        background-color: #F2F5F8;
+        border-radius: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(10%, -54%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+@media only screen and (max-width: 1400px) {
+    .whitebox{
+        height: 500px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .whitebox image{
+        height: 400px;
+        width: 400px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(-10%, 50%);
+    }
+    
+    .whitebox p{
+        height: 400px;
+        width: 400px;
+        top: 50%;
+        left: 50%;
+        transform: translate(10%, -54%);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .whitebox{
+        height: 320px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whitebox image{
+        height: 300px;
+        width: 300px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 0%);
+    }
+
+    .whitebox p{
+        height: 300px;
+        width: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
 }
 
 

@@ -12,23 +12,22 @@ export const Footer = () => {
         <Link to="/" className="homeLogoFooter"></Link>
 
         <div className="quickLinks">
-            <ul>
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-            </ul>
+            <div>
+                <Link className="footerPageLinks" to="/">Home</Link>
+                <Link className="footerPageLinks" to="/ChyabrungSteps">Chyabrung Steps</Link>
+                <Link className="footerPageLinks" to="/HowItsPlayed">Chaybrung Played</Link>
+            </div>
 
-            <ul>
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-            </ul>
+            <div>
+                <Link className="footerPageLinks" to="/Instruments">Other Instruments</Link>
+                <Link className="footerPageLinks" to="/HowItsMade">How its Made</Link>
+                <Link className="footerPageLinks" to="/Dresses">Dress Worn</Link>
+            </div>
 
-            <ul>
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-            </ul>
+            <div>
+                <Link className="footerPageLinks" to="/WhenPerformed">When its Performed</Link>
+                <Link className="footerPageLinks" to="/WhyImportant">Why its Important</Link>
+            </div>
         </div>
     </div>
   );
