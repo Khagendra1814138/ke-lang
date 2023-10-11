@@ -6,9 +6,13 @@ import ParallaxMouse from "../Paralax/ParallaxMouse";
 
 //Images Imports
 import Background2 from "../../Images/kelangBackground2.jpg";
-import Rythem from "../../Images/homeImages/Rythem.png";
+import Rythem from "../../Images/homeImages/rythem.png";
 import complexFoot from "../../Images/homeImages/foot.png";
 import flexFoot from "../../Images/homeImages/flexFoot.png";
+import wild from "../../Images/homeImages/wild.png";
+import strung from "../../Images/homeImages/strung.png";
+import playedHand from "../../Images/homeImages/playedHand.png";
+import chyabrungMade from "../../Images/homeImages/chyabrungMade.png";
 
 export const HomePage = () => {
     const navigate = useNavigate();
@@ -36,7 +40,7 @@ export const HomePage = () => {
 
                 <div className="flex">
                     <h3>...depicting graceful <span>movements</span> of <span>wild animals.</span></h3>
-                    <image>Hello</image>
+                    <image style={{backgroundImage: `url(${wild})`}}></image>
                 </div>
 
                 <div className="flex">
@@ -52,13 +56,13 @@ export const HomePage = () => {
                 <h2>The <span>Chyabrung</span> also called "Kay or Ke" in Limbu language is a <span>traditional drum</span> of the Limbu community. It is mainly played by the male dancers.</h2>
 
                 <div className="flexRow">
-                    <div>The drum is strung around the neck with a cord at stomach heighted</div>
-                    <span>Hello</span>
+                    <image style={{backgroundImage: `url(${strung})`}}></image>
+                    <p>The drum is strung around the neck with a cord at stomach heighted</p>
                 </div>
 
                 <div className="flexRow">
-                    <span>Hello</span>
-                    <div>and is played with the palm of the hand</div>
+                    <p>and is played using both hands, primarily the right palm of the hand.</p>
+                    <image style={{backgroundImage: `url(${playedHand})`}}></image>
                 </div>                
                 <button onClick={() => navigate("/HowItsPlayed")}>Show More</button>
             </section>
@@ -72,7 +76,7 @@ export const HomePage = () => {
             </section>
 
             <section className="secOverflowHidden">
-                <image className="overfl">Image</image>
+                <image className="overfl" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
                 <p>Chyabrung is made of wood and different types of leather</p>
                 <button className="madeButton" onClick={() => navigate("/HowItsMade")}>Show More</button>
             </section>

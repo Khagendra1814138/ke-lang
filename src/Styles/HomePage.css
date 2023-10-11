@@ -118,6 +118,10 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+
+    &:nth-child(2){
+        background-position: bottom;
+    }
 }
 
 @media only screen and (max-width: 1800px) {
@@ -165,24 +169,28 @@
     align-items: center;
 }
 
-.sectionSplitY .flexRow div{
+.sectionSplitY .flexRow image{
     border-radius: 20px;
     height: 600px;
     width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
-}   .sectionSplitY .flexRow div:nth-child(1){
+}   .sectionSplitY .flexRow image:nth-child(1){
         background-color: #2E78F6;
-    }   .sectionSplitY .flexRow div:nth-child(2){
+        background-position: left;
+    }   .sectionSplitY .flexRow image:nth-child(2){
             background-color: #AA78DF;
-        } .sectionSplitY .flexRow div:nth-child(3){
+            background-position: right;
+        } .sectionSplitY .flexRow image:nth-child(3){
             background-color: rebeccapurple;
         }
         
         
-.sectionSplitY .flexRow span{
+.sectionSplitY .flexRow p{
     border-radius: 20px;
     height: 500px;
     width: 500px;
@@ -201,13 +209,20 @@
         width: 350px;
     }
 
+    .sectionSplitY{
+        gap: 1rem;
+    }
 
-    .sectionSplitY .flexRow div{
+    .sectionSplitY .flexRow{
+        gap: 0rem;
+    }
+
+    .sectionSplitY .flexRow image{
         border-radius: 20px;
         height: 350px;
         width: 350px;
     }
-    .sectionSplitY .flexRow span{
+    .sectionSplitY .flexRow p{
         border-radius: 20px;
         height: 350px;
         width: 350px;
@@ -254,6 +269,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .secOverflowHidden p{
