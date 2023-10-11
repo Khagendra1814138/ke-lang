@@ -6,6 +6,7 @@ import ParallaxMouse from "../Paralax/ParallaxMouse";
 
 //Images Imports
 import Background2 from "../../Images/kelangBackground2.jpg";
+import ChyabrungRythem from "../../Images/homeImages/rythem.png";
 import complexFoot from "../../Images/homeImages/foot.png";
 import flexFoot from "../../Images/homeImages/flexFoot.png";
 import wild from "../../Images/homeImages/wild.png";
@@ -29,7 +30,7 @@ export const HomePage = () => {
             <section className="splitSection">
                 <div className="flex">
                     <h3>The <span>only music</span> is the <span>rhythmic beating</span> of the Chyabrung.</h3>
-                    <image style={{backgroundImage: `url(${complexFoot})`}}></image>
+                    <image style={{backgroundImage: `url(${ChyabrungRythem})`}}></image>
                 </div>
 
                 <div className="flex">
