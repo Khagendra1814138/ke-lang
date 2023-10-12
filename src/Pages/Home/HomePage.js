@@ -12,6 +12,7 @@ import flexFoot from "../../Images/homeImages/flexFoot.png";
 import wild from "../../Images/homeImages/wild.png";
 import strung from "../../Images/homeImages/strung.png";
 import playedHand from "../../Images/homeImages/playedHand.png";
+import Jumpta from "../../Images/homeImages/jumpta.png";
 import chyabrungMade from "../../Images/homeImages/chyabrungMade.png";
 
 export const HomePage = () => {
@@ -70,11 +71,12 @@ export const HomePage = () => {
 
 
             <section className="secOverflowHidden">
-                <image className="overfl">Image</image>
+                <image className="overfl" style={{backgroundImage: `url(${Jumpta})`}}>
+                </image>
                 <p>Chyabrung is not only the instruements played.</p>
                 <button className="madeButton" onClick={() => navigate("/Instruments")}>Show More</button>
             </section>
-
+            
             <section className="secOverflowHidden">
                 <image className="overfl" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
                 <p>Chyabrung is made of wood and different types of leather</p>
