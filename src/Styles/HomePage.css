@@ -1,3 +1,7 @@
+:root{
+    --paragraphPadding: 20px;
+}
+
 .homePage{
     padding-bottom: 30rem;
     display: grid;
@@ -113,7 +117,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #50B9A4;
+    background-color: #48BAA5;
 
     background-position: center;
     background-size: contain;
@@ -139,7 +143,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #50B9A4;
+        background-color: #48BAA5;
     }
 }
 
@@ -170,6 +174,7 @@
 }
 
 .sectionSplitY .flexRow image{
+    background-color: #4B79A1;
     border-radius: 20px;
     height: 600px;
     width: 600px;
@@ -180,26 +185,24 @@
     background-repeat: no-repeat;
 
 }   .sectionSplitY .flexRow image:nth-child(1){
-        background-color: #2E78F6;
         background-position: left;
     }   .sectionSplitY .flexRow image:nth-child(2){
-            background-color: #AA78DF;
             background-position: right;
-        } .sectionSplitY .flexRow image:nth-child(3){
-            background-color: rebeccapurple;
         }
         
         
 .sectionSplitY .flexRow p{
     border-radius: 20px;
-    height: 500px;
-    width: 500px;
-    background-color: #D0DBE3;
+    height: calc(500px - var(--paragraphPadding) * 2);
+    width: calc(500px - var(--paragraphPadding) * 2);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+    .sectionSplitY .flexRow p h2 span{
+        color: #2E78F6;
+    }
 
 
 @media only screen and (max-width: 900px) {
@@ -263,7 +266,6 @@
 .secOverflowHidden image{
     height: 450px;
     width: 660px;
-    background-color: rosybrown;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;
@@ -275,15 +277,30 @@
     background-repeat: no-repeat;
 }
 
+.secOverflowHidden .purpleBg{
+    background-color: #AB93CF;
+} 
+    .secOverflowHidden .purpleBgParahraph h2 span{
+        color: #AA78DF;
+    }
+
+.secOverflowHidden .redBg{
+    background-color: #d8637b;
+}
+    .secOverflowHidden .redBgParahraph h2 span{
+        color: #E24C5E;
+    }
+
 .secOverflowHidden p{
-    height: 400px;
-    width: 600px;
-    background-color: purple;
+    height: calc(400px - var(--paragraphPadding) * 3);
+    width: calc(600px - var(--paragraphPadding) * 2);
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 } 
+
 
 @media only screen and (max-width: 1500px) {
     .secOverflowHidden{
@@ -329,7 +346,7 @@
     position: relative;
     height: 600px;
     width: 750px;
-    background-color: white;
+    background-color: #3b9181;
     border-radius: 40px;
 }
     .whitebox image{
@@ -344,13 +361,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .whitebox p{
         position: absolute;
-        height: 400px;
-        width: 600px;
-        background-color: #F2F5F8;
+        height: calc(400px - var(--paragraphPadding) * 2);
+        width: calc(600px - var(--paragraphPadding) * 2);
         border-radius: 20px;
         top: 50%;
         left: 50%;
@@ -359,6 +379,10 @@
         justify-content: center;
         align-items: center;
     }
+
+    .whitebox p h2 span{
+        color: #AA78DF;
+    } 
 
 @media only screen and (max-width: 1400px) {
     .whitebox{

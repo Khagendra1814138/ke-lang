@@ -14,6 +14,10 @@ import strung from "../../Images/homeImages/strung.png";
 import playedHand from "../../Images/homeImages/playedHand.png";
 import Jumpta from "../../Images/homeImages/jumpta.png";
 import chyabrungMade from "../../Images/homeImages/chyabrungMade.png";
+import boysClothes from "../../Images/homeImages/boysClothes.png";
+import girlsClothes from "../../Images/homeImages/girlsClothes.png";
+import wedding from "../../Images/homeImages/wedding.png";
+import blessing from "../../Images/homeImages/blessing.png";
 
 export const HomePage = () => {
     const navigate = useNavigate();
@@ -58,11 +62,17 @@ export const HomePage = () => {
 
                 <div className="flexRow">
                     <image style={{backgroundImage: `url(${strung})`}}></image>
-                    <p>The drum is strung around the neck with a cord at stomach heighted</p>
+                    <p>
+                        <h2>HOW IT'S <span>HELD</span></h2>
+                        The drum is strung around the neck with a cord at stomach heighted
+                    </p>
                 </div>
 
                 <div className="flexRow">
-                    <p>and is played using both hands, primarily the right palm of the hand.</p>
+                    <p>
+                        <h2>HOW IT'S <span>PLAYED</span></h2>
+                        and is played using both hands, primarily the right palm of the hand.
+                    </p>
                     <image style={{backgroundImage: `url(${playedHand})`}}></image>
                 </div>                
                 <button onClick={() => navigate("/HowItsPlayed")}>Show More</button>
@@ -71,15 +81,21 @@ export const HomePage = () => {
 
 
             <section className="secOverflowHidden">
-                <image className="overfl" style={{backgroundImage: `url(${Jumpta})`}}>
+                <image className="purpleBg" style={{backgroundImage: `url(${Jumpta})`}}>
                 </image>
-                <p>Chyabrung is not only the instruements played.</p>
+                <p className="purpleBgParahraph"> 
+                    <h2><span>OTHER</span> INSTRUMENTS</h2>
+                    Chyabrung is not only the instruement played.
+                </p>
                 <button className="madeButton" onClick={() => navigate("/Instruments")}>Show More</button>
             </section>
             
             <section className="secOverflowHidden">
-                <image className="overfl" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
-                <p>Chyabrung is made of wood and different types of leather</p>
+                <image className="purpleBg" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
+                <p className="purpleBgParahraph">
+                    <h2>HOW IT'S <span>MADE</span></h2>
+                    Chyabrung is made of wood and different types of leather
+                </p>
                 <button className="madeButton" onClick={() => navigate("/HowItsMade")}>Show More</button>
             </section>
 
@@ -88,7 +104,7 @@ export const HomePage = () => {
                 <sectioncurvedtop className="curvedTop">
                
                     <div className="whitebox">
-                        <image>Image</image>
+                        <image style={{backgroundImage: `url(${boysClothes})`}}></image>
                         <p>Boys Clothes</p>
                     </div>
                 
@@ -99,7 +115,7 @@ export const HomePage = () => {
                 <sectioncurvedbottom className="curvedBottom">
 
                     <div className="whitebox">
-                        <image>Image</image>
+                        <image style={{backgroundImage: `url(${girlsClothes})`}}></image>
                         <p>Girls Clothes</p>
                     </div>
                     
@@ -108,14 +124,20 @@ export const HomePage = () => {
 
 
             <section className="secOverflowHidden">
-                <image className="overfl">Image</image>
-                <p>Chyabrung is performed during events and gathering</p>
+                <image className="redBg" style={{backgroundImage: `url(${wedding})`}}></image>
+                <p className="redBgParahraph"> 
+                    <h2><span>WHEN</span> IT'S PERFORMED</h2>
+                    Chyabrung is performed during events and gathering
+                </p>
                 <button className="madeButton" onClick={() => navigate("/WhenPerformed")}>Show More</button>
             </section>
 
             <section className="secOverflowHidden">
-                <image className="overfl">Image</image>
-                <p>Chyabrung is not just dance... its blessing</p>
+                <image className="redBg" style={{backgroundImage: `url(${blessing})`}}></image>
+                <p className="redBgParahraph"> 
+                    <h2>WHY IT'S <span>IMPORTANT</span></h2>
+                    Chyabrung is not just dance... its blessing
+                </p>
                 <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Show More</button>
             </section>
 

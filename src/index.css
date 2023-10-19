@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&family=Oswald&family=Poppins:wght@300;400&display=swap');
 
+:root{
+  --padding: 20px;
+}
+
 body {
   margin: 0;
   max-width: 1910px;
@@ -79,3 +83,10 @@ button{
     border-radius: 20px;
 }
 } */
+
+p{
+  font-size: clamp(1rem, 1vw, 2rem); 
+  background-color: #D0DBE3;
+  padding: 20px;
+  text-align: center;
+}
