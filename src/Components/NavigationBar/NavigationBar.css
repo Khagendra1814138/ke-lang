@@ -7,7 +7,7 @@
     height: 80px;
     border-radius: 50px;
     padding: 0 2rem;
-    background-color: black;
+    background-color: #0F2339;
     color: skyblue;
     z-index: 1000;
 
@@ -15,13 +15,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -550%);
-    box-shadow: 0px 0px 10px 4px rgb(35, 35, 59);
+    box-shadow: 0px 0px 10px 2px rgb(35, 35, 59);
 }
 
 .homeLogo{
     height: 62px;
     width: 62px;
-    border: 2px solid black;
+    border: 2px solid #0F2339;
     border-radius: 4px;
     display: flex;
     background-position: center;
@@ -37,7 +37,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: black;
+    background: #0F2339;
 }
 
 nav .links{
@@ -64,7 +64,7 @@ nav .links{
 nav .homeLogoResponsive{
     height: 62px;
     width: 62px;
-    border: 2px solid black;
+    border: 2px solid #0F2339;
     border-radius: 4px;
     display: flex;
     background-position: center;

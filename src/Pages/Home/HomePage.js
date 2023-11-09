@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useInView } from 'react-intersection-observer';
 import "../../Styles/HomePage.css"
 
 import ParallaxMouse from "../Paralax/ParallaxMouse";
@@ -12,7 +13,7 @@ import flexFoot from "../../Images/homeImages/flexFoot.png";
 import wild from "../../Images/homeImages/wild.png";
 import strung from "../../Images/homeImages/strung.png";
 import playedHand from "../../Images/homeImages/playedHand.png";
-import Jumpta from "../../Images/homeImages/jumpta.png";
+import Jhympta from "../../Images/homeImages/Jhympta.png";
 import chyabrungMade from "../../Images/homeImages/chyabrungMade.png";
 import boysClothes from "../../Images/homeImages/boysClothes.png";
 import girlsClothes from "../../Images/homeImages/girlsClothes.png";
@@ -21,6 +22,13 @@ import blessing from "../../Images/homeImages/blessing.png";
 
 export const HomePage = () => {
     const navigate = useNavigate();
+
+    const { ref: aboutRef, inView: aboutSectionIsVisible} = useInView({
+        /* Optional options */
+        threshold: 0.5,
+        rootMargin: "50px",
+    });
+    
     return (
         <div className="homePage">
             
@@ -28,8 +36,22 @@ export const HomePage = () => {
 
             <section className="sectionSplitY">
                 <h1>Ke Lang</h1>
-                <h2>"Ke or Kay Lang", which translates to <span>chyabrung dance</span>, is the <span>traditional</span> dance of the <span>Limbu community </span>in Nepal, Sikkim, Darjeeling hills and North-East India.</h2>
-                <div className="largeImage" style={{backgroundImage: `url(${Background2})`}}></div>
+                <h2>Ke Lang, which translates to, which translates to "<span>chyabrung dance</span>", is the <span>traditional</span> dance of the <span>Limbu community </span>in Nepal, Sikkim, Darjeeling hills and North-East India.</h2>
+                <div ref={aboutRef} className={`${'largeImage'} ${aboutSectionIsVisible ? "moveUp" : "largeImage"}`} style={{backgroundImage: `url(${Background2})`}}></div>
+                <h2>The Chyabrung also called "Ke or Kay" in Limbu language is a traditional hollow log drum of the Limbu community.</h2>
+                <div className="grid2x2">
+                    <image>Image</image>
+                    <image>Image</image>
+                    <p>
+                        <h2><span>MALE </span> DANCERS</h2>
+                        The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
+                    </p>
+
+                    <p>
+                        <h2><span>FEMALE </span>DANCERS</h2>
+                        Synchronizing their footsteps together, while gently and elegantly performing smooth hands movement, the female dancers joins the male dancers. Typically, the girls are on the left/behind of the boys dancers.
+                    </p>
+                </div>
             </section>
 
             <section className="splitSection">
@@ -49,7 +71,7 @@ export const HomePage = () => {
                 </div>
 
                 <div className="flex">
-                    <h3>And countless <span>varities</span> of flexible <span>foot movements.</span></h3>
+                    <h3>And countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h3>
                     <image style={{backgroundImage: `url(${flexFoot})`}}></image>
                 </div>
               
@@ -64,14 +86,14 @@ export const HomePage = () => {
                     <image style={{backgroundImage: `url(${strung})`}}></image>
                     <p>
                         <h2>HOW IT'S <span>HELD</span></h2>
-                        The drum is strung around the neck with a cord at stomach heighted
+                        The Chybarung drum is strung around the neck of the male dancers with a cord at stomach heighted.
                     </p>
                 </div>
 
                 <div className="flexRow">
                     <p>
                         <h2>HOW IT'S <span>PLAYED</span></h2>
-                        and is played using both hands, primarily the right palm of the hand.
+                        The Chyabrung is played using both hands, primarily the right palm of the hand to hit the sharp skin "Chyang" and left hand to hit the base skin "Dung". 
                     </p>
                     <image style={{backgroundImage: `url(${playedHand})`}}></image>
                 </div>                
@@ -81,11 +103,11 @@ export const HomePage = () => {
 
 
             <section className="secOverflowHidden">
-                <image className="purpleBg" style={{backgroundImage: `url(${Jumpta})`}}>
+                <image className="purpleBg" style={{backgroundImage: `url(${Jhympta})`}}>
                 </image>
                 <p className="purpleBgParahraph"> 
                     <h2><span>OTHER</span> INSTRUMENTS</h2>
-                    Chyabrung is not only the instruement played.
+                    Chyabrung is not only the instrument played.
                 </p>
                 <button className="madeButton" onClick={() => navigate("/Instruments")}>Show More</button>
             </section>
@@ -127,7 +149,7 @@ export const HomePage = () => {
                 <image className="redBg" style={{backgroundImage: `url(${wedding})`}}></image>
                 <p className="redBgParahraph"> 
                     <h2><span>WHEN</span> IT'S PERFORMED</h2>
-                    Chyabrung is performed during events and gathering
+                    Chyabrung is performed during Limbu festivals, wedding, events, gathering and more...
                 </p>
                 <button className="madeButton" onClick={() => navigate("/WhenPerformed")}>Show More</button>
             </section>
@@ -136,7 +158,7 @@ export const HomePage = () => {
                 <image className="redBg" style={{backgroundImage: `url(${blessing})`}}></image>
                 <p className="redBgParahraph"> 
                     <h2>WHY IT'S <span>IMPORTANT</span></h2>
-                    Chyabrung is not just dance... its blessing
+                    Chyabrung is not just a dance performance for entertainment... its blessing.
                 </p>
                 <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Show More</button>
             </section>

@@ -11,6 +11,9 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./Images/backgrounds/large-triangles.png);
+  background-size: 300px 300px;
+  background-attachment: fixed;
 }
 
 section{
@@ -19,7 +22,7 @@ section{
   border-radius: 3rem;
   margin: auto;
   padding: 6rem 2rem 6rem 2rem;
-  background-color: #F2F5F8;
+  background-color: #f2f5f8c7;
 }
 @media only screen and (max-width: 500px) {
   section {
@@ -36,6 +39,7 @@ h1{
 h2{
   font-size: clamp(1.2rem, 1.5vw, 3rem); 
   text-align: center;
+  font-size: 35px;
 }
 
 h3{

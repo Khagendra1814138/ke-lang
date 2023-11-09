@@ -1,5 +1,6 @@
 .ParallaxMouse{
   position: relative;
+  clip-path: polygon(100% 0, 100% 96%, 68% 100%, 32% 100%, 0 96%, 0 0);
 }
 
 .ParallaxMouse section{
@@ -34,9 +35,9 @@
   justify-content: center;
   align-items: center;
   transition: 0.45s cubic-bezier(.19,.48,.31,.98);
-  &:hover .backgroundLayer0{
-    filter: blur(0px);
-  } 
+  /* &:hover .backgroundLayer0{
+    filter: blur(1.5px);
+  }  */
 }
 
 .vignette{
@@ -53,7 +54,7 @@
   height: 100vh;
   width: 102%;
   position: absolute;
-  filter: blur(1.5px);
+  filter: blur(1px);
   top: -20px;
   left: -20px;
   z-index: 1;
