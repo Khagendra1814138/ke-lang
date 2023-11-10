@@ -7,6 +7,7 @@ import ParallaxMouse from "../Paralax/ParallaxMouse";
 
 //Images Imports
 import Background2 from "../../Images/kelangBackground2.jpg";
+import Girls from "../../Images/homeImages/girls.png";
 import complexFoot from "../../Images/homeImages/foot.png";
 import ChyabrungRythem from "../../Images/homeImages/onlyMusic.png";
 import flexFoot from "../../Images/homeImages/flexFoot.png";
@@ -39,18 +40,23 @@ export const HomePage = () => {
                 <h2>Ke Lang, which translates to, which translates to "<span>chyabrung dance</span>", is the <span>traditional</span> dance of the <span>Limbu community </span>in Nepal, Sikkim, Darjeeling hills and North-East India.</h2>
                 <div ref={aboutRef} className={`${'largeImage'} ${aboutSectionIsVisible ? "moveUp" : "largeImage"}`} style={{backgroundImage: `url(${Background2})`}}></div>
                 <h2>The Chyabrung also called "Ke or Kay" in Limbu language is a traditional hollow log drum of the Limbu community.</h2>
-                <div className="grid2x2">
-                    <image>Image</image>
-                    <image>Image</image>
-                    <p>
-                        <h2><span>MALE </span> DANCERS</h2>
-                        The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
-                    </p>
+                
+                <div className="genderInfo">
+                    <div className="flexColumn">
+                        <image>Image</image>
+                        <p>
+                            <h2><span>MALE </span> DANCERS</h2>
+                            The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
+                        </p>
+                    </div>
 
-                    <p>
-                        <h2><span>FEMALE </span>DANCERS</h2>
-                        Synchronizing their footsteps together, while gently and elegantly performing smooth hands movement, the female dancers joins the male dancers. Typically, the girls are on the left/behind of the boys dancers.
-                    </p>
+                    <div className="flexColumn">
+                        <image style={{backgroundImage: `url(${Girls})`}}></image>
+                        <p>
+                            <h2><span>FEMALE </span>DANCERS</h2>
+                            Synchronizing their footsteps together, while gently and elegantly performing smooth hands movement, the female dancers joins the male dancers. Typically, the girls are on the left/behind of the boys dancers.
+                        </p>
+                    </div>
                 </div>
             </section>
 

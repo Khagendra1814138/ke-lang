@@ -11,8 +11,8 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./Images/backgrounds/large-triangles.png);
-  background-size: 300px 300px;
+  background-image: url(./Images/backgrounds/alternating-arrowhead.png);
+  background-size: 200px 200px;
   background-attachment: fixed;
 }
 
@@ -22,9 +22,9 @@ section{
   border-radius: 3rem;
   margin: auto;
   padding: 6rem 2rem 6rem 2rem;
-  background-color: #f2f5f8c7;
+  background-color: #edf6ffcc;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   section {
     width: 80vw;
     border-radius: 3rem;
@@ -37,13 +37,12 @@ h1{
 }
 
 h2{
-  font-size: clamp(1.2rem, 1.5vw, 3rem); 
-  text-align: center;
-  font-size: 35px;
+  font-size: clamp(1.4rem, 1.6vw, 3rem); 
+  text-align: start;
 }
 
 h3{
-  font-size: 30px;
+  font-size: clamp(1.4rem, 1.6vw, 3rem); 
   text-align: start;
 }
 
@@ -92,5 +91,4 @@ p{
   font-size: clamp(1rem, 1vw, 2rem); 
   background-color: #D0DBE3;
   padding: 20px;
-  text-align: center;
 }
