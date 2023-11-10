@@ -7,7 +7,7 @@ import ParallaxMouse from "../Paralax/ParallaxMouse";
 
 //Images Imports
 import Background2 from "../../Images/kelangBackground2.jpg";
-import Girls from "../../Images/homeImages/girls.png";
+import Girls from "../../Images/homeImages/girlsDetail.png";
 import complexFoot from "../../Images/homeImages/foot.png";
 import ChyabrungRythem from "../../Images/homeImages/onlyMusic.png";
 import flexFoot from "../../Images/homeImages/flexFoot.png";
