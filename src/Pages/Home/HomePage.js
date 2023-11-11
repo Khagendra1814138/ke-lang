@@ -8,6 +8,7 @@ import ParallaxMouse from "../Paralax/ParallaxMouse";
 //Images Imports
 import Background2 from "../../Images/kelangBackground2.jpg";
 import Girls from "../../Images/homeImages/girlsDetail.png";
+import Boys from "../../Images/homeImages/boysDetail.png";
 import complexFoot from "../../Images/homeImages/foot.png";
 import ChyabrungRythem from "../../Images/homeImages/onlyMusic.png";
 import flexFoot from "../../Images/homeImages/flexFoot.png";
@@ -43,7 +44,7 @@ export const HomePage = () => {
                 
                 <div className="genderInfo">
                     <div className="flexColumn">
-                        <image>Image</image>
+                        <image style={{backgroundImage: `url(${Boys})`}}></image>
                         <p>
                             <h2><span>MALE </span> DANCERS</h2>
                             The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.

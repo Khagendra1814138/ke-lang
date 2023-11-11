@@ -65,8 +65,8 @@
         border-radius: 20px;
         display: flex;
         height: 30rem;
-        width: 40rem;
-        background-color: #e6b269;
+        width: 38rem;
+        background-color: #e7ab57;
 
         background-position: bottom;
         background-size: contain;
@@ -75,7 +75,7 @@
     .genderInfo .flexColumn p{
         border-radius: 20px;
         height: 18rem;
-        width: 37.5rem;
+        width: 35.5rem;
         background-color: #D0DBE3;
         display: flex;
         flex-direction: column;
