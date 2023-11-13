@@ -83,7 +83,6 @@ export const HomePage = () => {
                 </div>
               
                 <button onClick={() => navigate("/ChyabrungSteps")}>Show More</button>
-    
             </section>
 
             <section className="sectionSplitY">

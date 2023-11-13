@@ -3,7 +3,9 @@ import React from "react";
 import "./Instruments.css";
 
 //Images Imports
-import Tamborine from "../../Images/otherInstruments/tamborine.png"
+import Tamborine from "../../Images/otherInstruments/tamborine.png";
+import keSangla from "../../Images/otherInstruments/keSangla.png";
+import Jhympta2 from "../../Images/otherInstruments/Jhympta2.png";
 
 export const OtherInstrumentsPage = () => {
 
@@ -21,7 +23,7 @@ export const OtherInstrumentsPage = () => {
             </section>
 
             <section className="secOverflowHidden">
-                <image className="purpleBg" style={{backgroundImage: `url(${Tamborine})`}}>
+                <image className="purpleBg" style={{backgroundImage: `url(${Jhympta2})`}}>
                 </image>
                 <p className="purpleBgParahraph"> 
                     <h2><span>JHYMPTA</span></h2>
@@ -30,7 +32,7 @@ export const OtherInstrumentsPage = () => {
             </section>
 
             <section className="secOverflowHidden">
-                <image className="purpleBg" style={{backgroundImage: `url(${Tamborine})`}}>
+                <image className="purpleBg" style={{backgroundImage: `url(${keSangla})`}}>
                 </image>
                 <p className="purpleBgParahraph"> 
                     <h2><span>KE-SANGLA</span></h2>
