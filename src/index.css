@@ -11,9 +11,6 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./Images/backgrounds/alternating-arrowhead.png);
-  background-size: 200px 200px;
-  background-attachment: fixed;
 }
 
 section{
@@ -69,6 +66,7 @@ button{
   color: white;
   box-shadow: 0px 0px 20px 4px rgb(79, 79, 146);
   transition: 0.5s ease;
+  z-index: 1;
 
   &:hover{
     width: 350px;

@@ -1,5 +1,9 @@
 .chyabrungStepsPage{
-    padding: 0rem 0rem 40rem 0rem;
+  padding: 0rem 0rem 40rem 0rem;
+  background-image: url(../../Images/backgrounds/dhaka4.1.png);
+  background-size: 200px 200px;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .diagonalHeader{
@@ -24,7 +28,7 @@
         border-radius: 50%;
         transform-origin: bottom;
         transform: translateX(-50%) translateY(20%) scale(2);
-        z-index: -1;
+        z-index: 0;
     }
 }
 

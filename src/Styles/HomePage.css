@@ -6,6 +6,11 @@
     padding-bottom: 30rem;
     display: grid;
     gap: 10rem;
+
+    background-image: url(../Images/backgrounds/dhaka7.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .homePage h2{
@@ -120,7 +125,7 @@
         border-radius: 50%;
         transform-origin: bottom;
         transform: translateX(-50%) translateY(100%) scale(2);
-        z-index: -1;
+        z-index: 0;
     }
 }
 
@@ -144,7 +149,7 @@
         border-radius: 50%;
         transform-origin: bottom;
         transform: translateX(-50%) scale(2);
-        z-index: -1;
+        z-index: 0;
     }
 }
 
