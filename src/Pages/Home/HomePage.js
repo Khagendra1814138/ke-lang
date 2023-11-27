@@ -34,10 +34,14 @@ export const HomePage = () => {
     return (
         <div className="homePage">
             
+            <div className="heroSection">
+                <h1>KE LANG</h1>
+                <p>Learn about the unique cultural dance of the Limbu community from Eastern Nepal, inspired by Wild animals and birds.</p>
+                <button>Learn More</button>
+            </div>
             <ParallaxMouse/>
 
             <section className="sectionSplitY">
-                <h1>Ke Lang</h1>
                 <h2>Ke Lang, which translates to, which translates to "<span>chyabrung dance</span>", is the <span>traditional</span> dance of the <span>Limbu community </span>in Nepal, Sikkim, Darjeeling hills and North-East India.</h2>
                 <div ref={aboutRef} className={`${'largeImage'} ${aboutSectionIsVisible ? "moveUp" : "largeImage"}`} style={{backgroundImage: `url(${Background2})`}}></div>
                 <h2>The Chyabrung also called "Ke or Kay" in Limbu language is a traditional hollow log drum of the Limbu community.</h2>

@@ -8,19 +8,27 @@ export const NavigationLinksArray = [
         link: "/AboutPage",
     },
     {
-        title: "Paralax", 
+        title: "Steps", 
         link: "/Paralax",
     },
     {
-        title: "ParalaxCss", 
+        title: "Beats", 
         link: "/ParalaxCss",
     },
     {
-        title: "ParallaxMouse", 
+        title: "Other Instruments", 
         link: "/ParallaxMouse",
     },
     {
-        title: "steps", 
+        title: "Cothes", 
+        link: "/ChyabrungSteps",
+    },
+    {
+        title: "When", 
+        link: "/ChyabrungSteps",
+    },
+    {
+        title: "Importance", 
         link: "/ChyabrungSteps",
     },
 
