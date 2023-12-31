@@ -1,0 +1,74 @@
+.pimpPurple{
+    background-color: #5021FF;
+}
+.lightPurple{
+    background-color: #d7c5ff;
+}
+.mediumPurple{
+    background-color: #AA78DF;
+}
+.darkPurple{
+    background-color: #B9A9E8;
+}
+
+
+.lightTealGreen{
+    background-color: #bffff3a2;
+}
+.mediumTealGreen{
+    background-color: #50B9A4;
+}
+.darkTealGreen{
+    background-color: #48BAA5;
+}
+
+
+.lightSteelBlue{
+    background-color: #8bc1f7a6;
+}
+.mediumSteelBlue{
+    background-color: #549DE7;
+}
+.darkSteelBlue{
+    background-color: #4B79A1;
+}
+
+
+.lightGreen{
+    background-color: #F3FFD1;
+}
+.mediumGreen{
+    background-color: #D8E8A9;
+}
+.darkGreen{
+    background-color: #89AB25;
+}
+
+
+.lightRed{
+    background-color: #ffe9ee;
+}
+.mediumRed{
+    background-color: #E24C5E;
+}
+.darkRed{
+    background-color: #D8637B;
+}
+
+
+.lightYellow{
+    background-color: #FFF2DE;
+}
+
+.darkYellow{
+    background-color: #ED9B27;
+}
+
+
+.flexColumnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
