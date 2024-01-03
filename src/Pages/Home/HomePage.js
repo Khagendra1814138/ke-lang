@@ -121,22 +121,22 @@ export const HomePage = () => {
                 </div>
 
                 <div className="flex">
-                    <h3>The <span>only music</span> is the <span>rhythmic beating</span> of the Chyabrung.</h3>
+                    <h2>The <span>only music</span> is the <span>rhythmic beating</span> of the Chyabrung.</h2>
                     <image className="darkTealGreen" style={{backgroundImage: `url(${ChyabrungRythem})`}}></image>
                 </div>
 
                 <div className="flex">
-                    <h3>Dancers execute <span>synchronized</span> and <span>complicated</span> foot work.</h3>
+                    <h2>Dancers execute <span>synchronized</span> and <span>complicated</span> foot work.</h2>
                     <image className="darkTealGreen" style={{backgroundImage: `url(${complexFoot})`}}></image>
                 </div>
 
                 <div className="flex">
-                    <h3>...depicting graceful <span>movements</span> of <span>wild animals.</span></h3>
+                    <h2>...depicting graceful <span>movements</span> of <span>wild animals.</span></h2>
                     <image className="darkTealGreen" style={{backgroundImage: `url(${wild})`}}></image>
                 </div>
 
                 <div className="flex">
-                    <h3>And countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h3>
+                    <h2>And countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h2>
                     <image className="darkTealGreen" style={{backgroundImage: `url(${flexFoot})`}}></image>
                 </div>
 

@@ -1,36 +1,141 @@
 .chyabrungStepsPage{
   padding: 0rem 0rem 40rem 0rem;
+  display: grid;
+  gap: 100px;
   background-image: url(../../Images/backgrounds/dhaka4.1.png);
   background-size: 200px 200px;
   background-attachment: fixed;
   background-position: center;
 }
+  .chyabrungStepsPage section{
+    display: grid;
+    gap: 50px;
+    /* background-image: linear-gradient(100deg, #bffff3c2, #48baa5c2); */
+  }
+  .chyabrungStepsPage h1 span{
+    color: #48BAA5;
+  }
+  .chyabrungStepsPage h2{
+    font-size: 34px;
+  }
+  .chyabrungStepsPage h2 span{
+    color: #48BAA5;
+  }
 
-.diagonalHeader{
-    padding: 4rem;
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    color: white;
+
+.heroWrapper{
+  height: auto;
+  width: auto;
+} 
+  .heroInformationFrame{
+    height: 600px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #0F2339;
+  }
+  .heroInformationFrame h1 {
+    color: white;
+    word-spacing: 10px;
+  }
+
+  .heroeCurvedWrapper{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
-    &::before{
-        content: " ";
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 100vw;
-        height: 80vh;
-        background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
-        border-radius: 50%;
-        transform-origin: bottom;
-        transform: translateX(-50%) translateY(20%) scale(2);
-        z-index: 0;
+    .heroeCurvedBottom{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 100%;
+      height: 1500px;
+      border-radius: 50%;
+      transform-origin: bottom;
+      transform: translateX(-50%) scale(2);
+      background-color: #0F2339;
     }
+  }
+
+
+.sectionStepsTypes image{
+  border-radius: 40px;
+  display: flex;
+  height: 500px;
+  width: 600px;
+  background-color: #48BAA5;
+
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+  .sectionStepsTypes p{
+    width: 520px;
+  }
+
+
+.danceStructure .rounedTopImageWrapper{
+  height: 350px;
+  width: 360px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.danceStructure image{
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 250px;
+  border-top-left-radius: 250px;
+  border: 15px solid white;
+
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 62%);
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.danceStructure .cardWrapper .informationWrapper{
+  height: 230px;
+  border-radius: 20px;
+}
+
+
+  .cardWrapper{
+    height: auto;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

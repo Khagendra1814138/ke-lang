@@ -9,7 +9,7 @@ export const NavigationLinksArray = [
     },
     {
         title: "Steps", 
-        link: "/Paralax",
+        link: "/Steps",
     },
     {
         title: "Beats", 

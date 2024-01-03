@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&family=Oswald&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito&family=Rubik&display=swap');
 
 :root{
   --padding: 20px;
@@ -8,7 +10,7 @@ body {
   margin: 0;
   max-width: 1910px;
   margin: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,6 +36,7 @@ h1{
   padding: 0;
   font-size: clamp(2.5rem, 3vw, 4rem); 
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2{
@@ -47,7 +50,8 @@ h3{
   margin: 0;
   padding: 0;
   font-size: clamp(1.2rem, 1.4vw, 2rem); 
-  text-align: start;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1 span, h2 span, h3 span {
@@ -61,11 +65,17 @@ h1 span, h2 span, h3 span {
   } */
 }
 
+img{
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
 button{
   cursor: pointer;
   height: 80px;
   width: 300px;
-  border-radius: 20px;
+  border-radius: 40px;
   font-size: 25px;
   background-color: #5021FF;
   border: none;

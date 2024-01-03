@@ -13,7 +13,7 @@
 
 
 .lightTealGreen{
-    background-color: #bffff3a2;
+    background-color: #bffff3c2;
 }
 .mediumTealGreen{
     background-color: #50B9A4;
@@ -71,4 +71,28 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    /* border: 1px solid red; */
+}
+
+.flexRowWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid rebeccapurple; */
+} 
+    @media only screen and (max-width: 1700px) {
+        .flexRowWrapper{
+            justify-content: center;
+        }
+    }
+
+.flexColumnWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
 }
