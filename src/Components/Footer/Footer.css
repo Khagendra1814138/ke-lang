@@ -64,6 +64,10 @@
         .quickLinks div .footerPageLinks{
             text-decoration: none;
             color: white;
+
+            &:hover{
+                text-decoration: underline;
+            }
         } 
 
     

@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Steps.css";
-
+import "../../Styles/roundedSection.css"
 
 //Images Imports
 import basicSteps from "../../Images/stepsImages/basicSteps.png";
@@ -9,8 +9,13 @@ import animalSteps from "../../Images/stepsImages/animalSteps.png";
 import Lamlok from "../../Images/stepsImages/lamlok.jpg";
 import Circle from "../../Images/stepsImages/circle.jpg";
 import Kassaropa from "../../Images/stepsImages/kassaropa.jpg";
+import BasicAnimals from "../../Images/stepsImages/basic&animals.jpg";
+import FastEnergetic from "../../Images/stepsImages/fast&Energetic.jpg";
+import gesturesBlessing from "../../Images/stepsImages/gesturesBlessing.jpg";
 
-
+import Lizard from "../../Images/stepsImages/lizard.png";
+import Pegion from "../../Images/stepsImages/pegions.png";
+import Stag from "../../Images/stepsImages/stag.png";
 
 export const ChyabrungStepsPage = () => {
 
@@ -118,7 +123,7 @@ export const ChyabrungStepsPage = () => {
                 <div className="flexRowWrapper">
                     <div className="cardWrapper">
                         <div className="rounedTopImageWrapper darkTealGreen">
-                           <image style={{backgroundImage: `url(${Kassaropa})`}}></image> 
+                           <image style={{backgroundImage: `url(${BasicAnimals})`}}></image> 
                         </div>
                         
                         <div className="informationWrapper">
@@ -132,7 +137,7 @@ export const ChyabrungStepsPage = () => {
 
                     <div className="cardWrapper">
                         <div className="rounedTopImageWrapper darkTealGreen">
-                           <image style={{backgroundImage: `url(${Kassaropa})`}}></image> 
+                           <image style={{backgroundImage: `url(${FastEnergetic})`}}></image> 
                         </div>
                         
                         <div className="informationWrapper">
@@ -146,7 +151,7 @@ export const ChyabrungStepsPage = () => {
 
                     <div className="cardWrapper">
                         <div className="rounedTopImageWrapper darkTealGreen">
-                           <image style={{backgroundImage: `url(${Kassaropa})`}}></image> 
+                           <image style={{backgroundImage: `url(${gesturesBlessing})`}}></image> 
                         </div>
                         
                         <div className="informationWrapper">
@@ -157,12 +162,73 @@ export const ChyabrungStepsPage = () => {
                             </p>
                         </div>
                     </div>
-
-
                 </div>
             </section>
 
 
+            <div className="roundedSectionWrapper">
+                <div className="roundedShapeWrapper">
+                    <div className="circleShapeTop greenRoundedCoor"></div>
+                </div>  
+
+                <div className="regionalMapWrapper greenRoundedCoor">
+                    <h1>REGIONAL BASIC STEP'S</h1>
+                    <div className="informationWrapper">
+                        <h3>
+                            There are many different basic steps and each region have their own unique sets of steps. These sets contains between 5 to 10 or more mixture of basic and animals steps. There are some common shared steps that are danced by every regions like manglang (God Dance).
+                        </h3>
+                    </div>
+
+                    <map>
+                        <div className="col1 flexColumnWrapper">
+                            <image></image>
+                            <image></image>
+                            <image></image>
+                        </div>
+
+                        <div className="col2 flexColumnWrapper">
+                            <image></image>
+                            <image></image>
+                            <image></image>
+                        </div>
+
+                        <div className="col3 flexColumnWrapper">
+                            <image></image>
+                        </div>
+                    </map>
+                </div>
+
+                <div className="roundedShapeWrapper"> 
+                    <div className="circleShapeBottom greenRoundedCoor"></div>
+                </div>
+            </div>
+
+            <section className="animalStepsWrapper lightTealGreen">
+                <h1>REGIONAL ANIMALS STEP'S</h1>
+
+                <div className="informationWrapper">
+                    <h3>
+                        There are many countless varieties of steps inspired by wild or domesticated animals. These animals are typically native to the limbu regions. The animals steps can be categorized into five different sections. They are mammals, birds, insects, reptiles and marine animals.                        
+                    </h3>
+                </div>
+                <div className="flexRowWrapper">
+                    <image className="darkTealGreen" style={{backgroundImage: `url(${Lizard})`}}></image>
+                    <image className="darkTealGreen" style={{backgroundImage: `url(${Pegion})`}}></image>
+                </div>
+                <div className="flexRowWrapper">
+                    <image className="darkTealGreen" style={{backgroundImage: `url(${Stag})`}}></image>
+                    <div className="flexColumnWrapper">
+                        <div className="informationWrapper">
+                            <h2><span>ANIMALS</span> STEP'S</h2>
+                            <line className="mediumTealGreen"></line>
+                            <p>
+                                During the final phase of the dance, the dancers performs a repetitive basic steps, but, the dancers also uses their hand gestures to bless the audience, show their fatigue and request for foods and drinks.                            
+                            </p>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </section>
 {/* https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */}
             <nav class="navbar">
                 <div class="logo">LOGO</div>
