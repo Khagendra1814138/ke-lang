@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./Steps.css";
 import "../../Styles/roundedSection.css"
@@ -18,6 +19,7 @@ import Pegion from "../../Images/stepsImages/pegions.png";
 import Stag from "../../Images/stepsImages/stag.png";
 
 export const ChyabrungStepsPage = () => {
+    const navigate = useNavigate();
 
     return (
         <div className="chyabrungStepsPage">
@@ -181,19 +183,19 @@ export const ChyabrungStepsPage = () => {
 
                     <map>
                         <div className="col1 flexColumnWrapper">
-                            <image></image>
-                            <image></image>
-                            <image></image>
+                            <button onClick={() => navigate('/')}></button>
+                            <button onClick={() => navigate('/')}></button>
+                            <button></button>
                         </div>
 
                         <div className="col2 flexColumnWrapper">
-                            <image></image>
-                            <image></image>
-                            <image></image>
+                            <button></button>
+                            <button></button>
+                            <button></button>
                         </div>
 
                         <div className="col3 flexColumnWrapper">
-                            <image></image>
+                            <button></button>
                         </div>
                     </map>
                 </div>
@@ -204,7 +206,7 @@ export const ChyabrungStepsPage = () => {
             </div>
 
             <section className="animalStepsWrapper lightTealGreen">
-                <h1>REGIONAL ANIMALS STEP'S</h1>
+                <h1>REGIONAL <span>ANIMALS</span> STEP'S</h1>
 
                 <div className="informationWrapper">
                     <h3>

@@ -1,15 +1,4 @@
-.purpleRoundedColor{
-    background-color: #372fc491;
-}
-.greenRoundedCoor{
-    background-color: #50b9a4c4;
-}
-.brownRoundColor{
-    background-color: #FFECEC;
-}
-
-
-.videoWrapper{
+.sectionVideoWrapper{
     height: auto;
     width: auto;
     position: relative;

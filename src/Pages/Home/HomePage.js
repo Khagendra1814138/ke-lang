@@ -90,10 +90,11 @@ export const HomePage = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
 
-            <div className="videoWrapper">
+
+
+            <div className="sectionVideoWrapper">
                 <div className="videoCircleWrapper">
                     <div className="videoCircleTop purpleRoundedColor"></div>
                 </div>
@@ -112,32 +113,38 @@ export const HomePage = () => {
                 </div>
             </div>
 
-            <section className="splitSection lightTealGreen">
-                <h1>MUSIC AND DANCE STEPS</h1>
+
+
+            <section className="sectionMusicStepsWrapper lightTealGreen">
+                <h1><span>MUSIC</span> AND DANCE <span>STEPS</span></h1>
                 <div className="informationWrapper">
                     <h3>
                         In a Ke Lang dance performance there is no other music. The loud and sharp chyabrung beat is the only music played  during the dance. 
                     </h3>
                 </div>
 
-                <div className="flex">
-                    <h2>The <span>only music</span> is the <span>rhythmic beating</span> of the Chyabrung.</h2>
-                    <image className="darkTealGreen" style={{backgroundImage: `url(${ChyabrungRythem})`}}></image>
-                </div>
+                <div className="flexColumnn">
+                    <div className="flex">
+                        <h2>The <span>only music</span> is the <span>rhythmic beating</span> of the Chyabrung.</h2>
+                        <image className="darkTealGreen" style={{backgroundImage: `url(${ChyabrungRythem})`}}></image>
+                    </div>
 
-                <div className="flex">
-                    <h2>Dancers execute <span>synchronized</span> and <span>complicated</span> foot work.</h2>
-                    <image className="darkTealGreen" style={{backgroundImage: `url(${complexFoot})`}}></image>
+                    <div className="flex">
+                        <h2>...depicting graceful <span>movements</span> of <span>wild animals.</span></h2>
+                        <image className="darkTealGreen" style={{backgroundImage: `url(${wild})`}}></image>
+                    </div>
                 </div>
-
-                <div className="flex">
-                    <h2>...depicting graceful <span>movements</span> of <span>wild animals.</span></h2>
-                    <image className="darkTealGreen" style={{backgroundImage: `url(${wild})`}}></image>
-                </div>
-
-                <div className="flex">
-                    <h2>And countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h2>
-                    <image className="darkTealGreen" style={{backgroundImage: `url(${flexFoot})`}}></image>
+                
+                <div className="flexColumnn">
+                    <div className="flex">
+                        <h2>Dancers execute <span>synchronized</span> and <span>complicated</span> foot work.</h2>
+                        <image className="darkTealGreen" style={{backgroundImage: `url(${complexFoot})`}}></image>
+                    </div>
+            
+                    <div className="flex">
+                        <h2>And countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h2>
+                        <image className="darkTealGreen" style={{backgroundImage: `url(${flexFoot})`}}></image>
+                    </div>
                 </div>
 
                 <div className="informationWrapper">
@@ -151,7 +158,7 @@ export const HomePage = () => {
 
 
 
-            <section className="sectionSplitY lightSteelBlue">
+            <section className="sectionAboutChyabrungWrapper lightSteelBlue">
                 <h1>ABOUT THE CHYABRUNG</h1>
                 <div className="informationWrapper">
                     <h3>
@@ -194,35 +201,52 @@ export const HomePage = () => {
                 <button onClick={() => navigate("/HowItsPlayed")}>Show More</button>
             </section>
 
-            <div className="sectionContainer">
-                <sectioncurvedtop className="curvedTop">
-                    <div className="whitebox">
-                        <image style={{backgroundImage: `url(${boysClothes})`}}></image>
+
+
+            <div className="sectionClothingWrapper">
+                <div className="roundedShapeWrapper">
+                    <div className="circleShapeTop brownRoundColor"></div>
+                </div>
+
+                <div className="clothingInformationWrapper brownRoundColor">
+                    <h1><span>CLOTHES</span> AND <span>ACCESSORIES</span></h1>
+
+                    <div className="informationWrapper">
+                        <h3>
+                            The Chyabrung also called "Ke or Kay" in Limbu language is a traditional hollow log drum of the Limbu community. It is the primary instrument played during the dance and is carried by the male dancers. The size and sound varies from region to regions.
+                        </h3>
+                    </div>
+
+                    <div className="brownBackgroundFrame darkBrown">
+                        <image className="mediumBrown" style={{backgroundImage: `url(${boysClothes})`}}></image>
                         <div className="informationWrapper">
                             <h2><span>MALE </span> DANCERS</h2>
-                            <line className="purpleLine"></line>
+                            <line className="darkBrown"></line>
                             <p>                       
                                 The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
                             </p>
                         </div>
                     </div>
-                </sectioncurvedtop>
 
-                <button className="dressButton" onClick={() => navigate("/Dresses")}>Show More</button>
+                    <button className="dressButton" onClick={() => navigate("/Dresses")}>Show More</button>
 
-                <sectioncurvedbottom className="curvedBottom">
-                    <div className="whitebox">
-                        <image style={{backgroundImage: `url(${girlsClothes})`}}></image>
+                    <div className="brownBackgroundFrame darkBrown">
+                        <image className="mediumBrown" style={{backgroundImage: `url(${girlsClothes})`}}></image>
                         <div className="informationWrapper">
                             <h2><span>MALE </span> DANCERS</h2>
-                            <line className="purpleLine"></line>
+                            <line className="darkBrown"></line>
                             <p>                       
                                 The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
                             </p>
                         </div>
                     </div>
-                </sectioncurvedbottom>
+                </div>
+
+                <div className="roundedShapeWrapper">
+                    <div className="circleShapeBottom brownRoundColor"></div>
+                </div> 
             </div>
+
 
 
             <section className="chyabrungMoreInfo">

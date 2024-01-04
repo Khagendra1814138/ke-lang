@@ -12,6 +12,7 @@
 }
 
 
+
 .lightTealGreen{
     background-color: #bffff3c2;
 }
@@ -21,6 +22,7 @@
 .darkTealGreen{
     background-color: #48BAA5;
 }
+
 
 
 .lightSteelBlue{
@@ -34,6 +36,7 @@
 }
 
 
+
 .lightGreen{
     background-color: #F3FFD1;
 }
@@ -43,6 +46,7 @@
 .darkGreen{
     background-color: #89AB25;
 }
+
 
 
 .lightRed{
@@ -56,13 +60,26 @@
 }
 
 
+
 .lightYellow{
     background-color: #FFF2DE;
 }
-
 .darkYellow{
     background-color: #ED9B27;
 }
+
+
+
+.lightBrown{
+    background-color: #FFECEC;
+}
+.mediumBrown{
+    background-color: #CB9898;
+}
+.darkBrown{
+    background-color: #91553B;
+}
+
 
 
 .flexColumnn{
@@ -94,5 +111,5 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }

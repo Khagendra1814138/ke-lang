@@ -1,3 +1,13 @@
+.purpleRoundedColor{
+    background-color: #372fc491;
+}
+.greenRoundedCoor{
+    background-color: #50b9a4c4;
+}
+.brownRoundColor{
+    background-color: #ffececab;
+}
+
 .roundedSectionWrapper{
     height: auto;
     width: auto;
@@ -6,7 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 .roundedShapeWrapper{

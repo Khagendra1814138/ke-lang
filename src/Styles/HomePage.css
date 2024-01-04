@@ -72,6 +72,8 @@
     }
 }
 
+
+
 .genderInfoWrapper{
     width: 100%;
     display: flex;
@@ -119,78 +121,49 @@
 }
 
 
-.curvedTop{
-    position: relative;
-    height: 100vh;
-    background-color: transparent;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &::before{
-        content: " ";
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 100vw;
-        height: 100vh;
-        background-color: #cb9898b2;
-        border-radius: 50%;
-        transform-origin: bottom;
-        transform: translateX(-50%) translateY(100%) scale(2);
-        z-index: 0;
-    }
-}
-
-.curvedBottom{
-    position: relative;
-    height: 100vh;
-    background-color: transparent;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &::before{
-        content: " ";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 100vw;
-        height: 100vh;
-        background-color: #cb9898b2;
-        border-radius: 50%;
-        transform-origin: bottom;
-        transform: translateX(-50%) scale(2);
-        z-index: 0;
-    }
-}
 
 
-
-.splitSection{
+.sectionMusicStepsWrapper{
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
     justify-content: space-around;
-}   
-.splitSection .flex{
-    height: fit-content;
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
-    &:nth-child(2),  &:nth-child(4){
-        margin-top: 6rem;
+} 
+    .sectionMusicStepsWrapper h1 span{
+        color: #48BAA5;
     }
-}
+    .sectionMusicStepsWrapper h2{
+        font-size: clamp(1.6rem, 2vw, 2.5rem);
+        text-align: start;
+    }
+    .sectionMusicStepsWrapper h2 span{
+        color: #48BAA5;
 
+        &:nth-child(2){
+            color: #5021FF;
+        }
+    } 
 
+    .sectionMusicStepsWrapper .flexColumnn{
+        gap: 80px;
+        justify-content: flex-start;
 
-.splitSection image{
+        &:nth-child(4){
+            padding-top: 100px;
+        }
+    }
+
+    .sectionMusicStepsWrapper .flex{
+        height: fit-content;
+        gap: 10px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+.sectionMusicStepsWrapper image{
     border-radius: 20px;
     height: 600px;
     width: 600px;
@@ -207,17 +180,17 @@
 }
 
 @media only screen and (max-width: 1800px) {
-    .splitSection .flex{
+    .sectionMusicStepsWrapper .flex{
         &:nth-child(2),  &:nth-child(4){
             margin-top: 0rem;
         }
     }
 }
 @media only screen and (max-width: 900px) {
-    .splitSection image{
+    .sectionMusicStepsWrapper image{
         border-radius: 20px;
-        height: 350px;
-        width: 350px;
+        height: 340px;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -227,18 +200,10 @@
 
 
 
-
-
-
-
-
-
-
-
-.sectionSplitY{
+.sectionAboutChyabrungWrapper{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -258,7 +223,7 @@
 .imageFloatRight{
     background-position: right;
 }
-.sectionSplitY .aboutChyabrungInfoWrapper image{
+.sectionAboutChyabrungWrapper .aboutChyabrungInfoWrapper image{
     border-radius: 20px;
     height: 600px;
     width: 600px;
@@ -269,52 +234,43 @@
     background-repeat: no-repeat;
 }   
         
-.sectionSplitY  .aboutChyabrungInfoWrapper p{
+.sectionAboutChyabrungWrapper  .aboutChyabrungInfoWrapper p{
     width: 520px;
     height: auto;
 }
-    .sectionSplitY .aboutChyabrungInfoWrapper h2 span{
+    .aboutChyabrungInfoWrapper h2 span{
         color: #4B79A1;
     }
 
 @media only screen and (max-width: 1800px) {
-    .sectionSplitY .aboutChyabrungInfoWrapper{
+    .sectionAboutChyabrungWrapper .aboutChyabrungInfoWrapper{
         justify-content: space-evenly;
     }
 }
-
-    
+  
 @media only screen and (max-width: 900px) {
-    .splitSection span{
+    .sectionSteps span{
         border-radius: 20px;
         height: 350px;
         width: 350px;
     }
 
-    .sectionSplitY{
+    .sectionAboutChyabrungWrapper{
         gap: 1rem;
     }
 
-    .sectionSplitY .aboutChyabrungInfoWrapper image{
+    .sectionAboutChyabrungWrapper .aboutChyabrungInfoWrapper image{
         border-radius: 20px;
         height: 350px;
         width: 400px;
     }
-    .sectionSplitY .aboutChyabrungInfoWrapper p{
+    .sectionAboutChyabrungWrapper .aboutChyabrungInfoWrapper p{
         border-radius: 20px;
         height: auto;
         width: 320px;
     }
 }
 
-
-
-.dressButton{
-    position: absolute;
-    bottom: 50%;
-    right: 50%;
-    transform: translate(50%, 50%);
-}
 
 
 .chyabrungMoreInfo{
@@ -416,69 +372,83 @@
 
 
 
-.sectionContainer{
-    position: relative;
+.sectionClothingWrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.whitebox{
-    position: relative;
-    height: 600px;
-    width: 750px;
-    background-color: #91553B;
-    border-radius: 40px;
-}
-    .whitebox image{
-        position: absolute;
-        height: 400px;
-        width: 600px;
-        background-color: rosybrown;
-        border-radius: 20px;
-        bottom: 50%;
-        right: 50%;
-        transform: translate(-10%, 50%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        background-position: bottom;
-        background-size: contain;
-        background-repeat: no-repeat;
+    .sectionClothingWrapper h1 span{
+        color: #91553B;
+    }
+    .sectionClothingWrapper h2 span{
+        color: #91553B;
     }
 
-    .whitebox .informationWrapper{
-        position: absolute;
-        height: calc(360px - var(--paragraphPadding) * 2);
-        width: calc(600px - var(--paragraphPadding) * 2);
-        border-radius: 20px;
-        top: 50%;
-        left: 50%;
-        transform: translate(0%, -50%);
+    .sectionClothingWrapper .clothingInformationWrapper{
+        height: 100%;
+        width: auto;
         display: flex;
+        flex-direction: column;
+        gap: 50px;
         justify-content: center;
         align-items: center;
+        padding: 6vh 8vw;
     }
+    .sectionClothingWrapper .informationWrapper{
+        background-color: #E9C5C5;
+    }
+        .brownBackgroundFrame{
+            position: relative;
+            height: 600px;
+            width: 750px;
+            border-radius: 40px;
+        }
+        .brownBackgroundFrame image{
+            position: absolute;
+            height: 400px;
+            width: 600px;
+            border-radius: 20px;
+            bottom: 50%;
+            right: 50%;
+            transform: translate(-10%, 50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-    .whitebox p h2 span{
-        color: #AA78DF;
-    } 
+            background-position: bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .brownBackgroundFrame .informationWrapper{
+            position: absolute;
+            height: calc(360px - var(--paragraphPadding) * 2);
+            width: calc(600px - var(--paragraphPadding) * 2);
+            border-radius: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(0%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
 @media only screen and (max-width: 1400px) {
-    .whitebox{
+    .brownBackgroundFrame{
         height: 500px;
         width: 500px;
         display: flex;
         flex-direction: column;
     }
-    
-    .whitebox image{
+    .brownBackgroundFrame image{
         height: 400px;
         width: 400px;
         bottom: 50%;
         right: 50%;
         transform: translate(-10%, 50%);
     }
-    
-    .whitebox .informationWrapper{
+    .brownBackgroundFrame .informationWrapper{
         height: 320px;
         width: 340px;
         top: 50%;
@@ -486,24 +456,25 @@
         transform: translate(10%, -50%);
     }
 }
-
 @media only screen and (max-width: 900px) {
-    .whitebox{
+    .sectionClothingWrapper .clothingInformationWrapper{
+        padding: 4vh;
+    }
+
+    .brownBackgroundFrame{
         height: 320px;
         width: 400px;
         display: flex;
         flex-direction: column;
     }
-
-    .whitebox image{
+    .brownBackgroundFrame image{
         height: 300px;
         width: 300px;
         bottom: 52%;
         right: 50%;
         transform: translate(50%, 0%);
     }
-
-    .whitebox .informationWrapper{
+    .brownBackgroundFrame .informationWrapper{
         height: auto;
         width: 220px;
         top: 52%;
@@ -511,6 +482,9 @@
         transform: translate(-50%, 0%);
     }
 }
+
+
+
 
 
 .homePage .section2{

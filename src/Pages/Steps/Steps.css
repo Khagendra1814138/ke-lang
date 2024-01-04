@@ -1,7 +1,7 @@
 .chyabrungStepsPage{
   padding: 0rem 0rem 40rem 0rem;
   display: grid;
-  gap: 100px;
+  gap: 150px;
   background-image: url(../../Images/backgrounds/dhaka4.1.png);
   background-size: 200px 200px;
   background-attachment: fixed;
@@ -94,6 +94,10 @@
 }
 
 
+.danceStructure{
+  justify-content: center;
+  align-items: center;
+}
 
 .danceStructure .rounedTopImageWrapper{
   height: 350px;
@@ -133,8 +137,7 @@
 
   .danceStructure .cardWrapper .informationWrapper{
     height: auto;
-    width: auto;
-    border-radius: 20px;
+    width: 310px;
   }
 }
 
@@ -157,7 +160,7 @@
   align-items: center;
   gap: 50px;
   position: relative;
-  padding: 5vh 8vw;
+  padding: 6vh 8vw;
 }
 
 .regionalMapWrapper map{
@@ -171,43 +174,78 @@
   border-radius: 40px;
 } 
 
-.regionalMapWrapper map image{
+.regionalMapWrapper map button{
   height: 400px;
   width: 400px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+  background-color: transparent;
+  box-shadow: none;
 
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  border: 1px solid rebeccapurple;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+
+  &::before{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    font-size: 30px;
+    font-weight: bold;
+    color:#4c9e9e;
+    padding: 20px;
+
+    width: 100%;
+    top: calc(50% - 100px / 2);
+    right: 100%;
+    background-color: white;
+    transition: 0.5s ease;
+  }
+
+  &:hover::before{
+    transform: translate(100%, 0%);
+  }
 } 
 
-map .col1 image:nth-child(1){
+
+map .col1 button:nth-child(1){
   background-image: url(../../Images/stepsImages/sankhuwasabhaMap.png);
   transition: 0.5s ease-in-out;
+  &::before{
+    content: "Sankhuwasabha";
+  }
   &:hover{
     cursor: pointer;
     background-image: url(../../Images/stepsImages/sankhuwasabhaMapHover.png);
   }
 } 
 
-map .col1 image:nth-child(2){
+map .col1 button:nth-child(2){
   height: 200px;
   width: 400px;
   background-image: url(../../Images/stepsImages/terhathumMap.png);
   transition: 0.5s ease-in-out;
+  &::before{
+    content: "Terhathum";
+  }
   &:hover{
     cursor: pointer;
     background-image: url(../../Images/stepsImages/TerhathumMapHover.png);
   }
 } 
 
-map .col1 image:nth-child(3){
+map .col1 button:nth-child(3){
   background-image: url(../../Images/stepsImages/dhankutaMap.png);
   transition: 0.5s ease-in-out;
+  &::before{
+    content: "Dhankuta";
+  }
   &:hover{
     cursor: pointer;
     background-image: url(../../Images/stepsImages/dhankutaMapHover.png);
@@ -217,29 +255,38 @@ map .col1 image:nth-child(3){
 
 
 
-map .col2 image:nth-child(1){
+map .col2 button:nth-child(1){
   background-image: url(../../Images/stepsImages/taplejungMap.png);
   transition: 0.5s ease-in-out;
+  &::before{
+    content: "Taplejung";
+  }
   &:hover{
     cursor: pointer;
     background-image: url(../../Images/stepsImages/taplejungMapHover.png);
   }
 } 
 
-map .col2 image:nth-child(2){
+map .col2 button:nth-child(2){
   height: 250px;
   width: 400px;
   background-image: url(../../Images/stepsImages/panchthar.png);
   transition: 0.5s ease-in-out;
+  &::before{
+    content: "Panchthar";
+  }
   &:hover{
     cursor: pointer;
     background-image: url(../../Images/stepsImages/panchtharHover.png);
   }
 } 
 
-map .col2 image:nth-child(3){
+map .col2 button:nth-child(3){
   background-image: url(../../Images/stepsImages/illamMap.png);
   transition: 0.5s ease-in-out;
+  &::before{
+    content: "Illam";
+  }
   &:hover{
     cursor: pointer;
     background-image: url(../../Images/stepsImages/illamMapHover.png);
@@ -247,14 +294,42 @@ map .col2 image:nth-child(3){
 } 
 
 
-map .col3 image:nth-child(1){
+map .col3 button:nth-child(1){
   background-image: url(../../Images/stepsImages/sikkimMap.png);
   transition: 0.5s ease-in-out;
+  &::before{
+    content: "Sikkim";
+  }
   &:hover{
     cursor: pointer;
     background-image: url(../../Images/stepsImages/sikkimMapHover.png);
   }
 } 
+
+@media only screen and (max-width: 1700px) {
+  .regionalMapWrapper map{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .regionalMapWrapper map button{
+    height: 300px;
+    width: 300px;
+  }
+
+  map .col1 button:nth-child(2){
+    height: 150px;
+    width: 300px;
+  }
+
+  map .col2 button:nth-child(2){
+    height: 200px;
+    width: 300px;
+  } 
+}
+
+
 
 
 
