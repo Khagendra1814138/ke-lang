@@ -51,20 +51,21 @@ export const HomePage = () => {
             </div>
             <ParallaxMouse/>
 
-            <section className="sectionSplitY">
-                <h1>KE OR KAY LANG</h1>
+            <section className="sectionKeangIntroWrapper">
+                <h1><span>WHAT</span> IS <span>KE OR KAY LANG?</span></h1>
                 
                 <div className="informationWrapper">
                     <h3>
-                        Ke Lang, which translates to, which translates to "<span>chyabrung dance</span>", is the <span>traditional</span> dance of the <span>Limbu community </span>in Nepal, Sikkim, Darjeeling hills and North-East India.
+                        Ke or Kay Lang, which translates to "<span>chyabrung dance</span>", is the <span>traditional</span> dance of the <span>Limbu community </span>in Nepal, Sikkim, Darjeeling hills and North-East India.
                     </h3>
                 </div>
 
                 <div ref={introImg} className={`${'largeImage'} ${introImgIsVisible ? "moveUp" : "largeImage"}`} style={{backgroundImage: `url(${Background2})`}}></div>
+
                 <div className="informationWrapper">
                     <h3>
-                        The dance is mainly performed in a circular formation. Typically there are between 8 to 12 or more dancers in a kelang group. Each male dancers have a female dancer partner and stands on the left side of their male partner.
-                    </h3>  
+                        The dance is mainly performed in a circular formation. Typically there are between 8 to 12+ dancers in a kelang group. Each male dancers have a female dance partner and are positioned on the left side of their male partner.
+                    </h3>
                 </div>
 
                 <div className="genderInfoWrapper">
@@ -116,11 +117,12 @@ export const HomePage = () => {
 
 
             <section className="sectionMusicStepsWrapper lightTealGreen">
-                <h1><span>MUSIC</span> AND DANCE <span>STEPS</span></h1>
+                <h1><span>MUSIC</span> AND <span>DANCE</span> STEPS</h1>
                 <div className="informationWrapper">
                     <h3>
                         In a Ke Lang dance performance there is no other music. The loud and sharp chyabrung beat is the only music played  during the dance. 
                     </h3>
+                    <div className="filler"></div>
                 </div>
 
                 <div className="flexColumnn">
@@ -159,7 +161,7 @@ export const HomePage = () => {
 
 
             <section className="sectionAboutChyabrungWrapper lightSteelBlue">
-                <h1>ABOUT THE CHYABRUNG</h1>
+                <h1><span>ABOUT</span> THE CHYABRUNG</h1>
                 <div className="informationWrapper">
                     <h3>
                         The Chyabrung also called "Ke or Kay" in Limbu language is a traditional hollow log drum of the Limbu community. It is the primary instrument played during the dance and is carried by the male dancers. The size and sound varies from region to regions.
@@ -216,28 +218,29 @@ export const HomePage = () => {
                             The Chyabrung also called "Ke or Kay" in Limbu language is a traditional hollow log drum of the Limbu community. It is the primary instrument played during the dance and is carried by the male dancers. The size and sound varies from region to regions.
                         </h3>
                     </div>
-
-                    <div className="brownBackgroundFrame darkBrown">
-                        <image className="mediumBrown" style={{backgroundImage: `url(${boysClothes})`}}></image>
-                        <div className="informationWrapper">
-                            <h2><span>MALE </span> DANCERS</h2>
-                            <line className="darkBrown"></line>
-                            <p>                       
-                                The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
-                            </p>
+                    <div className="gapWrapper">
+                        <div className="brownBackgroundFrame darkBrown">
+                            <image className="mediumBrown" style={{backgroundImage: `url(${boysClothes})`}}></image>
+                            <div className="informationWrapper">
+                                <h2><span>MALE </span> DANCERS</h2>
+                                <line className="darkBrown"></line>
+                                <p>                       
+                                    The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <button className="dressButton" onClick={() => navigate("/Dresses")}>Show More</button>
+                        <button className="dressButton" onClick={() => navigate("/Dresses")}>Show More</button>
 
-                    <div className="brownBackgroundFrame darkBrown">
-                        <image className="mediumBrown" style={{backgroundImage: `url(${girlsClothes})`}}></image>
-                        <div className="informationWrapper">
-                            <h2><span>MALE </span> DANCERS</h2>
-                            <line className="darkBrown"></line>
-                            <p>                       
-                                The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
-                            </p>
+                        <div className="brownBackgroundFrame darkBrown">
+                            <image className="mediumBrown" style={{backgroundImage: `url(${girlsClothes})`}}></image>
+                            <div className="informationWrapper">
+                                <h2><span>MALE </span> DANCERS</h2>
+                                <line className="darkBrown"></line>
+                                <p>                       
+                                    The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -249,7 +252,7 @@ export const HomePage = () => {
 
 
 
-            <section className="chyabrungMoreInfo">
+         
                 <div className="chyabrungInfoContainer lightGreen">
                     <image className="mediumGreen" style={{backgroundImage: `url(${Jhympta})`}}></image>
                     <div className="flexColumnn">
@@ -277,10 +280,10 @@ export const HomePage = () => {
                     </div>
                     <image className="darkPurple" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
                 </div>
-            </section>
+            
 
 
-            <section className="chyabrungMoreInfo">
+       
                 <div className="chyabrungInfoContainer lightRed">
                     <image className="darkRed" style={{backgroundImage: `url(${wedding})`}}></image>
                     <div className="flexColumnn">
@@ -308,7 +311,7 @@ export const HomePage = () => {
                     </div>
                     <image className="darkYellow" style={{backgroundImage: `url(${blessing})`}}></image>
                 </div>
-            </section>
+        
 
 {/*             
             <section className="section2">
