@@ -8,7 +8,7 @@
 }
 
 .ParallaxMouse section{
-  height: 100vh;
+  height: auto;
 }
 
 .ParallaxMouse h1 {
@@ -31,8 +31,8 @@
 
 .parallax-wrap {
   position: relative;
-  width: 100%;
-  height: 105vh;
+  max-width: 1910px;
+  height: 1000px;
   overflow: hidden;
   margin: auto;
   display: flex;

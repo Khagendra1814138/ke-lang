@@ -44,15 +44,15 @@ export const HomePage = () => {
     return (
         <div className="homePage">
             
-            <div className="heroSection">
+            {/* <div className="heroSection">
                 <h1>KE LANG</h1>
                 <p>Learn about the unique cultural dance of the Limbu community from Eastern Nepal, inspired by Wild animals and birds.</p>
                 <button>Learn More</button>
-            </div>
+            </div> */}
             <ParallaxMouse/>
 
             <section className="sectionKeangIntroWrapper">
-                <h1><span>WHAT</span> IS <span>KE OR KAY LANG?</span></h1>
+                <h1><span>'KE'</span> OR <span> 'KAY' </span>LANG</h1>
                 
                 <div className="informationWrapper">
                     <h3>
@@ -104,10 +104,10 @@ export const HomePage = () => {
                             <h2 className="">KELANG VIDEO</h2>
                             <line className="pimpPurple"></line>
                             <p>
-                                The video shows how the Jhyampta is played together with the Tambourine as a percussion instruments alongside the chyabrung beat.
+                                The video shows how a typical kelang or chyabrung dance is performed. This is a typical Taplejung region steps.
                             </p>
                         </div>
-                        <div className="video">video</div>
+                        <div className="video"></div>
                     </div>
                 <div className="videoCircleWrapper">
                     <div className="videoCircleBottom purpleRoundedColor"></div>
@@ -118,9 +118,9 @@ export const HomePage = () => {
 
             <section className="sectionMusicStepsWrapper lightTealGreen">
                 <h1><span>MUSIC</span> AND <span>DANCE</span> STEPS</h1>
-                <div className="informationWrapper">
+                <div className="informationWrapper curvedBR">
                     <h3>
-                        In a Ke Lang dance performance there is no other music. The loud and sharp chyabrung beat is the only music played  during the dance. 
+                        In a Ke Lang dance performance there is no other music. The loud and sharp rhythmic beat of the chyabrung is the only music played during the dance. "chyang dhung chyang..."
                     </h3>
                     <div className="filler"></div>
                 </div>
@@ -215,7 +215,7 @@ export const HomePage = () => {
 
                     <div className="informationWrapper">
                         <h3>
-                            The Chyabrung also called "Ke or Kay" in Limbu language is a traditional hollow log drum of the Limbu community. It is the primary instrument played during the dance and is carried by the male dancers. The size and sound varies from region to regions.
+                            During the Kelang performance, the male dancers and the female dancers wears beautiful traditional Limbu dresses or other formal clothes with Limbu dhaka pattern touch.  Traditional accessories such as dhaka scarf, bags and jewelries are also worn.
                         </h3>
                     </div>
                     <div className="gapWrapper">
