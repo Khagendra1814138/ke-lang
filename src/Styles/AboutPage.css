@@ -1,28 +1,256 @@
 .aboutPage{
-    background-color:  royalblue;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding: 0rem 0rem 40rem 0rem;
+    display: grid;
+    justify-content: center;
+    gap: 150px;
+
+    background-image: url(../Images/backgrounds/dhaka3.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-.aboutPage section{
-    height: 20rem;
-    background-color:  burlywood;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+.aboutPage h1 span{
+ color: #4B79A1;
+}
+.aboutPage h2 span{
+    color: #4B79A1;
+   }
 
-    &:nth-child(2){
-        background-color:  green;
-    }
+.sectionHandsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
 
-    &:nth-child(3){
-        background-color:  sienna;
+.sectionHandsWrapper .informationWrapperCurvedBR{
+    height: auto;
+    width: auto;
+    padding: 40px;
+    position: relative;
+    border-radius: 40px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+  
+    .curvedBR{
+      position: absolute;
+      bottom: -64px;
+      right: 0;
+      height: 64px;
+      width: 45%;
+      background-color: white;
+      border-radius: 0px 0px 40px 40px;
+  
+      &::before{
+          content: "";
+          height: 20px;
+          width: 20px;
+          position: absolute;
+          top: 0px;
+          left: -20px;
+          background-color: white;
+          border-radius: 0px 0px 0px 20px;
+      }
+      &::after{
+          content: "";
+          position: absolute;
+          height: 20px;
+          width: 20px;
+          top: 0px;
+          left: -20px;
+          background-color: #8bc1f7d3;
+          border-radius: 0px 20px 0px 20px;
+      }
     }
+}
 
-    &:nth-child(4){
-        background-color:  Pink;
-    }
+.sectionHandsWrapper image{
+    height: 600px;
+    width: 600px;
+    border-radius: 40px;
+}
 
-    &:nth-child(5){
-        background-color:  palevioletred;
+.sectionHandsWrapper .flexRowWrapper .informationWrapper{
+    height: auto;
+    width: 520px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHandsWrapper .informationWrapperCurvedTL{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 40px;
+    position: relative;
+    border-radius: 0px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+
+    .curvedTL{
+        position: absolute;
+        top: -64px;
+        left: 0;
+        height: 64px;
+        width: 45%;
+        background-color: white;
+        border-radius: 40px 40px 0px 0px;
+
+        &::before{
+            content: "";
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            bottom: 0px;
+            right: -20px;
+            background-color: white;
+            border-radius: 0px 20px 0px 0px;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            bottom: 0px;
+            right: -20px;
+            background-color: #8bc1f7d3;
+            border-radius: 0px 20px 0px 20px;
+        }
     }
+}
+
+
+.sectionPreparingWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionPreparingWrapper .imageFrame{
+    height: 600px;
+    width: 600px;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sectionPreparingWrapper .imageFrame .imageLeafR{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 400px 40px 400px 400px;
+    border: 15px solid white;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-42%, -58%);
+}
+.sectionPreparingWrapper .imageFrame .imageLeafL{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 40px 400px 400px 400px;
+    border: 15px solid white;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-58%, -58%);
+}
+
+
+.sectionPreparingWrapper .informationWrapper{
+    height: 300px;
+    width: 520px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .sectionPreparingWrapper .imageFrame{
+        height: 400px;
+        width: 400px;
+    }
+    .sectionPreparingWrapper .informationWrapper{
+        height: auto;
+        width: 320px;
+    }
+}
+
+
+
+.sectionHeldWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sectionHeldWrapper .imageFrameSmall{
+    height: 450px;
+    width: 500px;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.sectionHeldWrapper .imageFrameSmall .imageRoundedUP{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 400px 400px 0px 0px;
+    border: 15px solid white;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.sectionHeldWrapper .imageFrameSmall .imageRoundedRIGHT{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 400px 400px 0px;
+    border: 15px solid white;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+.sectionHeldWrapper .imageFrameSmall .imageRoundedDOWN{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 0px 400px 400px;
+    border: 15px solid white;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.sectionHeldWrapper .informationWrapper{
+    height: auto;
+    width: 440px;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.sectionHeldWrapper .imageFrameLarge{
+    height: 826px;
+    width: 700px;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
 }

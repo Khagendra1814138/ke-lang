@@ -16,7 +16,7 @@ export const NavigationLinksArray = [
         link: "/ParalaxCss",
     },
     {
-        title: "Other Instruments", 
+        title: "Instruments", 
         link: "/ParallaxMouse",
     },
     {

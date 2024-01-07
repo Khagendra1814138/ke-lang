@@ -26,7 +26,7 @@
 
 
 .lightSteelBlue{
-    background-color: #8bc1f7a6;
+    background-color: #8bc1f796;
 }
 .mediumSteelBlue{
     background-color: #549DE7;
@@ -74,7 +74,7 @@
     background-color: #FFECEC;
 }
 .mediumBrown{
-    background-color: #CB9898;
+    background-color: #b98585;
 }
 .darkBrown{
     background-color: #91553B;
@@ -91,12 +91,23 @@
     /* border: 1px solid red; */
 }
 
+.flexRowWrapperCenter{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* border: 1px solid rebeccapurple; */
+}
+
 .flexRowWrapper{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     /* border: 1px solid rebeccapurple; */
 } 
     @media only screen and (max-width: 1700px) {
@@ -110,6 +121,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     /* border: 1px solid red; */
 }

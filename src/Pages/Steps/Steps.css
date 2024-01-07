@@ -100,8 +100,8 @@
 }
 
 .danceStructure .rounedTopImageWrapper{
-  height: 350px;
-  width: 360px;
+  height: 300px;
+  width: 370px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   overflow: hidden;
@@ -337,7 +337,7 @@ map .col3 button:nth-child(1){
 .animalStepsWrapper image{
   border-radius: 40px;
   height: 500px;
-  width: 610px;
+  width: 600px;
   display: flex;
   justify-content: center;
   align-self: center;

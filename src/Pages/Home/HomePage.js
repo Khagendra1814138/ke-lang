@@ -118,11 +118,11 @@ export const HomePage = () => {
 
             <section className="sectionMusicStepsWrapper lightTealGreen">
                 <h1><span>MUSIC</span> AND <span>DANCE</span> STEPS</h1>
-                <div className="informationWrapper curvedBR">
+                <div className="informationWrapperCurvedBR">
                     <h3>
                         In a Ke Lang dance performance there is no other music. The loud and sharp rhythmic beat of the chyabrung is the only music played during the dance. "chyang dhung chyang..."
                     </h3>
-                    <div className="filler"></div>
+                    <div className="curvedBR"></div>
                 </div>
 
                 <div className="flexColumnn">
@@ -149,10 +149,11 @@ export const HomePage = () => {
                     </div>
                 </div>
 
-                <div className="informationWrapper">
+                <div className="informationWrapperCurvedTL">
                     <h3>
                         During the chyabrung dance, the dancers performs several variation of foot steps and animal steps. It has been said that there are more than 200+ unique steps.                    
                     </h3>
+                    <div className="curvedTL"></div>
                 </div>
               
                 <button onClick={() => navigate("/ChyabrungSteps")}>Learn More</button>

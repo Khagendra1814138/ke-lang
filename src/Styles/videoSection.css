@@ -44,7 +44,7 @@
 
 
 .videoFrame{
-    --padding: 2%;
+    --padding: 4%;
     height: auto;
     width: calc(100% - var(--padding) * 2);
     background-color: #bfbfffbb;

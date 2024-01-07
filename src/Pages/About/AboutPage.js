@@ -1,46 +1,195 @@
 import React from "react";
 import "../../Styles/AboutPage.css";
 
+import huksagay from "../../Images/aboutChyabrung/huksagay.png";
+import singsagay from "../../Images/aboutChyabrung/singsagay.png";
+import flowers from "../../Images/aboutChyabrung/flowers.jpg";
+import wetting from "../../Images/aboutChyabrung/wetting.jpg";
+import tuningChabi from "../../Images/aboutChyabrung/pangraKey.jpg";
+import tuningMatengra from "../../Images/aboutChyabrung/matengraKey.jpg";
+
+import strung from "../../Images/homeImages/strung.png";
+import tiltedUP from "../../Images/aboutChyabrung/tiltedUp.jpg";
+import heldStraight from "../../Images/aboutChyabrung/tiltedStraight.jpg";
+import tiltedDown from "../../Images/aboutChyabrung/tiltedDown.jpg";
+
 export const AboutPage = () => {
     return (
-        <div className="aboutPage">About
-        
-            <section> What is chyabrung?
-                <ul>
-                    <li>What is it?</li>
-                    <li>How did it start MYTH?</li>
-                    <li>What is chyabrung made of?</li>
-                    <li>Different region of steps</li>
-                </ul>
+        <div className="aboutPage">
+            <hero className="heroWrapper">
+                <div className="heroInformationFrame">
+                    <h1>ABOUT THE KE/CHYABRUNG</h1>
+                </div>
+                <div className="heroeCurvedWrapper">
+                    <div className="heroeCurvedBottom"></div>
+                </div>
+            </hero>
 
+            <section className="sectionHandsWrapper lightSteelBlue">
+                <h1>HOW THE <span>HANDS</span> ARE <span>USED</span></h1>
+
+                <div className="informationWrapperCurvedBR">
+                    <h3>
+                        The chyabrung has two openings on either ends. The right side is called “Huksagay” and it produces a thrilling sharp, treble tone. The left side is called “Singsagay” and it produces a flat, roaring bass sound. Moreover, the chyabrung has a Chabi (key) made of pangra beans and the purpose of the key is to produce a vibrating resound by slightly touching the “huksangay/chyang” skin.
+                    </h3>
+                    <div className="curvedBR"></div>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <image className="darkSteelBlue" style={{backgroundImage: `url(${huksagay})`}}></image>
+                    <div className="informationWrapper">
+                        <h2>RIGHT <span>HAND</span></h2>
+                        <line className="mediumSteelBlue"></line>
+                        <p>
+                            The right hand or your stronger hand palm is normally used to strike the “huksagay” side of the chyabrung, which produces the “Chyang” sound.                        
+                        </p>
+                        <button>Play</button>
+                    </div>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <div className="informationWrapper">
+                        <h2><span>RIGHT</span> HAND</h2>
+                        <line className="mediumSteelBlue"></line>
+                        <p>
+                            The left hand or your weaker hand is normally used to hold the kesangla and hit the “singsagay” side of the chyabrung, which produces the “Dhung” sound.                        
+                        </p>
+                        <button>Play</button>
+                    </div>
+                    <image className="darkSteelBlue" style={{backgroundImage: `url(${singsagay})`}}></image>
+                </div>
+
+                <div className="informationWrapperCurvedTL">
+                    <h3>
+                        Both left and right hands are used together to play the both side of the chyabrung simultaneously to create rhythmic beats. The beats sounds something like “chyang, dhung, chyang”.                    
+                    </h3>
+                    <div className="curvedTL"></div>
+                </div>
             </section>
 
-            <section> When is chyabrung performed?
-                <ul>
-                    <li>Building house</li>
-                    <li>Wedding</li>
-                    <li>Planting baar and peepal</li>
-                    <li>During Limbu festivals</li>
-                    <li>During any social events</li>
-                </ul>
+
+
+            <section className="sectionPreparingWrapper lightSteelBlue"> 
+                <h1><span>PREPARING</span> THE CHYABRUNG</h1>
+
+                <div className="flexRowWrapper">
+                    <div className="flexColumnWrapper">
+                        <div className="informationWrapper">
+                            <h2><span>FLOWER</span> DECORATION</h2>
+                            <p>
+                                Fresh flowers and lush plants branches and leafs are used to decorate the chyabrung. The flowers and plants branches stem are tucked under the leather ropes on the chyabrung. The flowers are used to bless the bride and groom during wedding dance.                       
+                            </p>
+                            <line className="mediumSteelBlue"></line>
+                        </div>
+
+                        <div className="imageFrame darkSteelBlue">
+                            <image className="imageLeafL" style={{backgroundImage: `url(${wetting})`}}></image>
+                        </div>
+                    </div>
+
+                    <div className="flexColumnWrapper">
+                        <div className="imageFrame darkSteelBlue">
+                            <image className="imageLeafR" style={{backgroundImage: `url(${flowers})`}}></image>
+                        </div>
+
+                        <div className="informationWrapper">
+                            <h2><span>WETTING</span> CHYABRUNG</h2>
+                            <p>
+                                Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound.                            </p>
+                            <line className="mediumSteelBlue"></line>
+                        </div>
+                    </div>
+
+                    <div className="flexColumnWrapper">
+                        <div className="informationWrapper">
+                            <h2>TUNING <span>PANGRA</span> KEY</h2>
+                            <p>
+                                Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound.                     
+                            </p>
+                            <line className="mediumSteelBlue"></line>
+                        </div>
+
+                        <div className="imageFrame darkSteelBlue">
+                            <image className="imageLeafL" style={{backgroundImage: `url(${tuningMatengra})`}}></image>
+                        </div>
+                    </div>
+
+                    <div className="flexColumnWrapper">
+                        <div className="imageFrame darkSteelBlue">
+                            <image className="imageLeafR" style={{backgroundImage: `url(${tuningChabi})`}}></image>
+                        </div>
+
+                        <div className="informationWrapper">
+                            <h2>TUNING <span>MATENGRA</span> KEY</h2>
+                            <p>
+                                Taplejung and Sankhuwasbbha region ke/chyabrung doesn't have the pangra bean chabi/key and insted it has “matengra” (marble) key. To tune the matengra chyabrung you just have to tilt the chyabrung down so the gravaty can always keep the marble toching the huksagay/chyang skin.                       
+                            </p>
+                            <line className="mediumSteelBlue"></line>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section> How is chyabrung performed?
-                <ul>
-                    <li>Explain Foot steps(Expand)</li>
-                    <li>Explain how the chyabrung is played</li>
-                    <li>Explain chyabrung rythem</li>
-                    <li>Explain dresses</li>
-                    <li>Explain typical routine</li>
-                </ul>
-            </section>
 
-            <section> Why is it important?
-                <ul>
-                    <li>Form of entertainment</li>
-                    <li>Give blessing</li>  
-                    <li>Back to myth importance</li> 
-                </ul>
+            <section className="sectionHeldWrapper lightSteelBlue">
+                <h1>HOW THE CHYABRUNG IS <span>HELD</span></h1>
+                <div className="flexRowWrapperCenter">
+                    <div className="imageFrameSmall darkSteelBlue">
+                        <image className="imageRoundedUP" style={{backgroundImage: `url(${tiltedUP})`}}></image>
+                    </div>
+
+                    <div className="informationWrapper">
+                        <h2>TILTED <span>UP</span></h2>
+                        <line className="mediumSteelBlue"></line>
+                        <p>
+                            Region such as Dhankuta and Illam Chyabrung is strung around the neck and over the left shoulder because their chyabrung is large and heavy so its easy to balance the load in the center of the body. 
+                            Due to the long size, they also tilt their chyabrung up to makes it easier for the right hand palm to reach the huksagay. 
+                            <br></br>
+                            <br></br>
+                            Although Sikkim chyabrung are small, they also tilts their chyabrung up and hold it around the neck and over the left shoulder because their steps are very fast, aggressive and flexible, requiring the chyabrung to be tightly secured.                          
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flexRowWrapperCenter">
+                    <image className="imageFrameLarge darkSteelBlue" style={{backgroundImage: `url(${strung})`}}></image>
+                    <div className="flexColumnWrapper">
+                        
+                        <div className="imageFrameSmall darkSteelBlue">
+                            <image className="imageRoundedRIGHT" style={{backgroundImage: `url(${heldStraight})`}}></image>
+                        </div>
+
+                        <div className="informationWrapper">
+                            <h2>HELD <span>STRAIGHT</span></h2>
+                            <line className="mediumSteelBlue"></line>
+                            <p>
+                                Region like the panchthar chyabrung is typically strung over the left shoulder only and is held straight. This is because their chyabrung size is medium so not too heavy  and their steps aren't aggressive and fast paced like Sikkim. So holding the chyabrung straight makes it easy to reach the huksagay (Chyang) skin and move their body more freely.                         
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flexRowWrapperCenter">
+                    <div className="informationWrapper">
+                        <h2>TILTED <span>DOWN</span></h2>
+                        <line className="mediumSteelBlue"></line>
+                        <p>
+                        Region such as Taplejung and Sankhuwasabha holds over the left shoulder only their steps has lots body and foot movements and the size is small, lighter, making it easier to carry without having to balance the chyabrung weight.
+                        <br></br>
+                        <br></br>
+                        Their chyabrung are always tilted down because both region chyabrung are made in a same way and have the “Matengre (Marble)” type chabi (Key). So tilting the chyabrung allows the marbel to always roll down and touch and vibrate with the huksagay (Chyang) skin.                          
+                        </p>
+                    </div>
+
+                    <div className="imageFrameSmall darkSteelBlue">
+                        <image className="imageRoundedDOWN" style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                    </div>
+                </div>
+                
+
+                <div className="flexRowWrapper">
+                    
+                </div>
             </section>
 
         </div>
