@@ -13,6 +13,13 @@ import tiltedUP from "../../Images/aboutChyabrung/tiltedUp.jpg";
 import heldStraight from "../../Images/aboutChyabrung/tiltedStraight.jpg";
 import tiltedDown from "../../Images/aboutChyabrung/tiltedDown.jpg";
 
+import taplejungChyabrung from "../../Images/aboutChyabrung/taplejung.jpg";
+import terhathumChyabrung from "../../Images/aboutChyabrung/terhathum.jpg";
+import dhankutaChyabrung from "../../Images/aboutChyabrung/dhankuta.jpg";
+import panchtharChyabrung from "../../Images/aboutChyabrung/panchthar.png";
+import illamChyabrung from "../../Images/aboutChyabrung/illam.jpg";
+import sikkimChyabrung from "../../Images/aboutChyabrung/sikkim.jpg";
+
 export const AboutPage = () => {
     return (
         <div className="aboutPage">
@@ -185,11 +192,156 @@ export const AboutPage = () => {
                         <image className="imageRoundedDOWN" style={{backgroundImage: `url(${tiltedDown})`}}></image>
                     </div>
                 </div>
+            </section>
+
+
+
+            <div className="roundedSectionWrapper">
+                <div className="roundedShapeWrapper">
+                    <div className="circleShapeTop darkSteelBlue"></div>
+                </div>  
+
+                <div className="chyabrungGallaryFrame darkSteelBlue">
+                    <div className="chyabrungGallaryColumn">
+                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                        <image className="mediumImage" style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                    </div>
                 
 
-                <div className="flexRowWrapper">
-                    
+                    <div className="chyabrungGallaryColumn">
+                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                        <image className="bigImage" style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                    </div>
+
+
+                    <div className="chyabrungGallaryColumn">
+                        <image className="mediumImage" style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
+                    </div>
                 </div>
+
+                <div className="roundedShapeWrapper"> 
+                    <div className="circleShapeBottom darkSteelBlue"></div>
+                </div>
+            </div>
+
+
+
+            <section className="sectionSizeandSoundWrapper lightSteelBlue">
+                <div className="flexRowWrapper">
+                    <div className="informationWrapper">
+                        <p>
+                            There is no exact dimension for the chyabrung because the size varies from region to region. For exmaple, typically, Taplejung, Sikkim and Sankhuwasabha have small chyabrung. Terhathum and Panchthar have medium size chyabrung. Illam and Dhankuta have larger size chyabrung.
+                        </p>
+                    </div>
+                    <h1><span>SIZE</span> AND <span>SOUND</span> OF THE CHYABRUNG</h1>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <div className="largeChyabrungImage darkSteelBlue">
+                        <image style={{backgroundImage: `url(${taplejungChyabrung})`}}></image>
+                    </div>  
+
+                    <div className="informationWrapper">
+                        <h2><span>Taplejung</span> & <span>Sankhuwasabha</span> Chyabrung</h2>
+                        <p>
+                            Taplejung and Sankhuwasabha chyabrung are built the same way and are the shortest & smallest comparing to the rest of the regions. These two regions chyabrung has special type of “matengra”/marble chabi/key and not the typical pangra bean chabi. These chyabrung produces sharp, high pitch but quiet sound.                        
+                        </p>
+                        <button>Play</button>
+                    </div>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <div className="largeChyabrungImage darkSteelBlue">
+                        <image style={{backgroundImage: `url(${terhathumChyabrung})`}}></image>
+                    </div>
+
+                    <div className="informationWrapper">
+                        <h2><span>Terhathum</span> Chyabrung</h2>
+                        <p>
+                            Terhathum chyabrung are medium size chyabrung. The chyabrung length is short but the diameter is large. Typical Terhathum chyabrung has two chabi/key and it produces very very sharp, very very high pitch sound, almost like hitting a tin plate comparing to the rest of the region.                        
+                        </p>
+                        <button>Play</button>
+                    </div>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <div className="largeChyabrungImage darkSteelBlue">
+                        <image style={{backgroundImage: `url(${dhankutaChyabrung})`}}></image>
+                    </div>
+
+                    <div className="informationWrapper">
+                        <h2><span>Dhankuta</span> Chyabrung</h2>
+                        <p>
+                            Dhankuta region chyabrung are very very large comparing to the rest of the regions. The chyabrung diameter is very large and the length is very long like the Illam chyabrung. It produces very very loud and bassy sound almost like an animal roar. The most noticable feature about dhankuta chyabrung is that the excess skin of the huksagay/chyang is left hanging.                        
+                        </p>
+                        <button>Play</button>
+                    </div>
+                </div>
+
+                <div className="informationWrapper">
+                    <p>
+                        The size of the chyabrung determines the sound of the chyabrung. For example, smaller chyabrung produces sharpe, high pitch, but quieter sound. Where as, larger size chyabrung produces bassy, lower pitch, but louder sound.                     
+                    </p>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <div className="informationWrapper">
+                        <h2><span>Panchthar</span> Chyabrung</h2>
+                        <p>
+                            Panchthar chyabrung is a medium size chyabrung, similar to Terhathum chyabrung. However, the length is a mixture of both short and long and the diameter is also a mixture of large and small. Typical panchthar chyabrung has one pangra bean chabi/key and the frame is left natural without colors. It produces high pitch buzzing like sound.                        
+                        </p>
+                        <button>Play</button>
+                    </div>
+
+                    <div className="largeChyabrungImage darkSteelBlue">
+                        <image style={{backgroundImage: `url(${panchtharChyabrung})`}}></image>
+                    </div>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <div className="informationWrapper">
+                        <h2><span>Illam</span> Chyabrung</h2>
+                        <p>
+                            Illam chyabrung are very large like the Dhankuta chyabrung. The chyabrung has very large diameter and very long frame comparing to the rest of the region. The frame is almost like a cone shape, the huksagay/chyang side diameter is large and gradually the frame diameter becomes smaller at the singsagay/dhung side. It has two pangra bean chabi/key and it produces very loud resonating swarm of buzzing bee like sound.                       
+                        </p>
+                        <button>Play</button>
+                    </div>
+
+                    <div className="largeChyabrungImage darkSteelBlue">
+                        <image style={{backgroundImage: `url(${illamChyabrung})`}}></image>
+                    </div>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <div className="informationWrapper">
+                        <h2><span>Sikkim</span> Chyabrung</h2>
+                        <p>
+                            Sikkim region chyabrung size and diameter is very small like the Taplejung and Sankhuwasabha chyabrung. Typically, sikkim chyabrung are decorated by fully draping it with colorful fabric hanging from the chyabrung. The chyabrung produces sharp but quiet sound and has low resonate and vibration.                        
+                        </p>
+                        <button>Play</button>
+                    </div>
+
+                    <div className="largeChyabrungImage darkSteelBlue">
+                        <image style={{backgroundImage: `url(${sikkimChyabrung})`}}></image>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section className="sectionBeatsWrapper lightSteelBlue">
+                <h1>CHYABRUNG <span>BEAT’S</span></h1>
+
+                <div className="informationWrapper">
+                    <p>
+                        Similar to the steps, there are countless varities of chyabrung beats, and they are different between region to region. Each regions have their own unique chyabrung beats that matches their typical steps. All the beats can categorized into 3 different sections and they are kassarokpa beats, turning beats and animals steps beats. However, there are many beats outside the category.                    
+                    </p>
+                </div>
+
             </section>
 
         </div>

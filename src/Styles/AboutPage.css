@@ -254,3 +254,91 @@
     overflow: hidden;
     position: relative;
 }
+
+
+
+.chyabrungGallaryFrame{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.chyabrungGallaryColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.chyabrungGallaryFrame image{
+    height: 400px;
+    width: 500px;
+    border-radius: 40px;
+}
+
+.chyabrungGallaryColumn .mediumImage{
+    height: 500px;
+    width: 500px;
+}
+
+.chyabrungGallaryColumn .bigImage{
+    height: 650px;
+    width: 500px;
+}
+
+
+
+
+.sectionSizeandSoundWrapper{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSizeandSoundWrapper h1{
+    width: 40%;
+}
+
+.sectionSizeandSoundWrapper .flexRowWrapper .informationWrapper{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSizeandSoundWrapper .largeChyabrungImage{
+    height: 500px;
+    width: 52%;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sectionSizeandSoundWrapper .largeChyabrungImage image{
+    position: absolute;
+    height: 102%;
+    width: 102%;
+    border-radius: 40px;
+    border-radius: 20px 300px 20px 300px;
+    border: 10px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.sectionBeatsWrapper{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
