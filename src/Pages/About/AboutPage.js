@@ -20,6 +20,8 @@ import panchtharChyabrung from "../../Images/aboutChyabrung/panchthar.png";
 import illamChyabrung from "../../Images/aboutChyabrung/illam.jpg";
 import sikkimChyabrung from "../../Images/aboutChyabrung/sikkim.jpg";
 
+import beatsImage from "../../Images/aboutChyabrung/beats.png";
+
 export const AboutPage = () => {
     return (
         <div className="aboutPage">
@@ -231,7 +233,7 @@ export const AboutPage = () => {
 
 
             <section className="sectionSizeandSoundWrapper lightSteelBlue">
-                <div className="flexRowWrapper">
+                <div className="flexRowWrapperCenter">
                     <div className="informationWrapper">
                         <p>
                             There is no exact dimension for the chyabrung because the size varies from region to region. For exmaple, typically, Taplejung, Sikkim and Sankhuwasabha have small chyabrung. Terhathum and Panchthar have medium size chyabrung. Illam and Dhankuta have larger size chyabrung.
@@ -340,6 +342,36 @@ export const AboutPage = () => {
                     <p>
                         Similar to the steps, there are countless varities of chyabrung beats, and they are different between region to region. Each regions have their own unique chyabrung beats that matches their typical steps. All the beats can categorized into 3 different sections and they are kassarokpa beats, turning beats and animals steps beats. However, there are many beats outside the category.                    
                     </p>
+                </div>
+
+                <div className="flexRowWrapper">
+                    <image className="darkSteelBlue" style={{backgroundImage: `url(${beatsImage})`}}></image>
+
+                    <div className="flexColumnWrapper">
+                        <div className="informationWrapper">
+                            <h2><span>KASSAROKPA</span> STEPS BEAT</h2>
+                            <line className="mediumSteelBlue"></line>
+                            <p>
+                                This beat is the primary beat that is played during the chyabrung dance. Its used during most of the basic steps and is used as a beat reset or go back to beat. All regions have their own unique kassarokpa beat.                            
+                            </p>
+                        </div>
+                        
+                        <div className="informationWrapper">
+                            <h2><span>TURNING</span> STEP BEAT</h2>
+                            <line className="mediumSteelBlue"></line>
+                            <p>
+                                This beat is used when the dancer turns their body from facing inside to outside, outside to inside and from inside to right or from inside to left. This beat is similar throughout all the regions.                            
+                            </p>
+                        </div>
+
+                        <div className="informationWrapper">
+                            <h2><span>ANIMAL</span> STEPS BEAT</h2>
+                            <line className="mediumSteelBlue"></line>
+                            <p>
+                                This beat is used when the dancers are performing the animal steps. These beats are unique and differs from animal to animal steps. However, some regions like Terthum and Taplejung uses the same beat for every animal steps.                            
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
             </section>

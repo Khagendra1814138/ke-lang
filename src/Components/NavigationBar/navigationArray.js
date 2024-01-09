@@ -12,16 +12,16 @@ export const NavigationLinksArray = [
         link: "/Steps",
     },
     {
+        title: "Cothes", 
+        link: "/Clothes",
+    },
+    {
         title: "Beats", 
         link: "/ParalaxCss",
     },
     {
         title: "Instruments", 
         link: "/ParallaxMouse",
-    },
-    {
-        title: "Cothes", 
-        link: "/ChyabrungSteps",
     },
     {
         title: "When", 

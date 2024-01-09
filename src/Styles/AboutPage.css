@@ -242,10 +242,7 @@
     height: auto;
     width: 440px;
     border-radius: 40px;
-    overflow: hidden;
-    position: relative;
 }
-
 
 .sectionHeldWrapper .imageFrameLarge{
     height: 826px;
@@ -254,6 +251,17 @@
     overflow: hidden;
     position: relative;
 }
+
+@media only screen and (max-width: 900px) {
+    .sectionHeldWrapper .flexRowWrapperCenter .flexColumnWrapper .imageFrameSmall{
+        height: 450px;
+        width: 400px;
+    }
+    .sectionHeldWrapper .flexRowWrapperCenter .flexColumnWrapper .informationWrapper{
+        width: 340px;
+    }
+}
+
 
 
 
@@ -288,7 +296,23 @@
     height: 650px;
     width: 500px;
 }
-
+@media only screen and (max-width: 900px) {
+    .chyabrungGallaryFrame image{
+        height: 300px;
+        width: 400px;
+        border-radius: 40px;
+    }
+    
+    .chyabrungGallaryColumn .mediumImage{
+        height: 400px;
+        width: 400px;
+    }
+    
+    .chyabrungGallaryColumn .bigImage{
+        height: 550px;
+        width: 400px;
+    }
+}
 
 
 
@@ -305,15 +329,29 @@
     width: 40%;
 }
 
+.sectionSizeandSoundWrapper .flexRowWrapperCenter .informationWrapper{
+    width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sectionSizeandSoundWrapper h1{
+        width: 100%;
+    }
+    
+    .sectionSizeandSoundWrapper .flexRowWrapperCenter .informationWrapper{
+        width: 100%;
+    }
+}
+
 .sectionSizeandSoundWrapper .flexRowWrapper .informationWrapper{
-    width: 40%;
+    width: 600px;
     justify-content: center;
     align-items: center;
 }
 
 .sectionSizeandSoundWrapper .largeChyabrungImage{
     height: 500px;
-    width: 52%;
+    width: 600px;
     border-radius: 40px;
     position: relative;
     overflow: hidden;
@@ -341,4 +379,32 @@
     gap: 40px;
     justify-content: center;
     align-items: center;
+}
+
+.sectionBeatsWrapper image{
+    height: 680px;
+    width: 600px;
+    border-radius: 40px;
+    display: flex;
+}
+
+.sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper{
+    width: 50%;
+    gap: 20px;
+}
+
+.sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper h2{
+    text-align: start;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper{
+        width: 100%;
+        gap: 20px;
+    }
 }

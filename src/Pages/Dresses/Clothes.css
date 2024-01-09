@@ -1,0 +1,184 @@
+.clothesAndAccessoriesPage{
+    padding: 0rem 0rem 40rem 0rem;
+    display: grid;
+    gap: 150px;
+    background-image: url(../../Images/backgrounds/dhaka8.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.clothesAndAccessoriesPage h1 span{
+    color: #91553B;
+}
+.clothesAndAccessoriesPage h2 span{
+    color: #91553B;
+}
+
+.sectionDhakaWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sectionDhakaWrapper .flexRowWrapper .dhakaMadeImage{
+    height: 600px;
+    width: 650px;
+    display: flex;
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.sectionDhakaWrapper .flexRowWrapper .dhakaMadeImage image{
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    border-radius: 400px 20px 400px 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-44%, -56%);
+    border: 15px solid white;
+}
+.sectionDhakaWrapper .flexRowWrapper .informationWrapper{
+    height: auto;
+    width: 520px;
+    gap: 40px;
+}
+
+.sectionDhakaWrapper .flexRowWrapperCenter{
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionDhakaWrapper .flexRowWrapperCenter image{
+    border-radius: 40px;
+    height: 350px;
+    width: 400px;
+    background-color: #91553B;
+}
+.sectionDhakaWrapper .flexRowWrapperCenter .longerImage{
+    border-radius: 40px;
+    height: 350px;
+    width: 450px;
+    background-color: #91553B;
+}
+
+
+
+
+.sectionBoysClothingWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.clothingFrame{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+    .row1 image{
+        height: 400px;
+        width: 420px;
+        border-radius: 40px;
+    }
+    .row1 .informationWrapper{
+        height: 340px;
+        width: 380px;
+        gap: 20px;
+    }
+
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+    .row2 .flexColumnWrapper image{
+        height: 400px;
+        width: 100%;
+        border-radius: 40px;
+    }
+
+    .row2 .flexColumnWrapper .informationWrapper{
+        width: 300px;
+        height: 300px;
+        gap: 10px;
+    }
+
+    .row2 .informationWrapper p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .row2 .longCenterImage{
+        height: 800px;
+        width: 500px;
+        border-radius: 40px;
+    }
+
+
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clothingFrame .row3 image{
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+}
+.clothingFrame .row3 .informationWrapper{
+    height: 340px;
+    width: 260px;
+    gap: 10px;
+}
+.clothingFrame .row3 .informationWrapper p{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 1800px) {
+    .row2{
+        justify-content: center;
+    }
+    .row3{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .row2{
+        justify-content: center;
+    }
+    .clothingFrame .row3 .informationWrapper{
+        width: 300px;
+    }
+    .clothingFrame .row3 image{
+        width: 360px;;
+    }
+}
+
+
+
+.sectionJewelriesWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}

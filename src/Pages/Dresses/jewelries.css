@@ -1,0 +1,74 @@
+.jeweleriesFrame3x4Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: auto;
+    gap: 40px;
+}
+.jeweleriesFrame3x4Grid h2{
+   color: #91553B;
+}
+
+.jeweleriesCardWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jeweleriesCardWrapper .informationWrapper{
+    gap: 10px;
+    border-radius: 20px;
+    height: 260px;
+    justify-content: flex-start;
+}
+
+.jeweleriesCardWrapper .informationWrapper p{
+    padding: 0;
+    margin: 0;
+}
+
+.jeweleriesCardWrapper .rounedBLTRImageWrapper{
+    height: 300px;
+    width: 360px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.jeweleriesCardWrapper .rounedBLTRImageWrapper image{
+    height: 104%;
+    width: 104%;
+    border-bottom-left-radius: 230px;
+    border-top-right-radius: 230px;
+    border: 15px solid white;
+    position: absolute;
+    display: flex;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.jeweleriesCardWrapper .rounedTLBRImageWrapper{
+    height: 300px;
+    width: 360px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.jeweleriesCardWrapper .rounedTLBRImageWrapper image{
+    height: 104%;
+    width: 104%;
+    border-top-left-radius: 230px;
+    border-bottom-right-radius: 230px;
+    border: 15px solid white;
+    position: absolute;
+    display: flex;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+

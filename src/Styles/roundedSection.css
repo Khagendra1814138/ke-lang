@@ -5,8 +5,47 @@
     background-color: #50b9a4c4;
 }
 .brownRoundColor{
-    background-color: #d4a6a6c0;
+    background-color: #ac8282d2;
 }
+
+.heroWrapper{
+    height: auto;
+    width: auto;
+} 
+.heroInformationFrame{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #0F2339;
+}
+.heroInformationFrame h1 {
+    color: white;
+    word-spacing: 10px;
+}
+
+.heroeCurvedWrapper{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .heroeCurvedBottom{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 1500px;
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) scale(2);
+    background-color: #0F2339;
+    }
+}
+
 
 .roundedSectionWrapper{
     height: auto;
@@ -31,7 +70,7 @@
         position: absolute;
         top: 0;
         left: 50%;
-        width: 100vw;
+        width: 100%;
         height: 140vh;
         border-radius: 50%;
         transform-origin: bottom;
@@ -43,7 +82,7 @@
         position: absolute;
         bottom: 0;
         left: 50%;
-        width: 100vw;
+        width: 100%;
         height: 140vh;
         border-radius: 50%;
         transform-origin: bottom;

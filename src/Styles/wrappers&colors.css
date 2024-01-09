@@ -71,7 +71,7 @@
 
 
 .lightBrown{
-    background-color: #FFECEC;
+    background-color: #ffd3d3a2;
 }
 .mediumBrown{
     background-color: #b98585;
@@ -98,7 +98,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 }
 
 .flexRowWrapper{
@@ -110,7 +110,7 @@
     gap: 40px;
     /* border: 1px solid rebeccapurple; */
 } 
-    @media only screen and (max-width: 1700px) {
+    @media only screen and (max-width: 1800px) {
         .flexRowWrapper{
             justify-content: center;
         }
@@ -122,5 +122,4 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border: 1px solid red;
 }

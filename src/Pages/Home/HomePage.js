@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useInView } from 'react-intersection-observer';
 import "../../Styles/HomePage.css";
 import "../../Styles/wrappers&colors.css";
-import "../../Styles/videoSection.css"
+import "../../Styles/videoSection.css";
 
 import ParallaxMouse from "../Paralax/ParallaxMouse";
 
@@ -99,7 +99,7 @@ export const HomePage = () => {
                 <div className="videoCircleWrapper">
                     <div className="videoCircleTop purpleRoundedColor"></div>
                 </div>
-                    <div className="videoFrame">
+                    <div className="videoFrame lightPurpleVideoFrame">
                         <div className="videoInformation">
                             <h2 className="">KELANG VIDEO</h2>
                             <line className="pimpPurple"></line>

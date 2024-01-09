@@ -15,7 +15,7 @@ import { ChyabrungStepsPage } from './Pages/Steps/Steps';
 import { HowItsPlayedPage } from './Pages/HowItsPlayed/HowItsPlayed';
 import { OtherInstrumentsPage } from './Pages/OtherInstruments/Instruments';
 import { HowItsMadePage } from './Pages/HowItsMade/HowItsMade';
-import { DressesPage } from './Pages/Dresses/Dresses';
+import { ClothesAndAccessoriesPage } from './Pages/Dresses/Clothes';
 import { WhenPerformedPage } from './Pages/WhenPerformed/WhenPerformed';
 import { WhyImportantPage } from './Pages/WhyItsImportant/WhyImportant';
 
@@ -33,7 +33,7 @@ function App() {
             <Route path='/HowItsPlayed' element={<HowItsPlayedPage/>} />
             <Route path='/Instruments' element={<OtherInstrumentsPage/>} />
             <Route path='/HowItsMade' element={<HowItsMadePage/>} />
-            <Route path='/Dresses' element={<DressesPage/>} />
+            <Route path='/Clothes' element={<ClothesAndAccessoriesPage/>} />
             <Route path='/WhenPerformed' element={<WhenPerformedPage/>} />
             <Route path='/WhyImportant' element={<WhyImportantPage/>} />
 

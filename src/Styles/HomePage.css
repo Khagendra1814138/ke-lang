@@ -520,9 +520,7 @@
         flex-direction: column;
         gap: 40px;
     }
-    .sectionClothingWrapper .informationWrapper{
-        background-color: #E9C5C5;
-    }
+
         .brownBackgroundFrame{
             position: relative;
             height: 600px;
@@ -533,7 +531,7 @@
             position: absolute;
             height: 400px;
             width: 600px;
-            border-radius: 20px;
+            border-radius: 40px;
             bottom: 50%;
             right: 50%;
             transform: translate(-10%, 50%);
@@ -547,9 +545,9 @@
         }
         .brownBackgroundFrame .informationWrapper{
             position: absolute;
-            height: calc(360px - var(--paragraphPadding) * 2);
+            height: calc(380px - var(--paragraphPadding) * 2);
             width: calc(600px - var(--paragraphPadding) * 2);
-            border-radius: 20px;
+            border-radius: 40px;
             top: 50%;
             left: 50%;
             transform: translate(0%, -50%);
