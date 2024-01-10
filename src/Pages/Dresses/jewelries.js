@@ -15,6 +15,17 @@ import SWAGEP from "../../Images/clothing/jeweleries/SWAGEP.jpg";
 import HUKPANGI from "../../Images/clothing/jeweleries/HUKPANGI.jpg";
 import LANGPANGI from "../../Images/clothing/jeweleries/LANGPANGI.jpg";
 
+import Jcol1a from "../../Images/clothing/jeweleriesGallary/Jcol1a.jpg";
+import Jcol1b from "../../Images/clothing/jeweleriesGallary/Jcol1b.jpg";
+import Jcol1c from "../../Images/clothing/jeweleriesGallary/Jcol1c.jpg";
+import Jcol2a from "../../Images/clothing/jeweleriesGallary/Jcol2a.jpg";
+import Jcol2b from "../../Images/clothing/jeweleriesGallary/Jcol2b.jpg";
+import Jcol2c from "../../Images/clothing/jeweleriesGallary/Jcol2c.jpg";
+import Jcol3a from "../../Images/clothing/jeweleriesGallary/Jcol3a.jpg";
+import Jcol3b from "../../Images/clothing/jeweleriesGallary/Jcol3b.jpg";
+import Jcol3c from "../../Images/clothing/jeweleriesGallary/Jcol3c.jpg";
+
+
 export const Jeweleries = () => {
     return (
         <div className="jeweleriesFrame3x4Grid">
@@ -114,10 +125,10 @@ export const Jeweleries = () => {
                 </div>
                 
                 <div className="informationWrapper">
-                    <h2><span>NAMLOYEE/YOGAKPA</span></h2>
+                    <h2><span>NAMLOYEE</span></h2>
                     <line className="darkBrown"></line>
                     <p>
-                        It is large silver necklace in the shape of a square or circle embedded with coral stones or turquoise gemstone. It is also known as chandrahaara and looks similar to Tibetan ghau.                    
+                        It is large silver necklace in the shape of a square or circle embedded with coral stones or turquoise gemstone. It is also known as chandrahaara or YOGAKPA and looks similar to Tibetan ghau.                    
                     </p>
                 </div>
             </div>
@@ -193,6 +204,34 @@ export const Jeweleries = () => {
                         Langbangi is a type of thick circular ankle bangle made of silver. The Langbangi is shaped like a tree branch with leafs or a rose stem with thornes.                    
                     </p>
                 </div>
+            </div>
+        </div>
+    );
+}
+
+
+
+export const JeweleriesGallery = () => {
+    return (
+        <div className="jewelerieGallaryFrame brownRoundColor">
+            <div className="jewelerieGallaryColumn">
+                <image className="longerImage" style={{backgroundImage: `url(${Jcol1a})`}}></image>
+                <image style={{backgroundImage: `url(${Jcol1b})`}}></image>
+                <image style={{backgroundImage: `url(${Jcol1c})`}}></image>
+            </div>
+    
+
+            <div className="jewelerieGallaryColumn2">
+                <image style={{backgroundImage: `url(${Jcol2a})`}}></image>
+                <image className="longerImage" style={{backgroundImage: `url(${Jcol2b})`}}></image>
+                <image style={{backgroundImage: `url(${Jcol2c})`}}></image>
+            </div>
+
+
+            <div className="jewelerieGallaryColumn3">
+                <image style={{backgroundImage: `url(${Jcol3a})`}}></image>
+                <image style={{backgroundImage: `url(${Jcol3b})`}}></image>
+                <image className="longerImage" style={{backgroundImage: `url(${Jcol3c})`}}></image>
             </div>
         </div>
     );

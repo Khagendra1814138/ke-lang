@@ -1,0 +1,201 @@
+.clothingFrame{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.clothingFrame .informationWrapper{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.clothingFrame .informationWrapper p{
+   padding: 0;
+   margin: 0;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+    .row1 .imageFrame{
+        height: 400px;
+        width: 420px;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    .row1 .imageFrame .roundTopImage{
+        height: 100%;
+        width: 100%;
+        border: 15px solid white;
+        position: absolute;
+        border-radius: 300px 300px 20px 20px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 62%);
+    }
+    .row1 .informationWrapper{
+        height: 340px;
+        width: 450px;
+        gap: 20px;
+    }
+
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+    .row2 .flexColumnWrapper .imageFrame{
+        height: 400px;
+        width: 100%;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    .row2 .flexColumnWrapper .imageFrame .roundLeftImage{
+        height: 100%;
+        width: 100%;
+        border: 15px solid white;
+        position: absolute;
+        border-radius: 300px 0px 0px 300px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(62%, 50%);
+    }
+    .row2 .flexColumnWrapper .imageFrame .roundRightImage{
+        height: 100%;
+        width: 100%;
+        border: 15px solid white;
+        position: absolute;
+        border-radius: 20px 300px 300px 20px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(38%, 50%);
+    }
+
+
+    .row2 .flexColumnWrapper .informationWrapper{
+        width: 300px;
+        height: 300px;
+        gap: 10px;
+    }
+
+    .row2 .informationWrapper p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .row2 .longCenterImage{
+        height: 800px;
+        width: 500px;
+        border-radius: 40px;
+    }
+
+
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clothingFrame .row3 .imageFrame{
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.clothingFrame .row3 .imageFrame .roundBottomImage{
+    height: 100%;
+    width: 100%;
+    border: 15px solid white;
+    position: absolute;
+    border-radius: 20px 20px 300px 300px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 38%);
+}
+
+
+.clothingFrame .row3 .informationWrapper{
+    height: 340px;
+    width: 260px;
+    gap: 10px;
+}
+.clothingFrame .row3 .informationWrapper p{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 1800px) {
+    .row2{
+        justify-content: center;
+    }
+    .row3{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .row2{
+        justify-content: center;
+    }
+    .clothingFrame .row3 .informationWrapper{
+        width: 300px;
+    }
+    .clothingFrame .row3 .imageFrame{
+        width: 360px;;
+    }
+}
+
+
+
+.row3accessories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clothingFrame .row3accessories .imageFrame{
+    height: 400px;
+    width: 400px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.clothingFrame .row3accessories .imageFrame .roundBottomImage{
+    height: 100%;
+    width: 100%;
+    border: 15px solid white;
+    position: absolute;
+    border-radius: 20px 20px 300px 300px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 38%);
+}
+
+.clothingFrame .row3accessories .informationWrapper{
+    height: 340px;
+    width: 360px;
+    gap: 10px;
+}
+.clothingFrame .row3accessories .informationWrapper p{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 900px) {
+    .clothingFrame .row3accessories .informationWrapper{
+        width: 300px;
+    }
+    .clothingFrame .row3accessories .imageFrame{
+        width: 360px;;
+    }
+}

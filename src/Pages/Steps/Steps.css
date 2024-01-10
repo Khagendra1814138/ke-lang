@@ -60,16 +60,14 @@
   align-items: center;
 }
 
-.danceStructure .rounedTopImageWrapper{
-  height: 300px;
-  width: 370px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  overflow: hidden;
-  position: relative;
+.danceStructure3x2Grid{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: auto;
 }
 
-.danceStructure image{
+.danceStructure3x2Grid image{
   height: 100%;
   width: 100%;
   border-top-right-radius: 250px;
@@ -86,31 +84,45 @@
   background-repeat: no-repeat;
 }
 
-.danceStructure .cardWrapper .informationWrapper{
-  height: 230px;
-  border-radius: 20px;
+.danceStructure3x2Grid .rounedTopImageWrapper{
+  height: 300px;
+  width: 370px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+  position: relative;
 }
 
-@media only screen and (max-width: 850px) {
-  .danceStructure .rounedTopImageWrapper{
+.danceStructure3x2Grid .cardWrapper .informationWrapper{
+  height: 230px;
+  border-radius: 20px;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.danceStructure3x2Grid .cardWrapper .informationWrapper p{
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .danceStructure3x2Grid .rounedTopImageWrapper{
     width: 350px;
   }
 
-  .danceStructure .cardWrapper .informationWrapper{
-    height: auto;
-    width: 310px;
+  .danceStructure3x2Grid .cardWrapper .informationWrapper{
+    height: 200px;
+    width: auto;
   }
 }
 
-
 .cardWrapper{
   height: auto;
-  width: 420px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 
 
 

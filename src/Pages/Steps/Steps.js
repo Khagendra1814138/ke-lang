@@ -78,7 +78,7 @@ export const ChyabrungStepsPage = () => {
                     </h3>
                 </div>
 
-                <div className="flexRowWrapper">
+                <div className="danceStructure3x2Grid">
                     <div className="cardWrapper">
                         <div className="rounedTopImageWrapper darkTealGreen">
                            <image style={{backgroundImage: `url(${Lamlok})`}}></image> 
@@ -120,9 +120,9 @@ export const ChyabrungStepsPage = () => {
                             </p>
                         </div>
                     </div>
-                </div>
+               
 
-                <div className="flexRowWrapper">
+               
                     <div className="cardWrapper">
                         <div className="rounedTopImageWrapper darkTealGreen">
                            <image style={{backgroundImage: `url(${BasicAnimals})`}}></image> 
