@@ -1,0 +1,89 @@
+.grid3x2{
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.grid3x2 h2 span{
+    color: #8e75d8;
+}
+.grid3x2 .cardWrapper{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid3x2 .imageFrame{
+    height: 300px;
+    width: 370px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+  
+.grid3x2 .imageFrame .rounedTLBRImage{
+    height: 104%;
+    width: 104%;
+    border-top-left-radius: 230px;
+    border-bottom-right-radius: 230px;
+    border: 15px solid white;
+    position: absolute;
+    display: flex;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.grid3x2 .imageFrame .rounedBLTRImage{
+    height: 104%;
+    width: 104%;
+    border-bottom-left-radius: 230px;
+    border-top-right-radius: 230px;
+    border: 15px solid white;
+    position: absolute;
+    display: flex;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.grid3x2 .imageFrame .rounedBImage{
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border: 15px solid white;
+
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 38%);
+}
+
+
+.grid3x2 .cardWrapper .informationWrapper{
+    height: 260px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.grid3x2 .cardWrapper .informationWrapper p{
+    padding: 0;
+    margin: 0;
+}
+  
+@media only screen and (max-width: 900px) {
+    .grid3x2 .imageFrame{
+      width: 350px;
+    }
+  
+    .grid3x2 .cardWrapper .informationWrapper{
+      height: 200px;
+      width: auto;
+    }
+}
+  
