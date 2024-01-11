@@ -1,0 +1,19 @@
+.beatsPage{
+    padding: 0rem 0rem 40rem 0rem;
+    display: grid;
+    gap: 150px;
+
+    background-image: url(../../Images/backgrounds/dhaka8.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.sectionBeatsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}

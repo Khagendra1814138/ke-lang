@@ -13,6 +13,7 @@ import ParallaxMouse from './Pages/Paralax/ParallaxMouse';
 
 import { ChyabrungStepsPage } from './Pages/Steps/Steps';
 import { HowItsPlayedPage } from './Pages/HowItsPlayed/HowItsPlayed';
+import { BeatsPage } from './Pages/Beats/Beats';
 import { OtherInstrumentsPage } from './Pages/OtherInstruments/Instruments';
 import { HowItsMadePage } from './Pages/HowItsMade/HowItsMade';
 import { ClothesAndAccessoriesPage } from './Pages/Dresses/Clothes';
@@ -34,6 +35,7 @@ function App() {
             <Route path='/Instruments' element={<OtherInstrumentsPage/>} />
             <Route path='/HowItsMade' element={<HowItsMadePage/>} />
             <Route path='/Clothes' element={<ClothesAndAccessoriesPage/>} />
+            <Route path='/Beats' element={<BeatsPage/>} />
             <Route path='/WhenPerformed' element={<WhenPerformedPage/>} />
             <Route path='/WhyImportant' element={<WhyImportantPage/>} />
 

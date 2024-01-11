@@ -1,3 +1,37 @@
 .howItsMadePage{
-    padding: 0rem 0rem 10rem 0rem;
+    padding: 0rem 0rem 40rem 0rem;
+    display: grid;
+    gap: 150px;
+
+    background-image: url(../../Images/backgrounds/dhaka8.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
+}
+.howItsMadePage h1 span{
+    color: #6d3ca1;
+}
+
+.sectionMaterialWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sectionPartsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sectionKeAssembleWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
 }

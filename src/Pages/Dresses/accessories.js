@@ -3,6 +3,11 @@ import { useNavigate } from "react-router-dom";
 
 import "./clothesAccessories.css";
 
+import silamSakma from "../../Images/clothing/silamSakma.jpg";
+import scarf from "../../Images/clothing/scarf.jpg";
+import shawl from "../../Images/clothing/shawl.jpg";
+import bag from "../../Images/clothing/bag.jpg";
+
 import Acol1a from "../../Images/clothing/accessoriesGallery/Acol1a.jpg";
 import Acol1b from "../../Images/clothing/accessoriesGallery/Acol1b.jpg";
 import Acol1c from "../../Images/clothing/accessoriesGallery/Acol1c.jpg";
@@ -24,7 +29,7 @@ export const Accessories = () => {
         <div className="clothingFrame">
             <div className="row1">
                 <div className="imageFrame darkBrown">
-                    <image className="roundTopImage"></image>
+                    <image className="roundTopImage" style={{backgroundImage: `url(${silamSakma})`}}></image>
                 </div>
                 <div className="informationWrapper">
                     <h2><span>Silam Sakma</span></h2>
@@ -46,7 +51,7 @@ export const Accessories = () => {
                         </p>
                     </div>
                     <div className="imageFrame darkBrown">
-                        <image className="roundLeftImage"></image>
+                        <image className="roundLeftImage" style={{backgroundImage: `url(${scarf})`}}></image>
                     </div>
                 </div>
 
@@ -54,7 +59,7 @@ export const Accessories = () => {
 
                 <div className="flexColumnWrapper"> 
                     <div className="imageFrame darkBrown">
-                        <image className="roundRightImage"></image>
+                        <image className="roundRightImage" style={{backgroundImage: `url(${shawl})`}}></image>
                     </div>
                     <div className="informationWrapper">
                         <h2><span>Shawl</span></h2>
@@ -75,7 +80,7 @@ export const Accessories = () => {
                     </p>
                 </div>
                 <div className="imageFrame darkBrown">
-                    <image className="roundBottomImage"></image>
+                    <image className="roundBottomImage" style={{backgroundImage: `url(${bag})`}}></image>
                 </div>
             </div>
         </div>

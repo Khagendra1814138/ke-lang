@@ -1,5 +1,139 @@
 .instrumentsPage{
-    padding: 0rem 0rem 10rem 0rem;
+    padding: 0rem 0rem 40rem 0rem;
     display: grid;
-    gap: 10rem;
+    gap: 150px;
+
+    background-image: url(../../Images/backgrounds/dhaka8.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
+}
+.instrumentsPage h1 span{
+   color: #89AB25;
+}
+.instrumentsPage h2 span{
+    color: #89AB25;
+ }
+
+
+.sectionPercussionWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sectionPercussionWrapper image{
+    height: 500px;
+    width: 600px;
+    border-radius: 40px;
+}
+
+.sectionPercussionWrapper .flexRowWrapper .informationWrapper{
+    height: 300px;
+    width: 600px;
+    gap: 10px;
+}
+
+
+
+
+.sectionKesanglaWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+.sectionKesanglaWrapper .flexRowWrapper{
+    margin-bottom: 40px;
+}
+.sectionKesanglaWrapper .line2{
+    width: 4px;
+    height: 300px;
+    display: flex;
+    border-radius: 2px;
+}
+
+.sectionKesanglaWrapper .kesanglaImageFrame{
+    height: 500px;
+    width: 600px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.sectionKesanglaWrapper .kesanglaImageFrame image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.sectionKesanglaWrapper .kesanglaImageFrame image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.sectionKesanglaWrapper .kesanglaImageFrame .curvedTL{
+    height: 100%;
+    width: 100%;
+    border: 15px solid white;
+    border-radius: 400px 40px 40px 40px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionKesanglaWrapper .kesanglaImageFrame .curvedBR{
+    height: 100%;
+    width: 100%;
+    border: 15px solid white;
+    border-radius: 40px 40px 400px 40px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionKesanglaWrapper .kesanglaImageFrame .curvedBL{
+    height: 100%;
+    width: 100%;
+    border: 15px solid white;
+    border-radius: 40px 40px 40px 400px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionKesanglaWrapper .kesanglaImageFrame .curvedTR{
+    height: 100%;
+    width: 100%;
+    border: 15px solid white;
+    border-radius: 40px 400px 40px 40px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.sectionKesanglaWrapper .flexColumnWrapper{
+    gap: 20px;
+}
+.sectionKesanglaWrapper .informationWrapper{
+    height: 300px;
+    width: 540px;
+    border-radius: 40px;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.sectionKesanglaWrapper .informationWrapper p{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 900px) {
+    .sectionKesanglaWrapper .kesanglaImageFrame{
+        height: 300px;
+        width: 400px;
+    }
+    .sectionKesanglaWrapper .informationWrapper{
+        height: 300px;
+        width: 340px;
+    }
+    .sectionKesanglaWrapper .line2{
+       display: none;
+    }
 }

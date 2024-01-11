@@ -4,7 +4,7 @@ export const NavigationLinksArray = [
         link: "/",
     },
     {
-        title: "About", 
+        title: "About Ke", 
         link: "/AboutPage",
     },
     {
@@ -17,11 +17,15 @@ export const NavigationLinksArray = [
     },
     {
         title: "Beats", 
-        link: "/ParalaxCss",
+        link: "/Beats",
     },
     {
         title: "Instruments", 
-        link: "/ParallaxMouse",
+        link: "/Instruments",
+    },
+    {
+        title: "Ke Construction", 
+        link: "/HowItsMade",
     },
     {
         title: "When", 

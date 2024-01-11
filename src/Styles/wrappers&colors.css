@@ -2,13 +2,19 @@
     background-color: #5021FF;
 }
 .lightPurple{
-    background-color: #ad8afa9f;
+    background-color: #ad8afaa1;
 }
 .mediumPurple{
     background-color: #B9A9E8;
 }
 .darkPurple{
-    background-color: #AA78DF;
+    background-color: #6d3ca1;
+}
+.purpleRoundedColor{
+    background-color: #372fc491;
+}
+.lightPurpleVideoFrame{
+    background-color: #bfbfffbb;
 }
 
 
@@ -21,6 +27,9 @@
 }
 .darkTealGreen{
     background-color: #48BAA5;
+}
+.tealRoundedCoor{
+    background-color: #50b9a4c4;
 }
 
 
@@ -36,7 +45,6 @@
 }
 
 
-
 .lightGreen{
     background-color: #eaffb0b4;
 }
@@ -46,7 +54,12 @@
 .darkGreen{
     background-color: #89AB25;
 }
-
+.greenRoundColor{
+    background-color: #8aab25c9;
+}
+.lightGreenVideoFrame{
+    background-color: #c9db98b4;
+}
 
 
 .lightRed{
@@ -79,8 +92,12 @@
 .darkBrown{
     background-color: #91553B;
 }
-
-
+.brownRoundColor{
+    background-color: #ac8282d2;
+}
+.lightBrownVideoFrame{
+    background-color: #ffdcdca8;
+}
 
 .flexColumnn{
     display: flex;

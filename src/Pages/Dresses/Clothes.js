@@ -12,6 +12,15 @@ import { Accessories } from "./accessories";
 import { AccessoriesGallery } from "./accessories";
 //Images Imports
 import DkahaMade from "../../Images/clothing/dkahaMade.png";
+import dhaka1 from "../../Images/clothing/dhaka/dhaka1.jpg";
+import dhaka2 from "../../Images/clothing/dhaka/dhaka2.jpg";
+import dhaka3 from "../../Images/clothing/dhaka/dhaka3.jpg";
+import dhaka4 from "../../Images/clothing/dhaka/dhaka4.jpg";
+import dhaka5 from "../../Images/clothing/dhaka/dhaka5.jpg";
+import dhaka6 from "../../Images/clothing/dhaka/dhaka6.jpg";
+import dhaka7 from "../../Images/clothing/dhaka/dhaka7.jpg";
+import dhaka8 from "../../Images/clothing/dhaka/dhaka8.jpg";
+import dhaka9 from "../../Images/clothing/dhaka/dhaka9.jpg";
 
 export const ClothesAndAccessoriesPage = () => {
     return (
@@ -51,17 +60,17 @@ export const ClothesAndAccessoriesPage = () => {
 
                 <h1>TYPICAL LIMBU DHAKA <span>PATTERNS</span></h1>
                 <div className="flexRowWrapperCenter">
-                    <image className="longerImage"></image>
-                    <image></image>
-                    <image></image>
+                    <image className="longerImage" style={{backgroundImage: `url(${dhaka1})`}}></image>
+                    <image style={{backgroundImage: `url(${dhaka2})`}}></image>
+                    <image style={{backgroundImage: `url(${dhaka3})`}}></image>
 
-                    <image></image>
-                    <image className="longerImage"></image>
-                    <image></image>
+                    <image style={{backgroundImage: `url(${dhaka4})`}}></image>
+                    <image className="longerImage" style={{backgroundImage: `url(${dhaka5})`}}></image>
+                    <image style={{backgroundImage: `url(${dhaka6})`}}></image>
 
-                    <image></image>
-                    <image></image>
-                    <image className="longerImage"></image>
+                    <image style={{backgroundImage: `url(${dhaka7})`}}></image>
+                    <image style={{backgroundImage: `url(${dhaka8})`}}></image>
+                    <image className="longerImage" style={{backgroundImage: `url(${dhaka9})`}}></image>
                 </div>
             </section>
 
