@@ -1,3 +1,74 @@
 .whenPerformedPage{
-    padding: 0rem 0rem 10rem 0rem;
+    padding: 0rem 0rem 40rem 0rem;
+    display: grid;
+    gap: 150px;
+
+    background-image: url(../../Images/backgrounds/dhaka8.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
 }
+.whenPerformedPage h1 span, h2 span{
+    color: #E24C5E;
+}
+
+.sectionHouseTreeChautaraWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sectionHouseTreeChautaraWrapper .imageFrame{
+    height: 600px;
+    width: 600px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.sectionHouseTreeChautaraWrapper .imageFrame .leafRIGHT{
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 350px 40px 350px 350px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(55%, 45%);
+}
+.sectionHouseTreeChautaraWrapper .imageFrame .leafLEFT{
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 40px 350px 350px 350px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(45%, 45%);
+}
+
+.sectionHouseTreeChautaraWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+    height: 300px;
+    width: 540px;
+}
+.sectionHouseTreeChautaraWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+    height: 360px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.sectionMarrigeWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+

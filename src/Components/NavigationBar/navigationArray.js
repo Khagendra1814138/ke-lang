@@ -24,16 +24,20 @@ export const NavigationLinksArray = [
         link: "/Instruments",
     },
     {
-        title: "Ke Construction", 
+        title: "Making Ke", 
         link: "/HowItsMade",
     },
     {
-        title: "When", 
-        link: "/ChyabrungSteps",
+        title: "Performed", 
+        link: "/WhenPerformed",
     },
     {
         title: "Importance", 
-        link: "/ChyabrungSteps",
+        link: "/WhyImportant",
+    },
+    {
+        title: "Silam Sakma", 
+        link: "/WhyImportant",
     },
 
 ]

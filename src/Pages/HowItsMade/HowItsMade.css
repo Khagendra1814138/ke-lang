@@ -11,6 +11,9 @@
 .howItsMadePage h1 span{
     color: #6d3ca1;
 }
+.howItsMadePage h2 span{
+    color: #8e75d8;
+}
 
 .sectionMaterialWrapper{
     display: flex;
@@ -34,4 +37,52 @@
     gap: 40px;
     justify-content: center;
     align-items: center; 
+}
+.sectionKeAssembleWrapper .flexRowWrapper .assemblyImageFrame{
+    display: flex;
+    height: 500px;
+    width: 650px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+} 
+.sectionKeAssembleWrapper .flexRowWrapper .assemblyImageFrame .normalImage{
+    display: flex;
+    height: 500px;
+    width: 650px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.sectionKeAssembleWrapper .flexRowWrapper .assemblyImageFrame .roundedRImage{
+    height: 104%;
+    width: 104%;
+    border: 15px solid white;
+    position: absolutes;
+    border-radius: 40px 300px 300px 40px;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-10%, -4%);
+}
+.sectionKeAssembleWrapper .flexRowWrapper .assemblyImageFrame .roundedLImage{
+    height: 104%;
+    width: 104%;
+    border: 15px solid white;
+    position: absolutes;
+    border-radius: 300px 40px 40px 300px;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(10%, -4%);
+}
+
+.sectionKeAssembleWrapper .flexRowWrapper .informationWrapper{
+    height: 300px;
+    width: 550px;
+    gap: 20px;
+}
+.sectionKeAssembleWrapper .informationWrapper p{
+    padding: 0;
+    margin: 0;
 }
