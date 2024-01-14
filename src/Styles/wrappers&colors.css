@@ -74,6 +74,12 @@
 .darkRed{
     background-color: #D8637B;
 }
+.lightRedVideoFrame{
+    background-color: #e0828da1;
+}
+.darkRedRoundedColor{
+    background-color: #ca556daf;
+}
 
 
 
@@ -144,3 +150,4 @@
     gap: 40px;
     /* border: 1px solid green; */
 }
+

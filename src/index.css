@@ -16,6 +16,20 @@ body {
   letter-spacing: 0.2px;
   word-spacing: 0.2px;
 }
+  CUSTOME SCROOL BAR
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+   
+body::-webkit-scrollbar-track {
+  /* background-color: #7f66cad5; */
+}
+   
+body::-webkit-scrollbar-thumb {
+  /* background-color: #6d3ca1;
+  outline: 1px solid #7f66ca8e; */
+  border-radius: 10px;
+}
 
 section{
   height: auto;
@@ -33,11 +47,17 @@ section{
   }
 }
 
+.heroWrapper .heroInformationFrame h1{
+  padding-top: 20px;
+  font-size: clamp(3rem, 3.6vw, 4rem); 
+  text-align: center;
+}
+
 h1{
   margin: 0;
   padding: 0;
   padding-top: 20px;
-  font-size: clamp(2.5rem, 3vw, 4rem); 
+  font-size: clamp(2.2rem, 2.6vw, 3.6rem); 
   text-align: center;
   /* font-family: 'Montserrat', sans-serif; */
 }

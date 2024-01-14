@@ -1,0 +1,21 @@
+.progress-Frame{
+    background-color: #8672c2;
+    height: auto;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.progress-Bar{
+    height: auto;
+    background-color: #6d3ca1;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}

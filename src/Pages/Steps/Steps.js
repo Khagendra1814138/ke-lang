@@ -23,7 +23,6 @@ export const ChyabrungStepsPage = () => {
 
     return (
         <div className="chyabrungStepsPage">
-
             <hero className="heroWrapper">
                 <div className="heroInformationFrame">
                     <h1>CHYABRUNG DANCE STEPS</h1>

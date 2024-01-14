@@ -12,6 +12,9 @@
     color: #E24C5E;
 }
 
+
+
+
 .sectionHouseTreeChautaraWrapper{
     display: flex;
     flex-direction: column;
@@ -59,6 +62,24 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 900px) {
+    .sectionHouseTreeChautaraWrapper .imageFrame{
+        height: 400px;
+        width: 400px;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sectionHouseTreeChautaraWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+        height: auto;
+        width: 340px;
+    }
+    .sectionHouseTreeChautaraWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        height: auto;
+        width: 340px;
+    }
+}
 
 
 
@@ -71,4 +92,224 @@
     align-items: center; 
 }
 
+.sectionMarrigeWrapper .imageFrame{
+    height: 500px;
+    width: 600px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
 
+.sectionMarrigeWrapper .flexRowWrapper .informationWrapper{
+    height: 300px;
+    width: 540px;
+}
+.sectionMarrigeWrapper .flexRowWrapper .headingWrapper{
+    height: 360px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionMarrigeWrapper .curvedImageTL{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 400px 40px 40px 40px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionMarrigeWrapper .curvedImageTR{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 40px 400px 40px 40px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionMarrigeWrapper .curvedImageBL{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 40px 40px 40px 400px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionMarrigeWrapper .curvedImageBR{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 40px 40px 400px 40px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+@media only screen and (max-width: 900px) {
+    .sectionMarrigeWrapper .imageFrame{
+        height: 400px;
+        width: 400px;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sectionMarrigeWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+        height: auto;
+        width: 340px;
+    }
+    .sectionMarrigeWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        height: auto;
+        width: 340px;
+    }
+}
+
+
+
+
+.sectionTangnamWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+.sectionTangnamWrapper .imageFrame{
+    height: 500px;
+    width: 600px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.sectionTangnamWrapper .imageFrame .curvedImageBLTR{
+    height: 102%;
+    width: 102%;
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border: 15px solid white;
+    position: absolute;
+    display: flex;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionTangnamWrapper .imageFrame .curvedImageTLBR{
+    height: 102%;
+    width: 102%;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border: 15px solid white;
+    position: absolute;
+    display: flex;
+
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.sectionTangnamWrapper .flexRowWrapper .informationWrapper{
+    height: 440px;
+    width: 540px;
+}
+.sectionTangnamWrapper .flexRowWrapper .headingWrapper{
+    height: 500px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 900px) {
+    .sectionTangnamWrapper .imageFrame{
+        height: 400px;
+        width: 400px;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sectionTangnamWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+        height: auto;
+        width: 340px;
+    }
+    .sectionTangnamWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        height: auto;
+        width: 340px;
+    }
+}
+
+
+
+
+.sectionOtherOccasionWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+.sectionOtherOccasionWrapper .imageFrame{
+    height: 500px;
+    width: 600px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.sectionOtherOccasionWrapper .imageFrame .curvedImageTL{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 400px 40px 40px 40px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.sectionOtherOccasionWrapper .imageFrame .curvedImageBR{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 40px 40px 400px 0px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.sectionOtherOccasionWrapper .flexRowWrapper .informationWrapper{
+    height: 440px;
+    width: 540px;
+}
+.sectionOtherOccasionWrapper .flexRowWrapper .headingWrapper{
+    height: 500px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .sectionOtherOccasionWrapper .imageFrame{
+        height: 400px;
+        width: 400px;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sectionOtherOccasionWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+        height: auto;
+        width: 340px;
+    }
+    .sectionOtherOccasionWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        height: auto;
+        width: 340px;
+    }
+}

@@ -1,0 +1,66 @@
+.TopButton{
+    height: 60px;
+    width:  60px;
+
+    position: fixed;
+
+    background: #7f66ca;
+    border: 6px solid #6d3ca1;
+    border-radius: 20px;
+
+    bottom: 2rem;
+    right: 1rem;
+
+    font-size: 60px;
+    font-weight: bold;
+    z-index: 999;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 10px;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
+.TopButton:hover{
+    width: 60px;
+    border: 6px solid #6d3ca1;
+}
+
+.arrowUp {
+    width: 20px;
+    height: 20px;
+    border: 6px solid white;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(225deg);
+    transition: 0.5s ease;
+  }
+
+
+  .TopButton:hover .arrowUp{
+    border: 6px solid #5021FF;
+    border-left: 0;
+    border-top: 0;
+}
+
+
+.bounce {
+    animation: bounce 5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(22px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

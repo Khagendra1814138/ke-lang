@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 
 import NavigationBar from './Components/NavigationBar/NavigationBar';
+import { BackToTopButton } from './Components/BackToTopBtn/backToTopBtn';
+import { ScrollIndicator } from './Components/Scrollindicator/Scrollindicator';
 
 import { HomePage } from './Pages/Home/HomePage';
 import { AboutPage } from './Pages/About/AboutPage';
@@ -27,6 +29,8 @@ function App() {
     <div className="App">
         <Router>
           <NavigationBar/>
+          <BackToTopButton/>
+          <ScrollIndicator/>
           <Routes>
             <Route path='/' element={<HomePage/>} />
             <Route path='/AboutPage' element={<AboutPage/>} />

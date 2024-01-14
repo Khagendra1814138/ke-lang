@@ -75,7 +75,7 @@ nav .homeLogoResponsive{
     display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     .NavagationBar .nav-btn{
         display: block;
     }
@@ -83,7 +83,7 @@ nav .homeLogoResponsive{
     .NavagationBar nav {
         position: fixed;
         top: 0;
-        left: -110vh;
+        left: -150vh;
         height: auto;
         width: 100%;
         border-radius: 50px;
@@ -100,7 +100,7 @@ nav .homeLogoResponsive{
     }
 
     .NavagationBar .responsive_nav {
-        transform: translateX(110vh);
+        transform: translateX(150vh);
         z-index: 1000;
     }
 

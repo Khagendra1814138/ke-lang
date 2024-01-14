@@ -35,8 +35,8 @@
     position: relative;
 }
 .jeweleriesCardWrapper .rounedBLTRImageWrapper image{
-    height: 104%;
-    width: 104%;
+    height: 102%;
+    width: 102%;
     border-bottom-left-radius: 230px;
     border-top-right-radius: 230px;
     border: 15px solid white;
@@ -58,8 +58,8 @@
 }
 
 .jeweleriesCardWrapper .rounedTLBRImageWrapper image{
-    height: 104%;
-    width: 104%;
+    height: 102%;
+    width: 102%;
     border-top-left-radius: 230px;
     border-bottom-right-radius: 230px;
     border: 15px solid white;
