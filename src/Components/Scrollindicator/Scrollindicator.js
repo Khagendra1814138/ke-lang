@@ -22,7 +22,9 @@ export const ScrollIndicator = () => {
 
     return (
         <div className="progress-Frame">
-            <div className="progress-Bar" style={{width: `${scrollTop}%`}}>{Math.round(scrollTop)}%</div>
+            <div className="progress-Bar" style={{width: `${scrollTop}%`}}>
+                {Math.round(scrollTop)}%
+            </div>
         </div>
     );
 };

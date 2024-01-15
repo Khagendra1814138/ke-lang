@@ -9,6 +9,10 @@
     background-position: center;
 }
 
+.beatsPage h2 span{
+   color: #4B79A1;
+}
+
 
 .sectionBeatsWrapper{
     display: flex;

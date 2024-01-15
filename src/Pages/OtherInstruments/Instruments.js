@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Instruments.css";
 
+import YoutubeEmbed from "../../Components/YoutubeEmbed/YoutubeEmbed";
 import { KesanglaGallery } from "./kesanglaGallery";
 
 //Images Imports
@@ -90,7 +91,9 @@ export const OtherInstrumentsPage = () => {
                                 The video showing how the Jhyampta is played together with the Tambourine as a percussion instruments alongside the chyabrung beat. This is a Taplejung region kelang.                            
                             </p>
                         </div>
-                        <div className="video"></div>
+                        <div className="video">
+                            <YoutubeEmbed embedId="chmUPIxB4T8"/>
+                        </div>
                     </div>
                 <div className="videoCircleWrapper">
                     <div className="videoCircleBottom greenRoundColor"></div>

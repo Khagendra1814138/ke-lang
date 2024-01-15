@@ -1,5 +1,7 @@
-import React from "react";
+import {React, useRef} from "react";
 import { useNavigate } from "react-router-dom";
+
+import { ArrowDown } from 'react-feather';
 
 import "./Steps.css";
 import "../../Styles/roundedSection.css"
@@ -20,6 +22,16 @@ import Stag from "../../Images/stepsImages/stag.png";
 
 export const ChyabrungStepsPage = () => {
     const navigate = useNavigate();
+
+    const regionalStepsSection = useRef(null);
+    const animalStepsSection = useRef(null);
+
+    const scrollToSection = (elementRef) => {
+        window.scrollTo({
+          top: elementRef.current.offsetTop,
+          behavior: "smooth",
+        });
+    };
 
     return (
         <div className="chyabrungStepsPage">
@@ -50,7 +62,7 @@ export const ChyabrungStepsPage = () => {
                                 There are basic steps that was created by the first Ke dancers at the beginning. These steps are called “kassarokpa” and are the fundamental steps that allows the dancers to move and turn in any direction. Its like the alphabet of chyabrung dance.
                             </p>
                         </div>
-                        <button>Get Started</button>
+                        <button onClick={() => scrollToSection(regionalStepsSection)}>Get Started<ArrowDown size={40}/></button>
                     </div>
 
                     <div className="flexColumnWrapper">
@@ -62,7 +74,7 @@ export const ChyabrungStepsPage = () => {
                                 There are basic steps that was created by the first Ke dancers at the beginning. These steps are called “kassarokpa” and are the fundamental steps that allows the dancers to move and turn in any direction. Its like the alphabet of chyabrung dance.
                             </p>
                         </div>
-                        <button>Get Started</button>
+                        <button onClick={() => scrollToSection(animalStepsSection)}>Get Started<ArrowDown size={40}/></button>
                     </div>
                 </div>
             </section>
@@ -167,12 +179,12 @@ export const ChyabrungStepsPage = () => {
             </section>
 
 
-            <div className="roundedSectionWrapper">
+            <div ref={regionalStepsSection} className="roundedSectionWrapper">
                 <div className="roundedShapeWrapper">
-                    <div className="circleShapeTop greenRoundedCoor"></div>
+                    <div className="circleShapeTop tealRoundedCoor"></div>
                 </div>  
 
-                <div className="regionalMapWrapper greenRoundedCoor">
+                <div className="regionalMapWrapper tealRoundedCoor">
                     <h1>REGIONAL BASIC STEP'S</h1>
                     <div className="informationWrapper">
                         <h3>
@@ -200,12 +212,12 @@ export const ChyabrungStepsPage = () => {
                 </div>
 
                 <div className="roundedShapeWrapper"> 
-                    <div className="circleShapeBottom greenRoundedCoor"></div>
+                    <div className="circleShapeBottom tealRoundedCoor"></div>
                 </div>
             </div>
 
             <section className="animalStepsWrapper lightTealGreen">
-                <h1>REGIONAL <span>ANIMALS</span> STEP'S</h1>
+                <h1 ref={animalStepsSection}>REGIONAL <span>ANIMALS</span> STEP'S</h1>
 
                 <div className="informationWrapper">
                     <h3>
@@ -226,7 +238,7 @@ export const ChyabrungStepsPage = () => {
                                 During the final phase of the dance, the dancers performs a repetitive basic steps, but, the dancers also uses their hand gestures to bless the audience, show their fatigue and request for foods and drinks.                            
                             </p>
                         </div>
-                        <button></button>
+                        <button> Show More</button>
                     </div>
                 </div>
             </section>

@@ -1,5 +1,8 @@
 import React from "react";
 import "../../Styles/AboutPage.css";
+import { useNavigate } from "react-router-dom";
+
+import { ArrowRight } from 'react-feather';
 
 import huksagay from "../../Images/aboutChyabrung/huksagay.png";
 import singsagay from "../../Images/aboutChyabrung/singsagay.png";
@@ -20,7 +23,11 @@ import panchtharChyabrung from "../../Images/aboutChyabrung/panchthar.png";
 import illamChyabrung from "../../Images/aboutChyabrung/illam.jpg";
 import sikkimChyabrung from "../../Images/aboutChyabrung/sikkim.jpg";
 
+import { KeGallery } from "./keGallery";
+
 export const AboutPage = () => {
+    const navigate = useNavigate();
+
     return (
         <div className="aboutPage">
             <hero className="heroWrapper">
@@ -68,11 +75,11 @@ export const AboutPage = () => {
 
                 <div className="informationWrapperCurvedTL">
                     <h3>
-                        Both left and right hands are used together to play the both side of the chyabrung simultaneously to create rhythmic beats. The beats sounds something like “chyang, dhung, chyang”.                    
+                        Both left and right hands are used together to play the both side of the chyabrung simultaneously to create rhythmic beats. The beats sounds something like “chyang, dhung, chyang”. Click the button below to learn more.                   
                     </h3>
                     <div className="curvedTL"></div>
                 </div>
-                <button>Chyabrung Beats</button>
+                <button onClick={() => navigate("/Beats")}>Beats<ArrowRight size={40}/></button>
             </section>
 
 
@@ -199,33 +206,11 @@ export const AboutPage = () => {
 
             <div className="roundedSectionWrapper">
                 <div className="roundedShapeWrapper">
-                    <div className="circleShapeTop darkSteelBlue"></div>
+                    <div className="circleShapeTop roundedSteelBlue"></div>
                 </div>  
-
-                <div className="chyabrungGallaryFrame darkSteelBlue">
-                    <div className="chyabrungGallaryColumn">
-                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                        <image className="mediumImage" style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                    </div>
-                
-
-                    <div className="chyabrungGallaryColumn">
-                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                        <image className="bigImage" style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                    </div>
-
-
-                    <div className="chyabrungGallaryColumn">
-                        <image className="mediumImage" style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                        <image style={{backgroundImage: `url(${tiltedDown})`}}></image>
-                    </div>
-                </div>
-
+                <KeGallery/>
                 <div className="roundedShapeWrapper"> 
-                    <div className="circleShapeBottom darkSteelBlue"></div>
+                    <div className="circleShapeBottom roundedSteelBlue"></div>
                 </div>
             </div>
 

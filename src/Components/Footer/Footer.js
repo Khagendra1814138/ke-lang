@@ -29,6 +29,10 @@ export const Footer = () => {
                 <Link className="footerPageLinks" to="/WhyImportant">Why its Important</Link>
             </div>
         </div>
+
+        <div className="quickLinks">
+            Copyright © 2023 Designed and made by Khagendra Limbu
+        </div>
     </div>
   );
 }

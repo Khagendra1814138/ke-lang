@@ -1,9 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useInView } from 'react-intersection-observer';
+
+import { ArrowRight } from 'react-feather';
+
 import "../../Styles/HomePage.css";
 import "../../Styles/wrappers&colors.css";
 import "../../Styles/videoSection.css";
+
+import YoutubeEmbed from "../../Components/YoutubeEmbed/YoutubeEmbed.js";
 
 import ParallaxMouse from "../Paralax/ParallaxMouse";
 
@@ -107,7 +112,9 @@ export const HomePage = () => {
                                 The video shows how a typical kelang or chyabrung dance is performed. This is a typical Taplejung region steps.
                             </p>
                         </div>
-                        <div className="video"></div>
+                        <div className="video">
+                            <YoutubeEmbed embedId="94AC_rdWhEE"/>
+                        </div>
                     </div>
                 <div className="videoCircleWrapper">
                     <div className="videoCircleBottom purpleRoundedColor"></div>
@@ -132,7 +139,7 @@ export const HomePage = () => {
                     </div>
 
                     <div className="flex">
-                        <h2>...depicting graceful <span>movements</span> of <span>wild animals.</span></h2>
+                        <h2>Depicting graceful <span>movements</span> of <span>wild animals</span> and <span>birds</span>.</h2>
                         <image className="darkTealGreen" style={{backgroundImage: `url(${wild})`}}></image>
                     </div>
                 </div>
@@ -144,7 +151,7 @@ export const HomePage = () => {
                     </div>
             
                     <div className="flex">
-                        <h2>And countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h2>
+                        <h2>Countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h2>
                         <image className="darkTealGreen" style={{backgroundImage: `url(${flexFoot})`}}></image>
                     </div>
                 </div>
@@ -156,7 +163,7 @@ export const HomePage = () => {
                     <div className="curvedTL"></div>
                 </div>
               
-                <button onClick={() => navigate("/ChyabrungSteps")}>Learn More</button>
+                <button onClick={() => navigate("/Steps")}>Learn More<ArrowRight size={40}/></button>
             </section>
 
 
@@ -201,7 +208,7 @@ export const HomePage = () => {
                     </div>
                 </div>
 
-                <button onClick={() => navigate("/HowItsPlayed")}>Show More</button>
+                <button onClick={() => navigate("/AboutPage")}>Learn More<ArrowRight size={40}/></button>
             </section>
 
 
@@ -231,12 +238,12 @@ export const HomePage = () => {
                             </div>
                         </div>
 
-                        <button className="dressButton" onClick={() => navigate("/Dresses")}>Show More</button>
+                        <button className="dressButton" onClick={() => navigate("/Clothes")}>Show More<ArrowRight size={40}/></button>
 
                         <div className="brownBackgroundFrame darkBrown">
                             <image className="mediumBrown" style={{backgroundImage: `url(${girlsClothes})`}}></image>
                             <div className="informationWrapper">
-                                <h2><span>MALE </span> DANCERS</h2>
+                                <h2><span>FEMALE </span> DANCERS</h2>
                                 <line className="darkBrown"></line>
                                 <p>                       
                                     The Chyabrung drum is carried and played by the male dancers. Creating rhythmic beat, the dancers synchronize their foot movements with the chyabrung beat and dance in a circle formation.
@@ -258,26 +265,26 @@ export const HomePage = () => {
                     <image className="mediumGreen" style={{backgroundImage: `url(${Jhympta})`}}></image>
                     <div className="flexColumnn">
                         <div className="informationWrapper">
-                            <h2><span>OTHER</span> INSTRUMENTS</h2>
+                            <h2>OTHER INSTRUMENTS</h2>
                             <line className="darkGreen"></line>
                             <p> 
                                 Chyabrung is not only the instrument played during a kelange performace. The females dancers also carries different percussion instruments and plays together with the chyabrung.
                             </p>
                         </div>
-                        <button className="madeButton" onClick={() => navigate("/Instruments")}>Show More</button>
+                        <button className="madeButton" onClick={() => navigate("/Instruments")}>Show More<ArrowRight size={40}/></button>
                     </div>
                 </div>
                 
                 <div className="chyabrungInfoContainer lightPurple">
                     <div className="flexColumnn">
                         <div className="informationWrapper">  
-                            <h2>HOW IT'S <span>MADE</span></h2>
+                            <h2>HOW IT'S MADE</h2>
                             <line className="mediumPurple"></line>
                             <p>
                                 Chyabrung is made of many diffferent materials which are found in the nature. Main materials are wood and different types of leathers.
                             </p>
                         </div>
-                        <button className="madeButton" onClick={() => navigate("/HowItsMade")}>Show More</button>
+                        <button className="madeButton" onClick={() => navigate("/HowItsMade")}>Show More<ArrowRight size={40}/></button>
                     </div>
                     <image className="darkPurple" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
                 </div>
@@ -289,26 +296,26 @@ export const HomePage = () => {
                     <image className="darkRed" style={{backgroundImage: `url(${wedding})`}}></image>
                     <div className="flexColumnn">
                         <div className="informationWrapper">
-                            <h2><span>WHEN</span> IT'S PERFORMED</h2>
+                            <h2>WHEN IT'S PERFORMED</h2>
                             <line className="darkRed"></line>
                             <p> 
                                 Chyabrung is performed during many occasions and festivals like chasok tangnam, sesikpa tangnam, wedding, events, gathering and more...
                             </p>
                         </div>
-                        <button className="madeButton" onClick={() => navigate("/Instruments")}>Show More</button>
+                        <button className="madeButton" onClick={() => navigate("/WhenPerformed")}>Show More<ArrowRight size={40}/></button>
                     </div>
                 </div>
                 
                 <div className="chyabrungInfoContainer lightYellow">
                     <div className="flexColumnn">
                         <div className="informationWrapper">  
-                            <h2>WHY IT'S <span>IMPORTANT</span></h2>
+                            <h2>WHY IT'S IMPORTANT</h2>
                             <line className="darkYellow"></line>
                             <p>
                                 Chyabrung is not just a dance performance for entertainment... it is deeply connect with Limbu people history and origin since the beginning of time.                            
                             </p>
                         </div>
-                        <button className="madeButton" onClick={() => navigate("/HowItsMade")}>Show More</button>
+                        <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Show More<ArrowRight size={40}/></button>
                     </div>
                     <image className="darkYellow" style={{backgroundImage: `url(${blessing})`}}></image>
                 </div>

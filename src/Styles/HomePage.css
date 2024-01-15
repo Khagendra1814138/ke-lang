@@ -96,7 +96,7 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         gap: 60px;
     } 
         .genderInfoWrapper .flexColumn{
@@ -127,6 +127,11 @@
         .genderInfoWrapper .flexColumn h2 span{
             color: #5021FF;
         }
+@media only screen and (max-width: 1800px) {
+    .sectionKeangIntroWrapper .genderInfoWrapper{
+        justify-content: center;
+    }
+}
 
 @media only screen and (max-width: 900px) {
     .genderInfoWrapper .flexColumn image{
@@ -355,7 +360,7 @@
 }    
 
 .sectionAboutChyabrungWrapper  .aboutChyabrungInfoWrapper p{
-    width: 520px;
+    width: 540px;
     height: auto;
 }
     .aboutChyabrungInfoWrapper h2 span{
@@ -424,9 +429,6 @@
     background-repeat: no-repeat;
 }
 
-.chyabrungInfoContainer .chyabrungInfoContainer h2 span{
-    color: #89AB25;
-}
 
 @media only screen and (max-width: 900px) {
     .chyabrungInfoContainer .informationWrapper{

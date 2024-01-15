@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Clothes.css";
+import YoutubeEmbed from "../../Components/YoutubeEmbed/YoutubeEmbed";
 
 import { BoysClothes } from "./boysClothes";
 import { BoysClothingGallary } from "./dressGallery";
@@ -88,7 +89,9 @@ export const ClothesAndAccessoriesPage = () => {
                                 The video shows how a typical Limbu Dhaka farbic are woven by skilled weaver.
                             </p>
                         </div>
-                        <div className="video"></div>
+                        <div className="video">
+                            <YoutubeEmbed embedId="PDGA1KuOwos"/>
+                        </div>
                     </div>
                 <div className="videoCircleWrapper">
                     <div className="videoCircleBottom brownRoundColor"></div>

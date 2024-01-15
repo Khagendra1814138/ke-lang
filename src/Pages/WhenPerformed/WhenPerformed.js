@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./WhenPerformed.css";
-
+import YoutubeEmbed from "../../Components/YoutubeEmbed/YoutubeEmbed";
 //Images Imports
 import newHim from "../../Images/whenPerformed/newHim.jpg";
 import himPillar from "../../Images/whenPerformed/himPillar.jpg";
@@ -196,10 +196,12 @@ export const WhenPerformedPage = () => {
                             <h2 className="">MEKHIM KELANG VIDEO</h2>
                             <line className="darkRed"></line>
                             <p>
-                                The video showing how the Jhyampta is played together with the Tambourine as a percussion instruments alongside the chyabrung beat. This is a Taplejung region kelang.                            
+                                This video showing how the Kelang is performed during the Mekhim (marrige). Two male dancers perform the basic steps and blesses the bride and the groom using hand gestures.
                             </p>
                         </div>
-                        <div className="video"></div>
+                        <div className="video">
+                            <YoutubeEmbed embedId="0v3MYmwP1Y8"/>
+                        </div>
                     </div>
                 <div className="videoCircleWrapper">
                     <div className="videoCircleBottom darkRedRoundedColor"></div>
@@ -316,10 +318,13 @@ export const WhenPerformedPage = () => {
                             <h2 className="">TIHAR KELANG VIDEO</h2>
                             <line className="darkRed"></line>
                             <p>
-                                The video showing how the Jhyampta is played together with the Tambourine as a percussion instruments alongside the chyabrung beat. This is a Taplejung region kelang.                            
+                                The video showing how the Kelang is performed during Limbu/Nepali festival called Tihar or Balihang Tangnam.
+                                The dancers performs the kelang, sings and blesses the families of the houses. The steps are from Taplejung (Phakumba) region.                         
                             </p>
                         </div>
-                        <div className="video"></div>
+                        <div className="video">
+                            <YoutubeEmbed embedId="C7YaKi_oNPQ"/>
+                        </div>
                     </div>
                 <div className="videoCircleWrapper">
                     <div className="videoCircleBottom darkRedRoundedColor"></div>

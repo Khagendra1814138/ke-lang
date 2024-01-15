@@ -265,6 +265,7 @@
 
 
 
+
 .chyabrungGallaryFrame{
     width: 100%;
     display: flex;
@@ -273,46 +274,7 @@
     align-items: center;
     gap: 10px;
 }
-.chyabrungGallaryColumn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
 
-.chyabrungGallaryFrame image{
-    height: 400px;
-    width: 500px;
-    border-radius: 40px;
-}
-
-.chyabrungGallaryColumn .mediumImage{
-    height: 500px;
-    width: 500px;
-}
-
-.chyabrungGallaryColumn .bigImage{
-    height: 650px;
-    width: 500px;
-}
-@media only screen and (max-width: 900px) {
-    .chyabrungGallaryFrame image{
-        height: 300px;
-        width: 400px;
-        border-radius: 40px;
-    }
-    
-    .chyabrungGallaryColumn .mediumImage{
-        height: 400px;
-        width: 400px;
-    }
-    
-    .chyabrungGallaryColumn .bigImage{
-        height: 550px;
-        width: 400px;
-    }
-}
 
 
 
