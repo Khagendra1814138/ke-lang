@@ -37,13 +37,13 @@ export const HomePage = () => {
     const { ref: introImg, inView: introImgIsVisible} = useInView({
         /* Optional options */
         threshold: 0.5,
-        rootMargin: "50px",
+        rootMargin: "400px",
     });
 
     const { ref: aboutRef, inView: aboutSectionIsVisible} = useInView({
         /* Optional options */
         threshold: 0.5,
-        rootMargin: "50px",
+        rootMargin: "400px",
     });
     
     return (
