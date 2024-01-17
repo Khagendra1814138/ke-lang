@@ -3,7 +3,7 @@
     position: relative;
     height: 100%;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.466);
+    box-shadow: 0px 0px 6px 2px rgba(56, 54, 54, 0.466);
 }
   
 .video-responsive iframe {

@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import "./clothesAccessories.css";
+import { ArrowRight } from 'react-feather';
 
 import silamSakma from "../../Images/clothing/silamSakma.jpg";
 import scarf from "../../Images/clothing/scarf.jpg";
@@ -37,7 +38,7 @@ export const Accessories = () => {
                     <p>
                         Silam Sakma is a symbol that identifies Limbus. It is made of 9 lines of colors tied around a cross bamboo stick frame in a square diamond shape. Four yarn pom pom is tied on the end of the cross bamboo frame. It is worn by the Limbu community people on their left chest during an event.                    
                     </p>
-                    <button onClick={() => navigate("/ChyabrungSteps")}>Learn More</button>
+                    <button onClick={() => navigate("/ChyabrungSteps")}>Learn More<ArrowRight size={40}/></button>
                 </div>
             </div>
 

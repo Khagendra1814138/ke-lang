@@ -18,10 +18,10 @@ export const Parts = () => {
                 </div>
                 
                 <div className="informationWrapper">
-                    <h2><span>KHAMARI</span> WOOD</h2>
+                    <h2><span>Ke</span> Frame</h2>
                     <line className="mediumPurple"></line>
                     <p>
-                        “Kamari” or “hongsing” (Gmelina arborea) is a plant species that is traditionally used to make the chyabrung main hollow frame. This specific wood is used because the wood is more resistant to wood termites and produces good quality resound.                  
+                        The inside of the khamari log is drilled and chiseled and all the excess wood are removed to make the frame. The log will have hollow open through hole in the middle. This is a very tough and long process.                    
                     </p>
                 </div>
             </div>
@@ -32,10 +32,10 @@ export const Parts = () => {
                 </div>
                 
                 <div className="informationWrapper">
-                    <h2><span>COW</span>/<span>OX</span>/<span>YAK</span> HIDE</h2>
+                    <h2><span>Huksagay</span> Skin</h2>
                     <line className="mediumPurple"></line>
                     <p>
-                        Cow, OX or even Yak hide is used to make the “singsagay” side of the chyabrung. The thick leather is used as it strong and can produce flat bass sound “Dung”. Also, its used to make the leather rope to strech the chyabrung.                   
+                        The goat or deer hide is shaved and cut in a circular shape. Then the bamboo rings are used to wrap and tight the skin into a circular lid like shape for the chyabrung hollow frame. Then around 12 holes are created around the ring in an even space in between.                    
                     </p>
                 </div>
             </div>
@@ -46,10 +46,10 @@ export const Parts = () => {
                 </div>
                 
                 <div className="informationWrapper">
-                    <h2><span>GOAT</span>/<span>DEER</span> HIDE</h2>
+                    <h2><span>Singsagay</span> Skin</h2>
                     <line className="mediumPurple"></line>
                     <p>
-                        Fully grown adult goat skin is used to make the “huksagay” side of the chyabrung. The thin leather is used because it produces sharp treble “chyang” sound. Rarely, deer skin are also used like the goat skin.                   
+                        The cow hide is cut in a circular shape and the bamboo ring is used to wrap and tight the skin into a circular lid like shape. Then the warped hard skin is sewed together with the bamboo ring using the cow leather rope to prevent the tough skin from slipping.                    
                     </p>
                 </div>
             </div>
@@ -63,10 +63,10 @@ export const Parts = () => {
                 </div>
                 
                 <div className="informationWrapper">
-                    <h2><span>PANGRA</span> BEANS</h2>
+                    <h2>Pangra <span>"Chabi"</span> Key</h2>
                     <line className="mediumPurple"></line>
                     <p>
-                        Pangra beans (Entada phaseoloides or St. Thomas’ bean) is used to make the tip of the chabi (key). The hard and rounded shell of the beans provides perfect surface for the “huksagay” skin to touch and vibrate when struck.                    
+                        To make the “chabi”, a small hole is drilled on the side of the pangra bean. Then the bamboo stick is inserted inside the hole of the pangra bean and held together with glue and screws, making the chabi look like a lollipop.                     
                     </p>
                 </div>
             </div>
@@ -77,10 +77,10 @@ export const Parts = () => {
                 </div>
                 
                 <div className="informationWrapper">
-                    <h2><span>NYLON</span> ROPE</h2>
+                    <h2><span>Leather/Nyone</span> Rope</h2>
                     <line className="mediumPurple"></line>
                     <p>
-                        Similar to the leather rope made of cow or ox hide, nylon ropes are also used to stretch the “huksagay” and “singsagay” leather. Although, not traditional, recently this method has be adapted as nylon rope are easier to work with.                     
+                        To make the tough leather rope, the cow, ox or yak skin is cut between 1-1.5cm width in a very long length. Alternatively, sometimes nylon ropes are used instead of leather ropes.                    
                     </p>
                 </div>
             </div>

@@ -2,6 +2,8 @@ import {React, useState, useEffect} from "react";
 
 import './backToTopBtn.css';
 
+import { ArrowUp } from 'react-feather';
+
 export const BackToTopButton = () => {
     
     const [showScroll, setShowScroll] = useState(false)
@@ -28,7 +30,7 @@ export const BackToTopButton = () => {
     return (
 
       <button className= "TopButton bounce" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'}}>
-          <div className='arrowUp'></div>
+          <ArrowUp size={40}/>
       </button>
     );
 }

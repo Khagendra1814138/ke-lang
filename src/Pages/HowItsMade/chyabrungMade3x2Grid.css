@@ -66,10 +66,15 @@
 
 
 .grid3x2 .cardWrapper .informationWrapper{
-    height: 260px;
+    height: 250px;
     border-radius: 20px;
     justify-content: flex-start;
     gap: 10px;
+}
+.grid3x2 .cardWrapper .informationWrapper h2{
+    padding: 0;
+    margin: 0;
+    font-size: clamp(1.3rem, 1.7vw, 2.2rem); 
 }
 .grid3x2 .cardWrapper .informationWrapper p{
     padding: 0;

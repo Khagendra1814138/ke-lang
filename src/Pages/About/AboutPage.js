@@ -3,6 +3,7 @@ import "../../Styles/AboutPage.css";
 import { useNavigate } from "react-router-dom";
 
 import { ArrowRight } from 'react-feather';
+import { Music } from 'react-feather';
 
 import huksagay from "../../Images/aboutChyabrung/huksagay.png";
 import singsagay from "../../Images/aboutChyabrung/singsagay.png";
@@ -23,10 +24,24 @@ import panchtharChyabrung from "../../Images/aboutChyabrung/panchthar.png";
 import illamChyabrung from "../../Images/aboutChyabrung/illam.jpg";
 import sikkimChyabrung from "../../Images/aboutChyabrung/sikkim.jpg";
 
+import taplejungSound from "../../Images/aboutChyabrung/chyabrungSounds/taplejungSound.mp3";
+import terhathumSound from "../../Images/aboutChyabrung/chyabrungSounds/terhathumSound.mp3";
+import dhankutaSound from "../../Images/aboutChyabrung/chyabrungSounds/dhankutaSound.mp3";
+import panchtharSound from "../../Images/aboutChyabrung/chyabrungSounds/panchtharSound.mp3";
+import sikkimSound from "../../Images/aboutChyabrung/chyabrungSounds/sikkimSound.mp3";
+import illamSound from "../../Images/aboutChyabrung/chyabrungSounds/illamSound.mp3";
+
 import { KeGallery } from "./keGallery";
 
 export const AboutPage = () => {
     const navigate = useNavigate();
+
+    const taplejungKeSound = new Audio(taplejungSound);
+    const terhathumKeSound = new Audio(terhathumSound);
+    const dhankutaKeSound = new Audio(dhankutaSound);
+    const panchtharKeSound = new Audio(panchtharSound);
+    const illamKeSound = new Audio(illamSound);
+    const sikkimKeSound = new Audio(sikkimSound);
 
     return (
         <div className="aboutPage">
@@ -57,7 +72,7 @@ export const AboutPage = () => {
                         <p>
                             The right hand or your stronger hand palm is normally used to strike the “huksagay” side of the chyabrung, which produces the “Chyang” sound.                        
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn">Play<Music size={40}/></button>
                     </div>
                 </div>
 
@@ -68,7 +83,7 @@ export const AboutPage = () => {
                         <p>
                             The left hand or your weaker hand is normally used to hold the kesangla and hit the “singsagay” side of the chyabrung, which produces the “Dhung” sound.                        
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn">Play<Music size={40}/></button>
                     </div>
                     <image className="darkSteelBlue" style={{backgroundImage: `url(${singsagay})`}}></image>
                 </div>
@@ -236,7 +251,7 @@ export const AboutPage = () => {
                         <p>
                             Taplejung and Sankhuwasabha chyabrung are built the same way and are the shortest & smallest comparing to the rest of the regions. These two regions chyabrung has special type of “matengra”/marble chabi/key and not the typical pangra bean chabi. These chyabrung produces sharp, high pitch but quiet sound.                        
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn" onClick={() => {taplejungKeSound.play()}}>Play<Music size={40}/></button>
                     </div>
                 </div>
 
@@ -250,7 +265,7 @@ export const AboutPage = () => {
                         <p>
                             Terhathum chyabrung are medium size chyabrung. The chyabrung length is short but the diameter is large. Typical Terhathum chyabrung has two chabi/key and it produces very very sharp, very very high pitch sound, almost like hitting a tin plate comparing to the rest of the region.                        
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn" onClick={() => {terhathumKeSound.play()}}>Play<Music size={40}/></button>
                     </div>
                 </div>
 
@@ -264,7 +279,7 @@ export const AboutPage = () => {
                         <p>
                             Dhankuta region chyabrung are very very large comparing to the rest of the regions. The chyabrung diameter is very large and the length is very long like the Illam chyabrung. It produces very very loud and bassy sound almost like an animal roar. The most noticable feature about dhankuta chyabrung is that the excess skin of the huksagay/chyang is left hanging.                        
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn" onClick={() => {dhankutaKeSound.play()}}>Play<Music size={40}/></button>
                     </div>
                 </div>
 
@@ -280,7 +295,7 @@ export const AboutPage = () => {
                         <p>
                             Panchthar chyabrung is a medium size chyabrung, similar to Terhathum chyabrung. However, the length is a mixture of both short and long and the diameter is also a mixture of large and small. Typical panchthar chyabrung has one pangra bean chabi/key and the frame is left natural without colors. It produces high pitch buzzing like sound.                        
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn" onClick={() => {panchtharKeSound.play()}}>Play<Music size={40}/></button>
                     </div>
 
                     <div className="largeChyabrungImage darkSteelBlue">
@@ -294,7 +309,7 @@ export const AboutPage = () => {
                         <p>
                             Illam chyabrung are very large like the Dhankuta chyabrung. The chyabrung has very large diameter and very long frame comparing to the rest of the region. The frame is almost like a cone shape, the huksagay/chyang side diameter is large and gradually the frame diameter becomes smaller at the singsagay/dhung side. It has two pangra bean chabi/key and it produces very loud resonating swarm of buzzing bee like sound.                       
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn" onClick={() => {illamKeSound.play()}} >Play<Music size={40}/></button>
                     </div>
 
                     <div className="largeChyabrungImage darkSteelBlue">
@@ -308,7 +323,7 @@ export const AboutPage = () => {
                         <p>
                             Sikkim region chyabrung size and diameter is very small like the Taplejung and Sankhuwasabha chyabrung. Typically, sikkim chyabrung are decorated by fully draping it with colorful fabric hanging from the chyabrung. The chyabrung produces sharp but quiet sound and has low resonate and vibration.                        
                         </p>
-                        <button>Play</button>
+                        <button class="rippleBtn" onClick={() => {sikkimKeSound.play()}}>Play<Music size={40}/></button>
                     </div>
 
                     <div className="largeChyabrungImage darkSteelBlue">

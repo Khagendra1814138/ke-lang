@@ -10,12 +10,29 @@
     background-position: center;
 }
 
+.rippleBtn{
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.rippleBtn:hover {
+    width: 300px;
+    background: #734cff radial-gradient(circle, transparent 1%, #734cff 1%) center/15000%;
+}
+
+.rippleBtn:active {
+    background-color: #ab94ff;
+    background-size: 100%;
+    transition: background 0s;
+}
+  
+
 .aboutPage h1 span{
  color: #4B79A1;
 }
 .aboutPage h2 span{
     color: #4B79A1;
-   }
+}
 
 .sectionHandsWrapper{
     display: flex;
