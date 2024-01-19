@@ -145,6 +145,24 @@
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .sectionHandsWrapper image{
+        height: 350px;
+        width: 350px;
+        border-radius: 40px;
+    }
+    .sectionHandsWrapper .flexRowWrapper{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .sectionHandsWrapper .flexRowWrapper .informationWrapper{
+        height: auto;
+        width: 290px;
+    }
+}
+
+
+
 
 .sectionPreparingWrapper{
     display: flex;
@@ -195,12 +213,12 @@
 
 @media only screen and (max-width: 900px) {
     .sectionPreparingWrapper .imageFrame{
-        height: 400px;
-        width: 400px;
+        height: 350px;
+        width: 350px;
     }
     .sectionPreparingWrapper .informationWrapper{
         height: auto;
-        width: 320px;
+        width: 290px;
     }
 }
 
@@ -270,12 +288,25 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .sectionHeldWrapper .flexRowWrapperCenter .flexColumnWrapper .imageFrameSmall{
+    .sectionHeldWrapper .imageFrameSmall{
+        height: 350px;
+        width: 350px;
+    }
+    .sectionHeldWrapper .informationWrapper{
+        height: auto;
+        width: 290px;
+    }
+    .sectionHeldWrapper .imageFrameLarge{
         height: 450px;
-        width: 400px;
+        width: 100%;
+    }
+
+    .sectionHeldWrapper .flexRowWrapperCenter .flexColumnWrapper .imageFrameSmall{
+        height: 350px;
+        width: 350px;
     }
     .sectionHeldWrapper .flexRowWrapperCenter .flexColumnWrapper .informationWrapper{
-        width: 340px;
+        width: 290px;
     }
 }
 
@@ -346,6 +377,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 900px) {
+    .sectionSizeandSoundWrapper .largeChyabrungImage{
+        height: 350px;
+        width: 350px;
+    }
+    .sectionSizeandSoundWrapper .flexRowWrapper .informationWrapper{
+        height: auto;
+        width: 290px;
+    }
 }
 
 

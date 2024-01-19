@@ -6,6 +6,9 @@
   background-size: 200px 200px;
   background-attachment: fixed;
   background-position: center;
+
+  justify-content: center;
+  align-items: center;
 }
   .chyabrungStepsPage section{
     display: grid;
@@ -39,7 +42,7 @@
   width: 520px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   .sectionStepsTypes image{
     height: 300px;
     width: 100%;
@@ -106,6 +109,7 @@
 
 @media only screen and (max-width: 900px) {
   .danceStructure3x2Grid .rounedTopImageWrapper{
+    height: 350px;
     width: 350px;
   }
 
