@@ -1,12 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useInView } from 'react-intersection-observer';
 
 import { ArrowRight } from 'react-feather';
 
 import "../../Styles/HomePage.css";
 import "../../Styles/wrappers&colors.css";
 import "../../Styles/videoSection.css";
+import "../../Styles/animation.css";
 
 import YoutubeEmbed from "../../Components/YoutubeEmbed/YoutubeEmbed.js";
 
@@ -17,7 +17,7 @@ import Background2 from "../../Images/kelangBackground2.jpg";
 import Girls from "../../Images/homeImages/girlsDetail.png";
 import Boys from "../../Images/homeImages/boysDetail.png";
 import complexFoot from "../../Images/homeImages/foot.png";
-import ChyabrungRythem from "../../Images/homeImages/onlyMusic.png";
+import ChyabrungRythem from "../../Images/homeImages/rythmBeats.png";
 import flexFoot from "../../Images/homeImages/flexFoot.png";
 import wild from "../../Images/homeImages/wild.png";
 import strung from "../../Images/homeImages/strung.png";
@@ -34,18 +34,6 @@ import chyabrungLarge from "../../Images/homeImages/chyabrungLarge.jpg";
 export const HomePage = () => {
     const navigate = useNavigate();
 
-    const { ref: introImg, inView: introImgIsVisible} = useInView({
-        /* Optional options */
-        threshold: 0.5,
-        rootMargin: "400px",
-    });
-
-    const { ref: aboutRef, inView: aboutSectionIsVisible} = useInView({
-        /* Optional options */
-        threshold: 0.5,
-        rootMargin: "400px",
-    });
-    
     return (
         <div className="homePage">
             
@@ -56,26 +44,35 @@ export const HomePage = () => {
             </div> */}
             <ParallaxMouse/>
 
+    
             <section className="sectionKeangIntroWrapper">
                 <h1><span>'KE'</span> OR <span> 'KAY' </span>LANG</h1>
                 
                 <div className="informationWrapper">
-                    <h3>
-                        Ke or Kay Lang, which translates to "<span>chyabrung dance</span>", is the <span>traditional</span> dance of the <span>Limbu community </span>in Nepal, Sikkim, Darjeeling hills and North-East India.
-                    </h3>
+                    <div className="scrollReveal">
+                        <h3> 
+                            <span>                            
+                                Ke or Kay Lang, which translates to "chyabrung dance", is the traditional dance of the Limbu community in Nepal, Sikkim, Darjeeling hills and North-East India.
+                            </span>
+                        </h3>
+                    </div>
                 </div>
-
-                <div ref={introImg} className={`${'largeImage'} ${introImgIsVisible ? "moveUp" : "largeImage"}`} style={{backgroundImage: `url(${Background2})`}}></div>
-
+        
+                <div className="largeImage" style={{backgroundImage: `url(${Background2})`}}></div>
+          
                 <div className="informationWrapper">
-                    <h3>
-                        The dance is mainly performed in a circular formation. Typically there are between 8 to 12+ dancers in a kelang group. Each male dancers have a female dance partner and are positioned on the left side of their male partner.
-                    </h3>
+                    <div className="scrollReveal">
+                        <h3> 
+                            <span>                            
+                            The dance is mainly performed in a circular formation. Typically there are between 8 to 12+ dancers in a kelang group. Each male dancers have a female dance partner and are positioned on the left side of their male partner.
+                            </span>
+                        </h3>
+                    </div>
                 </div>
 
                 <div className="genderInfoWrapper">
                     <div className="flexColumn">
-                        <image style={{backgroundImage: `url(${Boys})`}} alt="boys"></image>
+                        <image className="animationScaleIn" style={{backgroundImage: `url(${Boys})`}} alt="boys"></image>
                         <div className="informationWrapper">
                             <h2><span>MALE </span> DANCERS</h2>
                             <line className="pimpPurple"></line>
@@ -86,7 +83,7 @@ export const HomePage = () => {
                     </div>
 
                     <div className="flexColumn">
-                        <image style={{backgroundImage: `url(${Girls})`}}></image>
+                        <image className="animationScaleIn" style={{backgroundImage: `url(${Girls})`}}></image>
                         <div className="informationWrapper">
                             <h2><span>FEMALE </span>DANCERS</h2>
                             <line className="pimpPurple"></line>
@@ -126,33 +123,37 @@ export const HomePage = () => {
             <section className="sectionMusicStepsWrapper lightTealGreen">
                 <h1><span>MUSIC</span> AND <span>DANCE</span> STEPS</h1>
                 <div className="informationWrapperCurvedBR">
-                    <h3>
-                        In a Ke Lang dance performance there is no other music. The loud and sharp rhythmic beat of the chyabrung is the only music played during the dance. "chyang dhung chyang..."
-                    </h3>
+                    <div className="scrollReveal">
+                        <h3> 
+                            <span>                            
+                            In a Ke Lang dance performance there is no other music. The loud and sharp rhythmic beat of the chyabrung is the only music played during the dance. "chyang dhung chyang..."
+                            </span>
+                        </h3>
+                    </div>
                     <div className="curvedBR"></div>
                 </div>
 
                 <div className="flexColumnn">
                     <div className="flex">
                         <h2>The <span>only music</span> is the <span>rhythmic beating</span> of the Chyabrung.</h2>
-                        <image className="darkTealGreen" style={{backgroundImage: `url(${ChyabrungRythem})`}}></image>
+                        <image className="darkTealGreen animationFloatRight" style={{backgroundImage: `url(${ChyabrungRythem})`}}></image>
                     </div>
 
                     <div className="flex">
-                        <h2>Depicting graceful <span>movements</span> of <span>wild animals</span> and <span>birds</span>.</h2>
-                        <image className="darkTealGreen" style={{backgroundImage: `url(${wild})`}}></image>
+                        <h2>Depicting graceful <span>movements</span> of <span>wild animals</span> and birds.</h2>
+                        <image className="darkTealGreen animationFloatRight" style={{backgroundImage: `url(${wild})`}}></image>
                     </div>
                 </div>
                 
                 <div className="flexColumnn">
                     <div className="flex">
                         <h2>Dancers execute <span>synchronized</span> and <span>complicated</span> foot work.</h2>
-                        <image className="darkTealGreen" style={{backgroundImage: `url(${complexFoot})`}}></image>
+                        <image className="darkTealGreen animationFloatUP" style={{backgroundImage: `url(${complexFoot})`}}></image>
                     </div>
             
                     <div className="flex">
                         <h2>Countless <span>varieties</span> of flexible and energetic <span>foot movements.</span></h2>
-                        <image className="darkTealGreen" style={{backgroundImage: `url(${flexFoot})`}}></image>
+                        <image className="darkTealGreen animationFloatUP" style={{backgroundImage: `url(${flexFoot})`}}></image>
                     </div>
                 </div>
 
@@ -176,7 +177,7 @@ export const HomePage = () => {
                     </h3>
                 </div>
                 
-                <div ref={aboutRef} className={`${'largeImage'} ${aboutSectionIsVisible ? "moveUp" : "largeImage"}`} style={{backgroundImage: `url(${chyabrungLarge})`}}></div>
+                <div className="largeImage" style={{backgroundImage: `url(${chyabrungLarge})`}}></div>
 
                 <div className="informationWrapper">
                     <h3>
@@ -186,7 +187,7 @@ export const HomePage = () => {
 
                 <div className="aboutChyabrungInfoWrapper">
                     <div className="flexColumnn">
-                        <image className="imageFloatLeft darkSteelBlue" style={{backgroundImage: `url(${strung})`}}></image>
+                        <image className="imageFloatLeft darkSteelBlue animationScaleIn" style={{backgroundImage: `url(${strung})`}}></image>
                         <div className="informationWrapper">
                             <h2>HOW IT'S <span>HELD</span></h2>
                             <line className="mediumSteelBlue"></line>
@@ -197,7 +198,7 @@ export const HomePage = () => {
                     </div>
                
                     <div className="flexColumnn">
-                        <image className="imageFloatRight darkSteelBlue" style={{backgroundImage: `url(${playedHand})`}}></image>
+                        <image className="imageFloatRight darkSteelBlue animationScaleIn" style={{backgroundImage: `url(${playedHand})`}}></image>
                         <div className="informationWrapper">
                             <h2>HOW IT'S <span>PLAYED</span></h2>
                             <line className="mediumSteelBlue"></line>
@@ -262,7 +263,7 @@ export const HomePage = () => {
 
          
                 <div className="chyabrungInfoContainer lightGreen">
-                    <image className="mediumGreen" style={{backgroundImage: `url(${Jhympta})`}}></image>
+                    <image className="mediumGreen animationFloatUP" style={{backgroundImage: `url(${Jhympta})`}}></image>
                     <div className="flexColumnn">
                         <div className="informationWrapper">
                             <h2>OTHER INSTRUMENTS</h2>
@@ -286,14 +287,14 @@ export const HomePage = () => {
                         </div>
                         <button className="madeButton" onClick={() => navigate("/HowItsMade")}>Show More<ArrowRight size={40}/></button>
                     </div>
-                    <image className="darkPurple" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
+                    <image className="darkPurple animationFloatUP" style={{backgroundImage: `url(${chyabrungMade})`}}></image>
                 </div>
             
 
 
        
                 <div className="chyabrungInfoContainer lightRed">
-                    <image className="darkRed" style={{backgroundImage: `url(${wedding})`}}></image>
+                    <image className="darkRed animationFloatUP" style={{backgroundImage: `url(${wedding})`}}></image>
                     <div className="flexColumnn">
                         <div className="informationWrapper">
                             <h2>WHEN IT'S PERFORMED</h2>
@@ -317,7 +318,7 @@ export const HomePage = () => {
                         </div>
                         <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Show More<ArrowRight size={40}/></button>
                     </div>
-                    <image className="darkYellow" style={{backgroundImage: `url(${blessing})`}}></image>
+                    <image className="darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
                 </div>
         
 

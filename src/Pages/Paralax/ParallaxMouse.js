@@ -101,7 +101,6 @@ function ParallaxMouse() {
       <div class="parallax-wrap">
         <div className="vignette"></div>
         <div className="backgroundLayer0" value="2" rotation="0" style={{backgroundImage: `url(${Background})`}}></div>
-
         <div className="PhaktanglungLayer1" value="3" rotation="0.2" style={{backgroundImage: `url(${Mountain2})`}}></div>
         <div className="Pathibhara" value="4" rotation="0.2" style={{backgroundImage: `url(${Pathibhara})`}}></div>
         <div className="Guphapokhari" value="-3" rotation="0.2" style={{backgroundImage: `url(${Guphapokhari})`}}></div>
