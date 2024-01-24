@@ -18,23 +18,23 @@ export const KeGallery = () => {
     return (
         <div className="chyabrungGallaryFrame roundedSteelBlue">
             <div className="chyabrungGallaryColumn">
-                <image style={{backgroundImage: `url(${keCol1a})`}}></image>
-                <image style={{backgroundImage: `url(${keCol1b})`}}></image>
-                <image className="mediumImage" style={{backgroundImage: `url(${keCol1c})`}}></image>
+                <image className="animationScaleIn" style={{backgroundImage: `url(${keCol1a})`}}></image>
+                <image className="animationScaleIn" style={{backgroundImage: `url(${keCol1b})`}}></image>
+                <image className="mediumImage animationScaleIn" style={{backgroundImage: `url(${keCol1c})`}}></image>
             </div>
         
 
             <div className="chyabrungGallaryColumn">
-                <image style={{backgroundImage: `url(${keCol2a})`}}></image>
-                <image className="bigImage" style={{backgroundImage: `url(${keCol2b})`}}></image>
-                <image style={{backgroundImage: `url(${keCol2c})`}}></image>
+                <image className="animationScaleIn" style={{backgroundImage: `url(${keCol2a})`}}></image>
+                <image className="bigImage animationScaleIn" style={{backgroundImage: `url(${keCol2b})`}}></image>
+                <image className="animationScaleIn" style={{backgroundImage: `url(${keCol2c})`}}></image>
             </div>
 
 
             <div className="chyabrungGallaryColumn">
-                <image className="mediumImage" style={{backgroundImage: `url(${keCol3a})`}}></image>
-                <image style={{backgroundImage: `url(${keCol3b})`}}></image>
-                <image style={{backgroundImage: `url(${keCol3c})`}}></image>
+                <image className="mediumImage animationScaleIn" style={{backgroundImage: `url(${keCol3a})`}}></image>
+                <image className="animationScaleIn" style={{backgroundImage: `url(${keCol3b})`}}></image>
+                <image className="animationScaleIn" style={{backgroundImage: `url(${keCol3c})`}}></image>
             </div>
         </div>
     );

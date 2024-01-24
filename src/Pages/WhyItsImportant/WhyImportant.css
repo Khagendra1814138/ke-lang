@@ -1,3 +1,139 @@
+
 .whyImportantPage{
-    padding: 0rem 0rem 10rem 0rem;
+    height: auto;
+    width: auto;
+    padding: 0rem 0rem 30rem 0rem;
+    display: grid;
+    gap: 150px;
+
+    background-image: url(../../Images/backgrounds/dhaka8.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
+}
+.whyImportantPage h1 span{
+    color: #ED9B27;
+}
+.whyImportantPage h2 span{
+    color: #ED9B27;
+}
+/* .mainSection{
+    background-color: antiquewhite;
+}
+.containerFrame{
+    padding: 5rem;
+}
+.stickyParent{
+    height: 500vh;
+}
+.sticky{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border: 1px solid rebeccapurple;
+}
+.scrollSection{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 450vw;
+    background-color: black;
+    will-change: transform;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30vw;
+}
+.imagesss{
+    width: 700px;
+    height: 500px;
+    background-color: blue;
+} */
+
+.sectionWhyImportantChap1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.sectionWhyImportantChap2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+    .chap2FlexRowWrapper{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        border: 1px solid rebeccapurple;
+    } 
+    @media only screen and (max-width: 1800px) {
+        .chap2FlexRowWrapper{
+            justify-content: center;
+        }
+    }
+
+    .chap2FlexRowWrapper .chapter2Column1{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border: 1px solid red;
+        gap: 100px;
+    }
+    .chap2FlexRowWrapper .chapter2Column2{
+        height: 100%;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+    }
+    .chap2FlexRowWrapper .chapter2Column3{
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+        gap: 100px;
+    }
+    .chap2FlexRowWrapper .chap2CardWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: 1px solid gold;
+    }
+
+    .chap2FlexRowWrapper .chap2CardWrapper image{
+        height: 500px;
+        width: 500px;
+        border-radius: 40px;
+        display: flex;
+    }
+    .chap2FlexRowWrapper .chap2CardWrapper .informationWrapper{
+        height: auto;
+        width: 440px;
+        border-radius: 40px;
+        display: flex;
+    }
+
+
+.sectionWhyImportantChap3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center; 
 }

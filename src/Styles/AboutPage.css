@@ -303,10 +303,10 @@
 
     .sectionHeldWrapper .flexRowWrapperCenter .flexColumnWrapper .imageFrameSmall{
         height: 350px;
-        width: 350px;
+        width: 320px;
     }
     .sectionHeldWrapper .flexRowWrapperCenter .flexColumnWrapper .informationWrapper{
-        width: 290px;
+        width: 260px;
     }
 }
 
@@ -387,6 +387,9 @@
     .sectionSizeandSoundWrapper .flexRowWrapper .informationWrapper{
         height: auto;
         width: 290px;
+    }
+    .sectionSizeandSoundWrapper .largeChyabrungImage image{
+        border-radius: 20px 200px 20px 200px;
     }
 }
 
