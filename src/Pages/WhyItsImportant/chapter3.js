@@ -3,7 +3,7 @@ import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 
-import { CornerUpRight, CornerDownRight } from "react-feather";
+import { CornerUpRight, CornerDownRight, CornerRightDown } from "react-feather";
 
 import "./horizontalScroll.css";
 
@@ -80,7 +80,7 @@ export const Chap3HorizontalScrollCarousel = () => {
                 </div>
 
                 <div className="storyFrameColumn">
-                    <div className="largeRightArrow pimpPurpleColor"> <CornerUpRight size={150}/></div>
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerRightDown size={150}/></div>
                     <div className="storyCardWrapper">
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
