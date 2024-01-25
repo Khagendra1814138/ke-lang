@@ -64,70 +64,8 @@
     flex-direction: column;
     gap: 40px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-
-    .chap2FlexRowWrapper{
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 20px;
-        border: 1px solid rebeccapurple;
-    } 
-    @media only screen and (max-width: 1800px) {
-        .chap2FlexRowWrapper{
-            justify-content: center;
-        }
-    }
-
-    .chap2FlexRowWrapper .chapter2Column1{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        border: 1px solid red;
-        gap: 100px;
-    }
-    .chap2FlexRowWrapper .chapter2Column2{
-        height: 100%;
-        width: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid gray;
-    }
-    .chap2FlexRowWrapper .chapter2Column3{
-        padding-top: 150px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid red;
-        gap: 100px;
-    }
-    .chap2FlexRowWrapper .chap2CardWrapper{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        border: 1px solid gold;
-    }
-
-    .chap2FlexRowWrapper .chap2CardWrapper image{
-        height: 500px;
-        width: 500px;
-        border-radius: 40px;
-        display: flex;
-    }
-    .chap2FlexRowWrapper .chap2CardWrapper .informationWrapper{
-        height: auto;
-        width: 440px;
-        border-radius: 40px;
-        display: flex;
-    }
 
 
 .sectionWhyImportantChap3{

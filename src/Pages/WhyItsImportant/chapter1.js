@@ -1,8 +1,7 @@
-import React from "react";
-
 import { motion, useTransform, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { React, useRef } from "react";
 
+import { CornerRightDown, CornerUpRight, CornerDownRight } from "react-feather";
 import "./horizontalScroll.css";
 
 export const Chap1HorizontalScrollCarousel = () => {
@@ -11,14 +10,13 @@ export const Chap1HorizontalScrollCarousel = () => {
       target: targetRef,
     });
   
-    const x = useTransform(scrollYProgress, [0, 1], ["4.7%", "-85.7%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["4%", "-86%"]);
   
     return (
       <div ref={targetRef} className="framerFrame">
         <div className="framerStickyFrame">
-          <motion.div style={{ x }} className="framerScrollSections">
-                <div className="column1">
-
+          <motion.div style={{ x }} className="framerScrollSectionsChapter1">
+                <div className="storyFrameColumn">
                     <div className="storyCardWrapper">
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
@@ -29,54 +27,11 @@ export const Chap1HorizontalScrollCarousel = () => {
                             </p>
                         </div>
                     </div>
-
-                    <div className="storyCardWrapper">
-                        <image className="darkYellow"></image>
-                        <div className="informationWrapper">
-                            <h2><span>DRINKING</span> THE WATER</h2>
-                            <line className="darkYellow"></line>
-                            <p>                       
-                                As she was exhausted and thirsty due to her prolonged walk, she rested on a mighty flat rock in the jungle. While resting on the rock, she discovered two small pools on the rock. She was delighted on seeing those two ponds and drank the water from both the pools thinking them to be the rain water accumulated on the rock. After quenching her thrust she resumed her journey.                                
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="storyCardWrapper">
-                        <image className="darkYellow"></image>
-                        <div className="informationWrapper">
-                            <h2><span>MESSAGE</span> FROM THE GOD</h2>
-                            <line className="darkYellow"></line>
-                            <p>                       
-                                When Teegenjongna was in deep slumber, she heard an voice in her dream. The voice said, “Now you have conceived because you drank the water from the mighty rock. The water on the rock ponds was the tiger’s urine and your brother’s urine.  You will give birth to a tiger cub and a human baby.” On hearing this voice Teegenjongna was in a grip of terror and awoke in fear.                                
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="storyCardWrapper">
-                        <image className="darkYellow"></image>
-                        <div className="informationWrapper">
-                            <h2>TWO SIBLINGS <span>GROWING</span></h2>
-                            <line className="darkYellow"></line>
-                            <p>                       
-                                Kesamay always hunted the poisonous creatures like the snakes, crabs, frogs, toads, scorpions, lizards etc. while Namsamay hunted deers, bears, rabbits, stags, birds found in jungle. One day, Namsamay advised his brother not to hunt poisonous creatures. Kesamay got annoyed and threatened Namsamay saying that he would eat kill and eat Namsamay too.                                
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="storyCardWrapper">
-                        <image className="darkYellow"></image>
-                        <div className="informationWrapper">
-                            <h2>PREPARING THE <span>WEAPONS</span></h2>
-                            <line className="darkYellow"></line>
-                            <p>                       
-                                One day, Kesamay became very angry and said that he would even kill and eat his mother too. Hearing this Namsamay created bow and arrow with poison then went down the valley and climbed a “Symbol” (Bombax malabaricum) tree and waited for his brother with the weapon to guard himself. Kesamay found Namsamay whereabouts and ran straight down to the valley to kill his brother.                                
-                            </p>
-                        </div>
-                    </div>
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerDownRight size={150}/></div>
                 </div>
 
-
-                <div className="column2">
+                <div className="storyFrameColumn">
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerUpRight size={150}/></div>
                     <div className="storyCardWrapper">
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
@@ -88,6 +43,24 @@ export const Chap1HorizontalScrollCarousel = () => {
                         </div>
                     </div>
 
+                </div>
+
+                <div className="storyFrameColumn">
+                    <div className="storyCardWrapper">
+                        <image className="darkYellow"></image>
+                        <div className="informationWrapper">
+                            <h2><span>DRINKING</span> THE WATER</h2>
+                            <line className="darkYellow"></line>
+                            <p>                       
+                                As she was exhausted and thirsty due to her prolonged walk, she rested on a mighty flat rock in the jungle. While resting on the rock, she discovered two small pools on the rock. She was delighted on seeing those two ponds and drank the water from both the pools thinking them to be the rain water accumulated on the rock. After quenching her thrust she resumed her journey.                                
+                            </p>
+                        </div>
+                    </div>
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerDownRight size={150}/></div>
+                </div>
+
+                <div className="storyFrameColumn">
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerUpRight size={150}/></div>
                     <div className="storyCardWrapper">
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
@@ -98,7 +71,24 @@ export const Chap1HorizontalScrollCarousel = () => {
                             </p>
                         </div>
                     </div>
+                </div>
 
+                <div className="storyFrameColumn">
+                    <div className="storyCardWrapper">
+                        <image className="darkYellow"></image>
+                        <div className="informationWrapper">
+                            <h2><span>MESSAGE</span> FROM THE GOD</h2>
+                            <line className="darkYellow"></line>
+                            <p>                       
+                                When Teegenjongna was in deep slumber, she heard an voice in her dream. The voice said, “Now you have conceived because you drank the water from the mighty rock. The water on the rock ponds was the tiger’s urine and your brother’s urine.  You will give birth to a tiger cub and a human baby.” On hearing this voice Teegenjongna was in a grip of terror and awoke in fear.                                
+                            </p>
+                        </div>
+                    </div>
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerDownRight size={150}/></div>
+                </div>
+
+                <div className="storyFrameColumn">
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerUpRight size={150}/></div>
                     <div className="storyCardWrapper">
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
@@ -109,7 +99,24 @@ export const Chap1HorizontalScrollCarousel = () => {
                             </p>
                         </div>
                     </div>
+                </div>
 
+                <div className="storyFrameColumn">
+                    <div className="storyCardWrapper">
+                        <image className="darkYellow"></image>
+                        <div className="informationWrapper">
+                            <h2>TWO SIBLINGS <span>GROWING</span></h2>
+                            <line className="darkYellow"></line>
+                            <p>                       
+                                Kesamay always hunted the poisonous creatures like the snakes, crabs, frogs, toads, scorpions, lizards etc. while Namsamay hunted deers, bears, rabbits, stags, birds found in jungle. One day, Namsamay advised his brother not to hunt poisonous creatures. Kesamay got annoyed and threatened Namsamay saying that he would eat kill and eat Namsamay too.                                
+                            </p>
+                        </div>
+                    </div>
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerDownRight size={150}/></div>
+                </div>
+
+                <div className="storyFrameColumn">
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerUpRight size={150}/></div>
                     <div className="storyCardWrapper">
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
@@ -120,11 +127,28 @@ export const Chap1HorizontalScrollCarousel = () => {
                             </p>
                         </div>
                     </div>
+                </div>
 
+                <div className="storyFrameColumn">
                     <div className="storyCardWrapper">
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
-                            <h2><span>DEATH</span> OF ONE SIBLING</h2>
+                            <h2>PREPARING THE <span>WEAPONS</span></h2>
+                            <line className="darkYellow"></line>
+                            <p>                       
+                                One day, Kesamay became very angry and said that he would even kill and eat his mother too. Hearing this Namsamay created bow and arrow with poison then went down the valley and climbed a “Symbol” (Bombax malabaricum) tree and waited for his brother with the weapon to guard himself. Kesamay found Namsamay whereabouts and ran straight down to the valley to kill his brother.                                
+                            </p>
+                        </div>
+                    </div>
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerDownRight size={150}/></div>
+                </div>
+
+                <div className="storyFrameColumn">
+                    <div className="largeRightArrow pimpPurpleColor"> <CornerRightDown size={150}/></div>
+                    <div className="storyCardWrapper">
+                        <image className="darkYellow"></image>
+                        <div className="informationWrapper">
+                            <h2><span>DEATH</span> OF A SIBLING</h2>
                             <line className="darkYellow"></line>
                             <p>                       
                                 Kesamay started climbing the tree and Namsamay made several attempts to shoot his brother but failed to hit him. Kesamay was reaching nearer and he only had one arrow left. With no other option Namsamay said “I surrender brother, I will jump into your mouth brother”. Hearing this Kesamay happily opened his mouth. Namsamay aimed his last arrow and shot it into the Kesamay mouth and killed him.                               

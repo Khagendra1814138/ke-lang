@@ -1,6 +1,9 @@
 .pimpPurple{
     background-color: #5021FF;
 }
+.pimpPurpleColor{
+    color: #6d3ca1;
+}
 .lightPurple{
     background-color: #ad8afaa1;
 }
@@ -137,7 +140,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 } 
     @media only screen and (max-width: 1800px) {
         .flexRowWrapper{

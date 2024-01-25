@@ -1,0 +1,66 @@
+.chap2FlexColumnWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.paddingTop{
+    padding-top: 100px;
+}
+    .chap2FlexColumnWrapper .chap2FlexRowWrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+@media only screen and (max-width: 1700px) {
+    .chap2FlexColumnWrapper{
+        gap: 40px;
+    }
+    .chap2FlexColumnWrapper .chap2FlexRowWrapper{
+        justify-content: center;
+        gap: 40px;
+    }
+    .paddingTop{
+        padding-top: 0px;
+    }
+}
+
+    .chap2FlexColumnWrapper .middleLineFrame{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .chap2FlexColumnWrapper .chap2CardWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .chap2FlexColumnWrapper .chap2CardWrapper image{
+        height: 500px;
+        width: 500px;
+        border-radius: 40px;
+        display: flex;
+    }
+    .chap2FlexColumnWrapper .chap2CardWrapper .informationWrapper{
+        height: auto;
+        width: 440px;
+        border-radius: 40px;
+        display: flex;
+    }
+
+@media only screen and (max-width: 900px) {
+    .chap2FlexColumnWrapper .chap2CardWrapper image{
+        height: 350px;
+        width: 350px;
+    }
+    .chap2FlexColumnWrapper .chap2CardWrapper .informationWrapper{
+        height: auto;
+        width: 290px;
+    }
+}
