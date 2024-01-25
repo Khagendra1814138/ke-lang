@@ -9,7 +9,6 @@ import "../../Styles/videoSection.css";
 import "../../Styles/animation.css";
 
 import YoutubeEmbed from "../../Components/YoutubeEmbed/YoutubeEmbed.js";
-
 import ParallaxMouse from "../Paralax/ParallaxMouse";
 
 //Images Imports

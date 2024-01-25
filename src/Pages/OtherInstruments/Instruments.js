@@ -114,9 +114,9 @@ export const OtherInstrumentsPage = () => {
                     <div className="informationWrapper">
                         <h2><span>WHAT</span> IS IT?</h2>
                         <line className="darkGreen"></line>
-                        <h3>
+                        <p>
                             Kesangla or Kechari is played together with the chyabrung. It is a short length stick made of hard wood. It has mixture of bassy and sharp bells, pom pom and tassels attached to it with a string. Kesangla is decorated with different patterns etched into the wood and its typically colored with brown paint.                    
-                        </h3>
+                        </p>
                     </div>
                 </div>
                 

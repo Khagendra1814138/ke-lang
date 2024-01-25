@@ -5,8 +5,11 @@ import "./WhyImportant.css";
 import { Chap1HorizontalScrollCarousel } from "./chapter1"
 import { Chapter2 } from "./chapter2";
 import { Chap3HorizontalScrollCarousel } from "./chapter3";
+
 //Images Imports
-import Background2 from "../../Images/kelangBackground2.jpg";
+import pujari from "../../Images/myth/pujari.jpg";
+import hill from "../../Images/myth/hill.jpg";
+
 
 export const WhyImportantPage = ()=> {
   
@@ -45,7 +48,11 @@ export const WhyImportantPage = ()=> {
                         The origin myth of the kelang dates back to the ancient times, during the start of human civilization, when the almighty Tagera Ningwaphumang created earth and humans. The story of kelang starts with two siblings, a brother “Kesingen” and a sister “Khappura”.                    
                     </h3>
                 </div>
-                <div className="largeImage" style={{backgroundImage: `url(${Background2})`}}></div>
+                <div className="largeImage" style={{backgroundImage: `url(${pujari})`}}></div>
+
+                {/* <div className="imagesWith">
+                    <div className="ba animationFloatRight" style={{backgroundImage: `url(${hill})`}}></div>
+                </div> */}
             </section>
 
             {/* <div className="stickyParent">
@@ -72,7 +79,7 @@ export const WhyImportantPage = ()=> {
                         The Myth continues from the death of the elder brother Kesamay. The kelang myth states that the ke/chyabrung drum is made from the Kesamay skin stretched and tightened around a hollow wooden log as a token of love and remembrance.                
                     </h3>
                 </div>
-                <div className="largeImage" style={{backgroundImage: `url(${Background2})`}}></div>
+                <div className="largeImage" style={{backgroundImage: `url(${hill})`}}></div>
 
                 <Chapter2/>
             </section>
@@ -84,7 +91,7 @@ export const WhyImportantPage = ()=> {
                         Initially, the Ke drummers did not know how to dance. They just carried the drum in their neck suspended down to the abdomen with the help of rope and roam in the jungle only playing the drum without dance any steps.                    
                     </h3>
                 </div>
-                <div className="largeImage" style={{backgroundImage: `url(${Background2})`}}></div>
+                <div className="largeImage" style={{backgroundImage: `url(${hill})`}}></div>
             </section>
 
             <Chap3HorizontalScrollCarousel/>

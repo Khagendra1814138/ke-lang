@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "./clothesAccessories.css";
 import { ArrowRight } from 'react-feather';
 
+import accessories from "../../Images/clothing/accessories.png";
 import silamSakma from "../../Images/clothing/silamSakma.jpg";
 import scarf from "../../Images/clothing/scarf.jpg";
 import shawl from "../../Images/clothing/shawl.jpg";
@@ -56,7 +57,7 @@ export const Accessories = () => {
                     </div>
                 </div>
 
-                <image className="longCenterImage darkBrown"></image>
+                <image className="longCenterImage darkBrown" style={{backgroundImage: `url(${accessories})`}}></image>
 
                 <div className="flexColumnWrapper"> 
                     <div className="imageFrame darkBrown">

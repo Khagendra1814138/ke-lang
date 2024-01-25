@@ -32,7 +32,7 @@ export const NavigationLinksArray = [
         link: "/WhenPerformed",
     },
     {
-        title: "Importance", 
+        title: "Myth", 
         link: "/WhyImportant",
     },
     {

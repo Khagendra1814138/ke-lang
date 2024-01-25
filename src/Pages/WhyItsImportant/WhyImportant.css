@@ -75,3 +75,35 @@
     justify-content: center;
     align-items: center; 
 }
+
+.imagesWith{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    background-color: #ED9B27;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+    &::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: #FFC97B;
+        position: absolute;
+        z-index: 0;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        transform: translate(50%, 0%);
+    }
+}
+
+.ba{
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    z-index: 1;
+}
