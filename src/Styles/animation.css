@@ -24,7 +24,7 @@
     }
 }
 
-.animationScaleInside{
+.animationScaleIn{
     animation: scaleIn linear both;
     animation-timeline: view();
     animation-range: entry 50% cover 40%;
