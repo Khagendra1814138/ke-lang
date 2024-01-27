@@ -11,21 +11,3 @@
     width: 500px;
     background-color: aqua;
 }
-
-
-.animation{
-    animation: ani linear both;
-    animation-timeline: view();
-    animation-range: entry 50% cover 40%;
-}
-
-@keyframes ani {
-    0%{
-        opacity: 0;
-        scale: 0.6; 
-    }
-    100% {
-        opacity: 1;
-        scale: 1; 
-    }
-}
