@@ -59,8 +59,7 @@ export const AboutPage = () => {
 
                 <div className="informationWrapperCurvedBR">
                     <h3>
-                        The chyabrung has two openings on either ends. The right side is called “Huksagay” and it produces a thrilling sharp, treble tone. The left side is called “Singsagay” and it produces a flat, roaring bass sound. Moreover, the chyabrung has a Chabi (key) made of pangra beans and the purpose of the key is to produce a vibrating resound by slightly touching the “huksangay/chyang” skin.
-                    </h3>
+                        Inside the Ke drum there is an important part called “Chabi” (key) and the purpose of the key is to produce a sharp vibrating resound. When the huksagay/“chyang”  skin is struck, the skin shakes and slightly touching the skin with a hard surface key, it produces a vibrating resound.                    </h3>
                     <div className="curvedBR"></div>
                 </div>
 
