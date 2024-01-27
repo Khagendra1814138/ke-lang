@@ -37,7 +37,7 @@ export const NavigationLinksArray = [
     },
     {
         title: "Silam Sakma", 
-        link: "/WhyImportant",
+        link: "/SilamSakma",
     },
 
 ]

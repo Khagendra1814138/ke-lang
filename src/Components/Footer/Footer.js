@@ -28,7 +28,7 @@ export const Footer = () => {
                 <Link className="footerPageLinks" to="/HowItsMade">Ke Construction</Link>
                 <Link className="footerPageLinks" to="/WhenPerformed">When its Performed</Link>
                 <Link className="footerPageLinks" to="/WhyImportant">Kelang Myth</Link>
-                <Link className="footerPageLinks" to="/WhyImportant">Silam Sakma</Link>
+                <Link className="footerPageLinks" to="/SilamSakma">Silam Sakma</Link>
             </div>
         </div>
 

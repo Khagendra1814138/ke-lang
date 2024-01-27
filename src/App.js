@@ -21,6 +21,7 @@ import { HowItsMadePage } from './Pages/HowItsMade/HowItsMade';
 import { ClothesAndAccessoriesPage } from './Pages/Dresses/Clothes';
 import { WhenPerformedPage } from './Pages/WhenPerformed/WhenPerformed';
 import { WhyImportantPage } from './Pages/WhyItsImportant/WhyImportant';
+import { SilamSakmaPage } from './Pages/SilamSakma/SilamSakma';
 
 import { Footer } from './Components/Footer/Footer';
 
@@ -42,6 +43,7 @@ function App() {
             <Route path='/Beats' element={<BeatsPage/>} />
             <Route path='/WhenPerformed' element={<WhenPerformedPage/>} />
             <Route path='/WhyImportant' element={<WhyImportantPage/>} />
+            <Route path='/SilamSakma' element={<SilamSakmaPage/>} />
 
             <Route path='/Paralax' element={<Paralax/>} />
             <Route path='/ParalaxCss' element={<ParalaxCss/>} />

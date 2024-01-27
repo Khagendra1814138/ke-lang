@@ -1,0 +1,13 @@
+.silamSakmaPage{
+    height: auto;
+    width: auto;
+    padding: 0rem 0rem 30rem 0rem;
+    display: grid;
+    gap: 150px;
+}
+
+.wassaaaa{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
