@@ -1,0 +1,122 @@
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animationFade{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 40%;
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animationScaleIn{
+    animation: fadein linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 40%;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+        scale: 0.6; 
+    }
+    to {
+        opacity: 1;
+        scale: 1; 
+    }
+}
+
+
+.animationScaleFade{
+    animation: scaleFade linear forwards;
+    animation-timeline: view();
+    animation-range: exit;
+}
+@keyframes scaleFade {
+    25%{
+        opacity: 1;
+    }
+    85%, 100%{
+        opacity: 0;
+        scale: 3;
+    }
+}
+
+
+.animationFloatRight{
+    animation: animationFloatRight linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 40%;
+}
+@keyframes animationFloatRight {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.animationFloatLeft{
+    animation: animationFloatLeft linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 40%;
+}
+@keyframes animationFloatLeft {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.animationFloatUP{
+    animation: animationFloatUP linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 40%;
+}
+@keyframes animationFloatUP {
+    from{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.animationFloatDOWN{
+    animation: animationFloatDOWN linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 40%;
+}
+@keyframes animationFloatDOWN {
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
