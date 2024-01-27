@@ -156,7 +156,7 @@ export const HomePage = () => {
                     </div>
                 </div>
 
-                <div className="informationWrapperCurvedBR">
+                <div className="informationWrapperCurvedTL">
                     <h3>
                         During the chyabrung dance, the dancers performs several variation of foot steps and animal steps. It has been said that there are more than 200+ unique steps.                    
                     </h3>
