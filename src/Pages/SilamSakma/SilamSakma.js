@@ -15,7 +15,7 @@ export const SilamSakmaPage = () => {
                 </div>
             </hero>
 
-            <div className="wassaaaa animationScaleIn"></div>
+            <div className="wassaaaa animation"></div>
         </div>
     );
 }
