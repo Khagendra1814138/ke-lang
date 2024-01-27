@@ -27,23 +27,23 @@ export const BoysClothingGallary = () => {
     return (
         <div className="dressGallaryFrame brownRoundColor">
             <div className="dressGallaryColumn">
-                <image style={{backgroundImage: `url(${col1a})`}}></image>
-                <image className="mediumImage" style={{backgroundImage: `url(${col1b})`}}></image>
-                <image style={{backgroundImage: `url(${col1c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${col1a})`}}></image>
+                <image className="mediumImage animationFade" style={{backgroundImage: `url(${col1b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${col1c})`}}></image>
             </div>
     
 
             <div className="dressGallaryColumn">
-                <image className="middleMediumImage" style={{backgroundImage: `url(${col2a})`}}></image>
-                <image className="middleLargeImage" style={{backgroundImage: `url(${col2b})`}}></image>
-                <image className="middleMediumImage" style={{backgroundImage: `url(${col2c})`}}></image>
+                <image className="middleMediumImage animationFade" style={{backgroundImage: `url(${col2a})`}}></image>
+                <image className="middleLargeImage animationFade" style={{backgroundImage: `url(${col2b})`}}></image>
+                <image className="middleMediumImage animationFade" style={{backgroundImage: `url(${col2c})`}}></image>
             </div>
 
 
             <div className="dressGallaryColumn">
-                <image style={{backgroundImage: `url(${col3a})`}}></image>
-                <image className="mediumImage" style={{backgroundImage: `url(${col3b})`}}></image>
-                <image style={{backgroundImage: `url(${col3c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${col3a})`}}></image>
+                <image className="mediumImage animationFade" style={{backgroundImage: `url(${col3b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${col3c})`}}></image>
             </div>
         </div>
     );  
@@ -54,23 +54,23 @@ export const GirlsClothingGallary = () => {
     return (
         <div className="dressGallaryFrame brownRoundColor">
             <div className="dressGallaryColumn">
-                <image style={{backgroundImage: `url(${Gcol1a})`}}></image>
-                <image className="mediumImage" style={{backgroundImage: `url(${Gcol1b})`}}></image>
-                <image style={{backgroundImage: `url(${Gcol1c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Gcol1a})`}}></image>
+                <image className="mediumImage animationFade" style={{backgroundImage: `url(${Gcol1b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Gcol1c})`}}></image>
             </div>
     
 
             <div className="dressGallaryColumn">
-                <image className="middleMediumImage" style={{backgroundImage: `url(${Gcol2a})`}}></image>
-                <image className="middleLargeImage" style={{backgroundImage: `url(${Gcol2b})`}}></image>
-                <image className="middleMediumImage" style={{backgroundImage: `url(${Gcol2c})`}}></image>
+                <image className="middleMediumImage animationFade" style={{backgroundImage: `url(${Gcol2a})`}}></image>
+                <image className="middleLargeImage animationFade" style={{backgroundImage: `url(${Gcol2b})`}}></image>
+                <image className="middleMediumImage animationFade" style={{backgroundImage: `url(${Gcol2c})`}}></image>
             </div>
 
 
             <div className="dressGallaryColumn">
-                <image style={{backgroundImage: `url(${Gcol3a})`}}></image>
-                <image className="mediumImage" style={{backgroundImage: `url(${Gcol3b})`}}></image>
-                <image style={{backgroundImage: `url(${Gcol3c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Gcol3a})`}}></image>
+                <image className="mediumImage animationFade" style={{backgroundImage: `url(${Gcol3b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Gcol3c})`}}></image>
             </div>
         </div>
     );  

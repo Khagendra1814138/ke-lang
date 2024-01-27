@@ -215,23 +215,23 @@ export const JeweleriesGallery = () => {
     return (
         <div className="jewelerieGallaryFrame brownRoundColor">
             <div className="jewelerieGallaryColumn">
-                <image className="longerImage" style={{backgroundImage: `url(${Jcol1a})`}}></image>
-                <image style={{backgroundImage: `url(${Jcol1b})`}}></image>
-                <image style={{backgroundImage: `url(${Jcol1c})`}}></image>
+                <image className="longerImage animationFade" style={{backgroundImage: `url(${Jcol1a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Jcol1b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Jcol1c})`}}></image>
             </div>
     
 
             <div className="jewelerieGallaryColumn2">
-                <image style={{backgroundImage: `url(${Jcol2a})`}}></image>
-                <image className="longerImage" style={{backgroundImage: `url(${Jcol2b})`}}></image>
-                <image style={{backgroundImage: `url(${Jcol2c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Jcol2a})`}}></image>
+                <image className="longerImage animationFade" style={{backgroundImage: `url(${Jcol2b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Jcol2c})`}}></image>
             </div>
 
 
             <div className="jewelerieGallaryColumn3">
-                <image style={{backgroundImage: `url(${Jcol3a})`}}></image>
-                <image style={{backgroundImage: `url(${Jcol3b})`}}></image>
-                <image className="longerImage" style={{backgroundImage: `url(${Jcol3c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Jcol3a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Jcol3b})`}}></image>
+                <image className="longerImage animationFade" style={{backgroundImage: `url(${Jcol3c})`}}></image>
             </div>
         </div>
     );

@@ -13,6 +13,7 @@
 .rippleBtn{
     background-position: center;
     transition: background 0.8s;
+    margin-top: 20px;
 }
 
 .rippleBtn:hover {
@@ -94,8 +95,7 @@
 
 .sectionHandsWrapper .flexRowWrapper .informationWrapper{
     height: auto;
-    width: 520px;
-    gap: 20px;
+    width: 540px;
     justify-content: center;
     align-items: center;
 }
@@ -206,7 +206,7 @@
 
 .sectionPreparingWrapper .informationWrapper{
     height: 300px;
-    width: 520px;
+    width: 540px;
     justify-content: center;
     align-items: center;
 }

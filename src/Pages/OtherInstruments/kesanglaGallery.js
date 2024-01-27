@@ -16,23 +16,23 @@ export const KesanglaGallery = () =>{
     return (
         <div className="kesanglaGalleryFrame greenRoundColor">
             <div className="kesanglaGallaryColumn">
-                <image className="mediumImage" style={{backgroundImage: `url(${kCol1a})`}}></image>
-                <image style={{backgroundImage: `url(${kCol1b})`}}></image>
-                <image style={{backgroundImage: `url(${kCol1c})`}}></image>
+                <image className="mediumImage animationFade" style={{backgroundImage: `url(${kCol1a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${kCol1b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${kCol1c})`}}></image>
             </div>
     
 
             <div className="kesanglaGallaryColumn">
-                <image style={{backgroundImage: `url(${kCol2a})`}}></image>
-                <image className="middleLargeImage" style={{backgroundImage: `url(${kCol2b})`}}></image>
-                <image style={{backgroundImage: `url(${kCol2c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${kCol2a})`}}></image>
+                <image className="middleLargeImage animationFade" style={{backgroundImage: `url(${kCol2b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${kCol2c})`}}></image>
             </div>
 
 
             <div className="kesanglaGallaryColumn">
-                <image style={{backgroundImage: `url(${kCol3a})`}}></image>
-                <image style={{backgroundImage: `url(${kCol3b})`}}></image>
-                <image className="mediumImage" style={{backgroundImage: `url(${kCol3c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${kCol3a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${kCol3b})`}}></image>
+                <image className="mediumImage animationFade" style={{backgroundImage: `url(${kCol3c})`}}></image>
             </div>
         </div>
     );

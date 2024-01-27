@@ -46,7 +46,7 @@ export const WhenPerformedPage = () => {
 
                 <div className="flexRowWrapper">
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationScaleIn">
                             <image className="leafRIGHT" style={{backgroundImage: `url(${newHim})`}}></image>
                         </div>
                         <div className="informationWrapper">
@@ -58,10 +58,10 @@ export const WhenPerformedPage = () => {
 
                     <div className="flexColumnWrapper">
                         <div className="headingWrapper">
-                            <h2>CONSTRUCTION OF A NEW <span>HOUSE</span></h2>
+                            <h2>CONSTRUCTION OF A <br></br>NEW <span>HOUSE</span></h2>
                         </div>
 
-                         <div className="imageFrame darkRed">
+                         <div className="imageFrame darkRed animationScaleIn">
                             <image className="leafRIGHT" style={{backgroundImage: `url(${himPillar})`}}></image>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ export const WhenPerformedPage = () => {
 
                 <div className="flexRowWrapper">
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationScaleIn">
                             <image className="leafLEFT" style={{backgroundImage: `url(${chautara3})`}}></image>
                         </div>
                         <div className="informationWrapper">
@@ -85,10 +85,10 @@ export const WhenPerformedPage = () => {
 
                     <div className="flexColumnWrapper">
                         <div className="headingWrapper">
-                            <h2>CONSTRUCTION OF A <span>CHAUTARA</span></h2>
+                            <h2>CONSTRUCTION OF <br></br>A <span>CHAUTARA</span></h2>
                         </div>
 
-                         <div className="imageFrame darkRed">
+                         <div className="imageFrame darkRed animationScaleIn">
                             <image className="leafLEFT" style={{backgroundImage: `url(${chautara})`}}></image>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ export const WhenPerformedPage = () => {
 
                 <div className="flexRowWrapper">
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationScaleIn">
                             <image className="leafRIGHT" style={{backgroundImage: `url(${peepal})`}}></image>
                         </div>
                         <div className="informationWrapper">
@@ -112,10 +112,10 @@ export const WhenPerformedPage = () => {
 
                     <div className="flexColumnWrapper">
                         <div className="headingWrapper">
-                            <h2>PLANTING <span>BAR</span> OR <span>PEEPAL</span> TREE</h2>
+                            <h2>PLANTING <span>BAR</span> <br></br>OR<br></br> <span>PEEPAL</span> TREE</h2>
                         </div>
 
-                         <div className="imageFrame darkRed">
+                         <div className="imageFrame darkRed animationScaleIn">
                             <image className="leafRIGHT" style={{backgroundImage: `url(${bar})`}}></image>
                         </div>
                     </div>
@@ -222,11 +222,11 @@ export const WhenPerformedPage = () => {
 
                 <div className="flexRowWrapper">
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationFade">
                             <image className="curvedImageBLTR" style={{backgroundImage: `url(${chasokTangnam1})`}}></image>
                         </div>
 
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationFade">
                             <image className="curvedImageTLBR" style={{backgroundImage: `url(${chasokTangnam2})`}}></image>
                         </div>
                     </div>
@@ -266,11 +266,11 @@ export const WhenPerformedPage = () => {
                     </div>
 
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationFade">
                             <image className="curvedImageBLTR" style={{backgroundImage: `url(${sisekpaTangnam1})`}}></image>
                         </div>
 
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationFade">
                             <image className="curvedImageTLBR" style={{backgroundImage: `url(${sisekpaTangnam2})`}}></image>
                         </div>
                     </div>
@@ -280,11 +280,11 @@ export const WhenPerformedPage = () => {
 
                 <div className="flexRowWrapper">
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationFade">
                             <image className="curvedImageBLTR" style={{backgroundImage: `url(${balihangTangnam1})`}}></image>
                         </div>
 
-                        <div className="imageFrame darkRed">
+                        <div className="imageFrame darkRed animationFade">
                             <image className="curvedImageTLBR" style={{backgroundImage: `url(${balihangTangnam2})`}}></image>
                         </div>
                     </div>

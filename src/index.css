@@ -131,6 +131,7 @@ button{
 p{
   font-size: clamp(1rem, 1vw, 2rem);
   padding: 0;
+  margin: 0;
 }
 
 
@@ -160,4 +161,5 @@ image{
   /* background-color: #E1ECF3; */
   background-color: #ffffffe8;
   box-shadow: 0px 0px 10px 2px #ffffff77;
+  gap: 12px;
 }

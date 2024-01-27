@@ -79,10 +79,5 @@
 
 .sectionKeAssembleWrapper .flexRowWrapper .informationWrapper{
     height: 300px;
-    width: 550px;
-    gap: 20px;
-}
-.sectionKeAssembleWrapper .informationWrapper p{
-    padding: 0;
-    margin: 0;
+    width: 540px;
 }

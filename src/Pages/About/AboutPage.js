@@ -65,7 +65,7 @@ export const AboutPage = () => {
                 </div>
 
                 <div className="flexRowWrapper">
-                    <image className="darkSteelBlue" style={{backgroundImage: `url(${huksagay})`}}></image>
+                    <image className="darkSteelBlue animationScaleIn" style={{backgroundImage: `url(${huksagay})`}}></image>
                     <div className="informationWrapper">
                         <h2>RIGHT <span>HAND</span></h2>
                         <line className="mediumSteelBlue"></line>
@@ -85,7 +85,7 @@ export const AboutPage = () => {
                         </p>
                         <button class="rippleBtn">Play<Music size={40}/></button>
                     </div>
-                    <image className="darkSteelBlue" style={{backgroundImage: `url(${singsagay})`}}></image>
+                    <image className="darkSteelBlue animationScaleIn" style={{backgroundImage: `url(${singsagay})`}}></image>
                 </div>
 
                 <div className="informationWrapperCurvedTL">
@@ -106,55 +106,56 @@ export const AboutPage = () => {
                     <div className="flexColumnWrapper">
                         <div className="informationWrapper">
                             <h2><span>FLOWER</span> DECORATION</h2>
+                            <line className="mediumSteelBlue"></line>
                             <p>
                                 Fresh flowers and lush plants branches and leafs are used to decorate the chyabrung. The flowers and plants branches stem are tucked under the leather ropes on the chyabrung. The flowers are used to bless the bride and groom during wedding dance.                       
                             </p>
-                            <line className="mediumSteelBlue"></line>
                         </div>
 
-                        <div className="imageFrame darkSteelBlue">
+                        <div className="imageFrame darkSteelBlue animationFloatUP">
                             <image className="imageLeafL" style={{backgroundImage: `url(${wetting})`}}></image>
                         </div>
                     </div>
 
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkSteelBlue">
+                        <div className="imageFrame darkSteelBlue animationFloatUP">
                             <image className="imageLeafR" style={{backgroundImage: `url(${flowers})`}}></image>
                         </div>
 
                         <div className="informationWrapper">
                             <h2><span>WETTING</span> CHYABRUNG</h2>
-                            <p>
-                                Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound.                            </p>
                             <line className="mediumSteelBlue"></line>
+                            <p>
+                                Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound.                            
+                            </p>
                         </div>
                     </div>
 
                     <div className="flexColumnWrapper">
                         <div className="informationWrapper">
                             <h2>TUNING <span>PANGRA</span> KEY</h2>
+                            <line className="mediumSteelBlue"></line>
                             <p>
                                 Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound.                     
                             </p>
-                            <line className="mediumSteelBlue"></line>
                         </div>
 
-                        <div className="imageFrame darkSteelBlue">
+                        <div className="imageFrame darkSteelBlue animationFloatUP">
                             <image className="imageLeafL" style={{backgroundImage: `url(${tuningMatengra})`}}></image>
                         </div>
                     </div>
 
                     <div className="flexColumnWrapper">
-                        <div className="imageFrame darkSteelBlue">
+                        <div className="imageFrame darkSteelBlue animationFloatUP">
                             <image className="imageLeafR" style={{backgroundImage: `url(${tuningChabi})`}}></image>
                         </div>
 
                         <div className="informationWrapper">
                             <h2>TUNING <span>MATENGRA</span> KEY</h2>
+                            <line className="mediumSteelBlue"></line>
                             <p>
                                 Taplejung and Sankhuwasbbha region ke/chyabrung doesn't have the pangra bean chabi/key and insted it has “matengra” (marble) key. To tune the matengra chyabrung you just have to tilt the chyabrung down so the gravaty can always keep the marble toching the huksagay/chyang skin.                       
                             </p>
-                            <line className="mediumSteelBlue"></line>
                         </div>
                     </div>
                 </div>
@@ -164,7 +165,7 @@ export const AboutPage = () => {
             <section className="sectionHeldWrapper lightSteelBlue">
                 <h1>HOW THE CHYABRUNG IS <span>HELD</span></h1>
                 <div className="flexRowWrapperCenter">
-                    <div className="imageFrameSmall darkSteelBlue">
+                    <div className="imageFrameSmall darkSteelBlue animationFloatLEFT">
                         <image className="imageRoundedUP" style={{backgroundImage: `url(${tiltedUP})`}}></image>
                     </div>
 
@@ -242,12 +243,13 @@ export const AboutPage = () => {
                 </div>
 
                 <div className="flexRowWrapper">
-                    <div className="largeChyabrungImage darkSteelBlue">
+                    <div className="largeChyabrungImage darkSteelBlue animationFade">
                         <image style={{backgroundImage: `url(${taplejungChyabrung})`}}></image>
                     </div>  
 
                     <div className="informationWrapper">
                         <h2><span>Taplejung</span> & <span>Sankhuwasabha</span> Chyabrung</h2>
+                        <line className="mediumSteelBlue"></line>
                         <p>
                             Taplejung and Sankhuwasabha chyabrung are built the same way and are the shortest & smallest comparing to the rest of the regions. These two regions chyabrung has special type of “matengra”/marble chabi/key and not the typical pangra bean chabi. These chyabrung produces sharp, high pitch but quiet sound.                        
                         </p>
@@ -256,12 +258,13 @@ export const AboutPage = () => {
                 </div>
 
                 <div className="flexRowWrapper">
-                    <div className="largeChyabrungImage darkSteelBlue">
+                    <div className="largeChyabrungImage darkSteelBlue animationFade">
                         <image style={{backgroundImage: `url(${terhathumChyabrung})`}}></image>
                     </div>
 
                     <div className="informationWrapper">
                         <h2><span>Terhathum</span> Chyabrung</h2>
+                        <line className="mediumSteelBlue"></line>
                         <p>
                             Terhathum chyabrung are medium size chyabrung. The chyabrung length is short but the diameter is large. Typical Terhathum chyabrung has two chabi/key and it produces very very sharp, very very high pitch sound, almost like hitting a tin plate comparing to the rest of the region.                        
                         </p>
@@ -270,12 +273,13 @@ export const AboutPage = () => {
                 </div>
 
                 <div className="flexRowWrapper">
-                    <div className="largeChyabrungImage darkSteelBlue">
+                    <div className="largeChyabrungImage darkSteelBlue animationFade">
                         <image style={{backgroundImage: `url(${dhankutaChyabrung})`}}></image>
                     </div>
 
                     <div className="informationWrapper">
                         <h2><span>Dhankuta</span> Chyabrung</h2>
+                        <line className="mediumSteelBlue"></line>
                         <p>
                             Dhankuta region chyabrung are very very large comparing to the rest of the regions. The chyabrung diameter is very large and the length is very long like the Illam chyabrung. It produces very very loud and bassy sound almost like an animal roar. The most noticable feature about dhankuta chyabrung is that the excess skin of the huksagay/chyang is left hanging.                        
                         </p>
@@ -292,13 +296,14 @@ export const AboutPage = () => {
                 <div className="flexRowWrapper">
                     <div className="informationWrapper">
                         <h2><span>Panchthar</span> Chyabrung</h2>
+                        <line className="mediumSteelBlue"></line>
                         <p>
                             Panchthar chyabrung is a medium size chyabrung, similar to Terhathum chyabrung. However, the length is a mixture of both short and long and the diameter is also a mixture of large and small. Typical panchthar chyabrung has one pangra bean chabi/key and the frame is left natural without colors. It produces high pitch buzzing like sound.                        
                         </p>
                         <button class="rippleBtn" onClick={() => {panchtharKeSound.play()}}>Play<Music size={40}/></button>
                     </div>
 
-                    <div className="largeChyabrungImage darkSteelBlue">
+                    <div className="largeChyabrungImage darkSteelBlue animationFade">
                         <image style={{backgroundImage: `url(${panchtharChyabrung})`}}></image>
                     </div>
                 </div>
@@ -306,13 +311,14 @@ export const AboutPage = () => {
                 <div className="flexRowWrapper">
                     <div className="informationWrapper">
                         <h2><span>Illam</span> Chyabrung</h2>
+                        <line className="mediumSteelBlue"></line>
                         <p>
                             Illam chyabrung are very large like the Dhankuta chyabrung. The chyabrung has very large diameter and very long frame comparing to the rest of the region. The frame is almost like a cone shape, the huksagay/chyang side diameter is large and gradually the frame diameter becomes smaller at the singsagay/dhung side. It has two pangra bean chabi/key and it produces very loud resonating swarm of buzzing bee like sound.                       
                         </p>
                         <button class="rippleBtn" onClick={() => {illamKeSound.play()}} >Play<Music size={40}/></button>
                     </div>
 
-                    <div className="largeChyabrungImage darkSteelBlue">
+                    <div className="largeChyabrungImage darkSteelBlue animationFade">
                         <image style={{backgroundImage: `url(${illamChyabrung})`}}></image>
                     </div>
                 </div>
@@ -320,13 +326,14 @@ export const AboutPage = () => {
                 <div className="flexRowWrapper">
                     <div className="informationWrapper">
                         <h2><span>Sikkim</span> Chyabrung</h2>
+                        <line className="mediumSteelBlue"></line>
                         <p>
                             Sikkim region chyabrung size and diameter is very small like the Taplejung and Sankhuwasabha chyabrung. Typically, sikkim chyabrung are decorated by fully draping it with colorful fabric hanging from the chyabrung. The chyabrung produces sharp but quiet sound and has low resonate and vibration.                        
                         </p>
                         <button class="rippleBtn" onClick={() => {sikkimKeSound.play()}}>Play<Music size={40}/></button>
                     </div>
 
-                    <div className="largeChyabrungImage darkSteelBlue">
+                    <div className="largeChyabrungImage darkSteelBlue animationFade">
                         <image style={{backgroundImage: `url(${sikkimChyabrung})`}}></image>
                     </div>
                 </div>

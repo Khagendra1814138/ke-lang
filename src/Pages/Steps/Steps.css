@@ -39,7 +39,7 @@
 }
 
 .sectionStepsTypes .flexRowWrapper .informationWrapper{
-  width: 520px;
+  width: 540px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -90,21 +90,16 @@
 .danceStructure3x2Grid .rounedTopImageWrapper{
   height: 300px;
   width: 370px;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
   overflow: hidden;
   position: relative;
 }
 
 .danceStructure3x2Grid .cardWrapper .informationWrapper{
-  height: 230px;
-  border-radius: 20px;
+  height: 220px;
+  border-radius: 20px 20px 40px 40px;
   justify-content: flex-start;
-  gap: 10px;
-}
-.danceStructure3x2Grid .cardWrapper .informationWrapper p{
-  padding: 0;
-  margin: 0;
 }
 
 @media only screen and (max-width: 900px) {
@@ -325,15 +320,10 @@ map .col3 button:nth-child(1){
 }
 
 .animalStepsWrapper .informationWrapper:nth-child(1){
-  border-radius: 40px;
-  width: 530px;
+  width: 540px;
   display: flex;
   justify-content: center;
   align-self: center;
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 850px) {

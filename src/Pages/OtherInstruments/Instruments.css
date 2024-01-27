@@ -33,7 +33,6 @@
 .sectionPercussionWrapper .flexRowWrapper .informationWrapper{
     height: 300px;
     width: 600px;
-    gap: 10px;
 }
 
 
@@ -117,13 +116,9 @@
     height: 300px;
     width: 540px;
     border-radius: 40px;
-    gap: 10px;
     justify-content: flex-start;
 }
-.sectionKesanglaWrapper .informationWrapper p{
-    padding: 0;
-    margin: 0;
-}
+
 @media only screen and (max-width: 900px) {
     .sectionKesanglaWrapper .kesanglaImageFrame{
         height: 300px;

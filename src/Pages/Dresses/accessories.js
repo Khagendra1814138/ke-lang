@@ -93,23 +93,23 @@ export const AccessoriesGallery = () => {
     return (
         <div className="jewelerieGallaryFrame brownRoundColor">
             <div className="jewelerieGallaryColumn3">
-                <image className="longerImage" style={{backgroundImage: `url(${Acol1a})`}}></image>
-                <image style={{backgroundImage: `url(${Acol1b})`}}></image>
-                <image style={{backgroundImage: `url(${Acol1c})`}}></image>
+                <image className="longerImage animationFade" style={{backgroundImage: `url(${Acol1a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Acol1b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Acol1c})`}}></image>
             </div>
 
 
             <div className="jewelerieGallaryColumn2">
-                <image style={{backgroundImage: `url(${Acol2a})`}}></image>
-                <image className="longerImage" style={{backgroundImage: `url(${Acol2b})`}}></image>
-                <image style={{backgroundImage: `url(${Acol2c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Acol2a})`}}></image>
+                <image className="longerImage animationFade" style={{backgroundImage: `url(${Acol2b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Acol2c})`}}></image>
             </div>
 
 
             <div className="jewelerieGallaryColumn">
-                <image style={{backgroundImage: `url(${Acol3a})`}}></image>
-                <image style={{backgroundImage: `url(${Acol3b})`}}></image>
-                <image className="longerImage" style={{backgroundImage: `url(${Acol3c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Acol3a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${Acol3b})`}}></image>
+                <image className="longerImage animationFade" style={{backgroundImage: `url(${Acol3c})`}}></image>
             </div>
         </div>
     );

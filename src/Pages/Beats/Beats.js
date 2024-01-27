@@ -20,7 +20,6 @@ export const BeatsPage = () => {
 
             <section className="sectionBeatsWrapper lightSteelBlue">
                 <h1>CHYABRUNG <span>BEAT’S</span></h1>
-
                 <div className="informationWrapper">
                     <p>
                         Similar to the steps, there are countless varities of chyabrung beats, and they are different between region to region. Each regions have their own unique chyabrung beats that matches their typical steps. All the beats can categorized into 3 different sections and they are kassarokpa beats, turning beats and animals steps beats. However, there are many beats outside the category.                    

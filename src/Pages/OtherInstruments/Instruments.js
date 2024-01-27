@@ -43,7 +43,7 @@ export const OtherInstrumentsPage = () => {
                 </div>
 
                 <div className="flexRowWrapper">
-                    <image className="mediumGreen" style={{backgroundImage: `url(${Jhympta2})`}}></image>
+                    <image className="mediumGreen animationFloatUP" style={{backgroundImage: `url(${Jhympta2})`}}></image>
                     <div className="informationWrapper">
                         <h2><span>JHYMPTA</span></h2>
                         <line className="darkGreen"></line>
@@ -63,7 +63,7 @@ export const OtherInstrumentsPage = () => {
                             Similar to the jhympta, the tambourine is another instruments that has been recently adapted by the female dancers. This instrument is played together with the jhayampta by following alongside the chyabrung rhythm/beat. This instrument is only played in the Taplejung and Sankhuwasabha regions.                     
                         </p>
                     </div>
-                    <image className="mediumGreen" style={{backgroundImage: `url(${Tamborine})`}}></image>
+                    <image className="mediumGreen animationFloatUP" style={{backgroundImage: `url(${Tamborine})`}}></image>
                 </div>
 
                 <div className="gallery3x3Grid">

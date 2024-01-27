@@ -307,17 +307,54 @@ export const HomePage = () => {
                 </div>
                 
                 <div className="chyabrungInfoContainer lightYellow">
-                    <div className="flexColumnn">
-                        <div className="informationWrapper">  
-                            <h2>WHY IT'S IMPORTANT</h2>
+                    <h1> THE <span>IMPORTANCE</span> OF KELANG </h1>
+                    <div className="flexRowWrapper">
+                        <div className="flexColumnn">
+                            <div className="informationWrapper yellow">  
+                                <h2>THE <span>MYTH</span> OF KELANG</h2>
+                                <line className="darkYellow"></line>
+                                <p>
+                                    Chyabrung is not just a dance performance for entertainment... it is deeply connect with Limbu people origion, history and “mundhum” (myth) since the beginning of time.
+                                    Kelang is performed to give blessing and prosperity during Limbu marriage and festivals.                        
+                                </p>
+                            </div>
+                            <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Kelang Myth<ArrowRight size={40}/></button>
+                        </div>
+                        <image className="imageRoundedTRBL darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+                    </div>
+
+                    <div className="flexRowWrapper">
+                        <image className="imageRoundedTLBR darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+                        <div className="informationWrapper yellow">  
+                            <h2>OUR <span>CULTURE</span> DANCE</h2>
                             <line className="darkYellow"></line>
                             <p>
-                                Chyabrung is not just a dance performance for entertainment... it is deeply connect with Limbu people history and origin since the beginning of time.                            
+                                At the end, the kelang of Limbus is not an ordinary hollow-log drum that everyone carries and dance as one desires but it is as old as Limbus themselves and its mythology is as dimensional as the history of human civilization. The association of Kelang with the Limbu tribe is a universally recognized and authenticated.                            
                             </p>
                         </div>
-                        <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Show More<ArrowRight size={40}/></button>
                     </div>
-                    <image className="darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+
+                    <div className="flexRowWrapper">
+                        <div className="informationWrapper yellow">  
+                            <h2><span>GOOD</span> ALWAYS TRIUMPHS <span>EVIL</span></h2>
+                            <line className="darkYellow"></line>
+                            <p>
+                                Whenever the sound of the Chyabrung drum resounds in the air, the tragic story of two brothers “Kesamay” and “Namsamay” are remembered and honoured. As the kelang dance is performed, it reminds us and teach us all that good always triumphs over evil at the end.                           
+                            </p>
+                        </div>
+                        <image className="imageRoundedTRBL darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+                    </div>
+
+                    <div className="flexRowWrapper">
+                        <image className="imageRoundedTLBR darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+                        <div className="informationWrapper yellow">  
+                            <h2>FOR THE <span>NEXT</span> GENERATION</h2>
+                            <line className="darkYellow"></line>
+                            <p>
+                                After all, kelang/chyabrung is a dance for everyone to enjoy and have fun. When the chyabrung dance is performed, it teaches and shows all age group people from young, teens to old about our cultural dance and helps the dance to be passed down to the next young generation. From theba, to son to grandson and so on.                            
+                            </p>
+                        </div>
+                    </div>
                 </div>
         
 

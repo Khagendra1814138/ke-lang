@@ -16,23 +16,23 @@ export const MakingKeGallery = () => {
     return (
         <div className="makingKeGallaryFrame purpleRoundedColor2">
             <div className="KeGallaryRow">
-                <image className="rowLargeImage" style={{backgroundImage: `url(${cRow1a})`}}></image>
-                <image style={{backgroundImage: `url(${cRow1b})`}}></image>
-                <image style={{backgroundImage: `url(${cRow1c})`}}></image>
+                <image className="rowLargeImage animationFade" style={{backgroundImage: `url(${cRow1a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${cRow1b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${cRow1c})`}}></image>
             </div>
 
 
             <div className="KeGallaryRow">
-                <image style={{backgroundImage: `url(${cRow2a})`}}></image>
-                <image className="rowLargeImage" style={{backgroundImage: `url(${cRow2b})`}}></image>
-                <image style={{backgroundImage: `url(${cRow2c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${cRow2a})`}}></image>
+                <image className="rowLargeImage animationFade" style={{backgroundImage: `url(${cRow2b})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${cRow2c})`}}></image>
             </div>
 
 
             <div className="KeGallaryRow">
-                <image style={{backgroundImage: `url(${cRow3a})`}}></image>
-                <image style={{backgroundImage: `url(${cRow3b})`}}></image>
-                <image className="rowLargeImage" style={{backgroundImage: `url(${cRow3c})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${cRow3a})`}}></image>
+                <image className="animationFade" style={{backgroundImage: `url(${cRow3b})`}}></image>
+                <image className="rowLargeImage animationFade" style={{backgroundImage: `url(${cRow3c})`}}></image>
             </div>
         </div>
     );

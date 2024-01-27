@@ -15,22 +15,15 @@
 }
 
 .jeweleriesCardWrapper .informationWrapper{
-    gap: 10px;
-    border-radius: 20px;
+    border-radius: 20px 20px 40px 40px;
     height: 260px;
     justify-content: flex-start;
 }
-
-.jeweleriesCardWrapper .informationWrapper p{
-    padding: 0;
-    margin: 0;
-}
-
 .jeweleriesCardWrapper .rounedBLTRImageWrapper{
     height: 300px;
     width: 360px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
     overflow: hidden;
     position: relative;
 }

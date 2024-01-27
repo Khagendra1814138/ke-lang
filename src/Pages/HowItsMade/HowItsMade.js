@@ -81,13 +81,13 @@ export const HowItsMadePage = () => {
                         </p>
                     </div>
 
-                    <div className="assemblyImageFrame mediumPurple">
+                    <div className="assemblyImageFrame mediumPurple animationFloatRight">
                         <image className="roundedRImage" style={{backgroundImage: `url(${decorating})`}}></image>
                     </div>
                 </div>
 
                 <div className="flexRowWrapper">
-                    <div className="assemblyImageFrame mediumPurple">
+                    <div className="assemblyImageFrame mediumPurple animationFloatLeft">
                         <image className="roundedLImage" style={{backgroundImage: `url(${insertingChabi})`}}></image>
                     </div>
 
@@ -109,13 +109,13 @@ export const HowItsMadePage = () => {
                         </p>
                     </div>
 
-                    <div className="assemblyImageFrame mediumPurple">
+                    <div className="assemblyImageFrame mediumPurple animationFloatRight">
                         <image className="roundedRImage" style={{backgroundImage: `url(${wettingLeather})`}}></image>
                     </div>
                 </div>
 
                 <div className="flexRowWrapper">
-                    <div className="assemblyImageFrame mediumPurple">
+                    <div className="assemblyImageFrame mediumPurple animationFloatLeft">
                         <image className="roundedLImage" style={{backgroundImage: `url(${tightningSkin})`}}></image>
                     </div>
 
@@ -137,13 +137,13 @@ export const HowItsMadePage = () => {
                         </p>
                     </div>
 
-                    <div className="assemblyImageFrame mediumPurple">
+                    <div className="assemblyImageFrame mediumPurple animationFloatRight">
                         <image className="normalImage" style={{backgroundImage: `url(${tuningHuksagay})`}}></image>
                     </div>
                 </div>
 
                 <div className="flexRowWrapper">
-                    <div className="assemblyImageFrame mediumPurple">
+                    <div className="assemblyImageFrame mediumPurple animationFloatLeft">
                         <image className="roundedLImage" style={{backgroundImage: `url(${coloringHuksagey})`}}></image>
                     </div>
 
@@ -165,7 +165,7 @@ export const HowItsMadePage = () => {
                         </p>
                     </div>
 
-                    <div className="assemblyImageFrame mediumPurple">
+                    <div className="assemblyImageFrame mediumPurple animationFloatRight">
                         <image className="roundedRImage" style={{backgroundImage: `url(${performingRitual})`}}></image>
                     </div>
                 </div>

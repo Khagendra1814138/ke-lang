@@ -93,7 +93,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 60px;
+        gap: 40px;
     } 
         .genderInfoWrapper .flexColumn{
             display: flex;
@@ -116,7 +116,7 @@
             border-radius: 20px 20px 40px 40px;
         }
         .genderInfoWrapper .flexColumn p{
-            width: 520px;
+            width: 540px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -403,87 +403,6 @@
 
 
 
-.chyabrungInfoContainer{
-    max-width: 1300px;
-    border-radius: 3rem;
-    margin: auto;
-    padding: 2rem 2rem 2rem 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
-}
-
-
-.chyabrungInfoContainer .informationWrapper{
-    height: 280px;
-    width: 520px;
-    border-radius: 40px;
-}
-
-.chyabrungInfoContainer image{
-    height: 500px;
-    width: 660px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-    /* .secOverflowHidden .purpleBgParahraph h2 span{
-        color: #AA78DF;
-    }
-
-.secOverflowHidden .redBg{
-    background-color: #d8637b;
-}
-    .secOverflowHidden .redBgParahraph h2 span{
-        color: #E24C5E;
-    } */
-
-/* .secOverflowHidden p{
-    height: calc(400px - var(--paragraphPadding) * 3);
-    width: calc(600px - var(--paragraphPadding) * 2);
-    border-radius: 20px;
-    border: 1px solid rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}  */
-
-
-@media only screen and (max-width: 1500px) {
-    .chyabrungMoreInfo .informationWrapper{
-        border-radius: 20px 20px 40px 40px;
-    } 
-    
-    .chyabrungMoreInfo image{
-        border-radius: 40px 40px 20px 20px;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .chyabrungInfoContainer .informationWrapper{
-        width: 290px;
-    }
-
-    .chyabrungInfoContainer{
-        gap: 2rem;
-        width: 80vw;
-        border-radius: 3rem;
-    }
-
-    .chyabrungInfoContainer image{
-        height: 350px;
-        width: 350px;
-    }
-}
-
 
 
 
@@ -613,6 +532,98 @@
 }
 
 
+
+
+
+
+.chyabrungInfoContainer{
+    max-width: 1300px;
+    border-radius: 3rem;
+    margin: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.chyabrungInfoContainer h1 span {
+    color: #ED9B27;
+}
+.chyabrungInfoContainer .flexRowWrapper h2 span {
+    color: #ED9B27;
+}
+
+.chyabrungInfoContainer .informationWrapper{
+    height: 280px;
+    width: 520px;
+    border-radius: 40px;
+}
+
+.chyabrungInfoContainer image{
+    height: 500px;
+    width: 660px;
+    border-radius: 40px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+.chyabrungInfoContainer .imageRoundedTLBR{
+    border-radius: 40px 300px 40px 300px;
+}
+.chyabrungInfoContainer .imageRoundedTRBL{
+    border-radius: 300px 40px 300px 40px;
+}
+
+    /* .secOverflowHidden .purpleBgParahraph h2 span{
+        color: #AA78DF;
+    }
+
+.secOverflowHidden .redBg{
+    background-color: #d8637b;
+}
+    .secOverflowHidden .redBgParahraph h2 span{
+        color: #E24C5E;
+    } */
+
+/* .secOverflowHidden p{
+    height: calc(400px - var(--paragraphPadding) * 3);
+    width: calc(600px - var(--paragraphPadding) * 2);
+    border-radius: 20px;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  */
+
+@media only screen and (max-width: 900px) {
+    .chyabrungInfoContainer .informationWrapper{
+        width: 290px;
+    }
+
+    .chyabrungInfoContainer{
+        gap: 2rem;
+        width: 80vw;
+        border-radius: 3rem;
+    }
+
+    .chyabrungInfoContainer image{
+        height: 350px;
+        width: 350px;
+    }
+
+    .chyabrungInfoContainer .imageRoundedTLBR{
+        border-radius: 40px 150px 40px 150px;
+    }
+    .chyabrungInfoContainer .imageRoundedTRBL{
+        border-radius: 150px 40px 150px 40px;
+    }
+}
 
 
 

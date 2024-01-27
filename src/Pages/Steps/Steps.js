@@ -2,6 +2,7 @@ import {React, useRef} from "react";
 import { useNavigate } from "react-router-dom";
 
 import { ArrowDown } from 'react-feather';
+import { ArrowRight } from 'react-feather';
 
 import "./Steps.css";
 import "../../Styles/roundedSection.css"
@@ -91,7 +92,7 @@ export const ChyabrungStepsPage = () => {
 
                 <div className="danceStructure3x2Grid">
                     <div className="cardWrapper">
-                        <div className="rounedTopImageWrapper darkTealGreen">
+                        <div className="rounedTopImageWrapper darkTealGreen animationFloatRight">
                            <image style={{backgroundImage: `url(${Lamlok})`}}></image> 
                         </div>
                         
@@ -105,7 +106,7 @@ export const ChyabrungStepsPage = () => {
                     </div>
 
                     <div className="cardWrapper">
-                        <div className="rounedTopImageWrapper darkTealGreen">
+                        <div className="rounedTopImageWrapper darkTealGreen animationFloatRight">
                            <image style={{backgroundImage: `url(${Circle})`}}></image> 
                         </div>
                         
@@ -119,7 +120,7 @@ export const ChyabrungStepsPage = () => {
                     </div>
 
                     <div className="cardWrapper">
-                        <div className="rounedTopImageWrapper darkTealGreen">
+                        <div className="rounedTopImageWrapper darkTealGreen animationFloatRight">
                            <image style={{backgroundImage: `url(${Kassaropa})`}}></image> 
                         </div>
                         
@@ -135,7 +136,7 @@ export const ChyabrungStepsPage = () => {
 
                
                     <div className="cardWrapper">
-                        <div className="rounedTopImageWrapper darkTealGreen">
+                        <div className="rounedTopImageWrapper darkTealGreen animationFloatRight">
                            <image style={{backgroundImage: `url(${BasicAnimals})`}}></image> 
                         </div>
                         
@@ -149,7 +150,7 @@ export const ChyabrungStepsPage = () => {
                     </div>
 
                     <div className="cardWrapper">
-                        <div className="rounedTopImageWrapper darkTealGreen">
+                        <div className="rounedTopImageWrapper darkTealGreen animationFloatRight">
                            <image style={{backgroundImage: `url(${FastEnergetic})`}}></image> 
                         </div>
                         
@@ -163,7 +164,7 @@ export const ChyabrungStepsPage = () => {
                     </div>
 
                     <div className="cardWrapper">
-                        <div className="rounedTopImageWrapper darkTealGreen">
+                        <div className="rounedTopImageWrapper darkTealGreen animationFloatRight">
                            <image style={{backgroundImage: `url(${gesturesBlessing})`}}></image> 
                         </div>
                         
@@ -238,7 +239,7 @@ export const ChyabrungStepsPage = () => {
                                 During the final phase of the dance, the dancers performs a repetitive basic steps, but, the dancers also uses their hand gestures to bless the audience, show their fatigue and request for foods and drinks.                            
                             </p>
                         </div>
-                        <button> Show More</button>
+                        <button>Show More<ArrowRight size={40}/></button>
                     </div>
                 </div>
             </section>

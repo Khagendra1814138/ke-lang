@@ -90,7 +90,10 @@
 
 
 .lightYellow{
-    background-color: #fff67aa8;
+    background-color: #fff89ab4;
+}
+.yellow{
+    background-color: #FFF2DE;
 }
 .darkYellow{
     background-color: #ED9B27;
@@ -102,7 +105,7 @@
     background-color: #ffd3d3a2;
 }
 .mediumBrown{
-    background-color: #b98585;
+    background-color: #9c7171;
 }
 .darkBrown{
     background-color: #91553B;
@@ -112,6 +115,11 @@
 }
 .lightBrownVideoFrame{
     background-color: #ffdcdca8;
+}
+
+.transparentBackground{
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .flexColumnn{

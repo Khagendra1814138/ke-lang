@@ -10,11 +10,6 @@
     align-items: center;
 }
 
-.clothingFrame .informationWrapper p{
-   padding: 0;
-   margin: 0;
-}
-
 .row1{
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +36,6 @@
     .row1 .informationWrapper{
         height: 340px;
         width: 450px;
-        gap: 20px;
     }
 
 
@@ -83,12 +77,6 @@
     .row2 .flexColumnWrapper .informationWrapper{
         width: 300px;
         height: 300px;
-        gap: 10px;
-    }
-
-    .row2 .informationWrapper p{
-        padding: 0;
-        margin: 0;
     }
 
     .row2 .longCenterImage{
@@ -128,11 +116,6 @@
 .clothingFrame .row3 .informationWrapper{
     height: 340px;
     width: 260px;
-    gap: 10px;
-}
-.clothingFrame .row3 .informationWrapper p{
-    padding: 0;
-    margin: 0;
 }
 @media only screen and (max-width: 1800px) {
     .row2{
@@ -185,12 +168,8 @@
 .clothingFrame .row3accessories .informationWrapper{
     height: 340px;
     width: 360px;
-    gap: 10px;
 }
-.clothingFrame .row3accessories .informationWrapper p{
-    padding: 0;
-    margin: 0;
-}
+
 @media only screen and (max-width: 900px) {
     .clothingFrame .row3accessories .informationWrapper{
         width: 300px;

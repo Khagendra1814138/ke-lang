@@ -7,7 +7,7 @@ import huksagey from "../../Images/construction/parts/huksagey.jpg";
 import singsagay from "../../Images/construction/parts/singsagay.jpg";
 import chabi from "../../Images/construction/parts/chabi.jpg";
 import leatherRope from "../../Images/construction/parts/leatherRope.jpg";
-
+import matengraChabi from "../../Images/construction/parts/matengraChabi.jpg";
 
 export const Parts = () => {
     return (
@@ -63,11 +63,24 @@ export const Parts = () => {
                 </div>
                 
                 <div className="informationWrapper">
-                    <h2>Pangra <span>"Chabi"</span> Key</h2>
+                    <h2><span>"Pangra"</span> Key</h2>
                     <line className="mediumPurple"></line>
                     <p>
-                        To make the “chabi”, a small hole is drilled on the side of the pangra bean. Then the bamboo stick is inserted inside the hole of the pangra bean and held together with glue and screws, making the chabi look like a lollipop.                     
+                        To make the pangra “chabi”, a small hole is drilled on the side of the pangra bean. Then the bamboo stick is inserted inside the hole of the pangra bean and held together with glue and screws, making the chabi look like a lollipop.                     
                     </p>
+                </div>
+            </div>
+
+            <div className="cardWrapper">
+                <div className="imageFrame mediumPurple">
+                    <image className="rounedBImage" style={{backgroundImage: `url(${matengraChabi})`}}></image> 
+                </div>
+                
+                <div className="informationWrapper">
+                    <h2><span>"Matengra"</span> Key</h2>
+                    <line className="mediumPurple"></line>
+                    <p>
+                        The “matengra” (Marble) key is typically found in Taplejung and Sankhuwasabha region ke drum. A circular curved frame is etched into the huksagay/”chyang” side of the ke frame to allow the marble to rest and always touch the huksagey skin when sightly tilted down due to gravity.                     </p>
                 </div>
             </div>
 
