@@ -162,39 +162,38 @@
     justify-content: center;
     align-self: center;
     background-color: white;
-    border: 1px solid rebeccapurple;
-  
-    .curvedBR{
-      position: absolute;
-      bottom: -64px;
-      right: 0;
-      height: 64px;
-      width: 46%;
-      background-color: white;
-      border-radius: 0px 0px 40px 40px;
-  
-      &::before{
-          content: "";
-          height: 20px;
-          width: 20px;
-          position: absolute;
-          top: 0px;
-          left: -20px;
-          background-color: white;
-          border-radius: 0px 0px 0px 20px;
-      }
-      &::after{
-          content: "";
-          position: absolute;
-          height: 20px;
-          width: 20px;
-          top: 0px;
-          left: -20px;
-          background-color: #72e2cd71;
-          border-radius: 0px 20px 0px 20px;
-      }
-    }
 }
+
+.sectionMusicStepsWrapper .informationWrapperCurvedBR .curvedBR{
+    position: absolute;
+    bottom: -64px;
+    right: 0;
+    height: 64px;
+    width: 46%;
+    background-color: white;
+    border-radius: 0px 0px 40px 40px;
+
+    &::before{
+        content: "";
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 0px;
+        left: -20px;
+        background-color: white;
+        border-radius: 0px 0px 0px 20px;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 0px;
+        left: -20px;
+        background-color: #72e2cd71;
+        border-radius: 0px 20px 0px 20px;
+    }
+  }
 
 .sectionMusicStepsWrapper .informationWrapperCurvedTL{
     position: relative;
@@ -208,37 +207,35 @@
     justify-content: center;
     align-self: center;
     background-color: white;
-    border: 1px solid rebeccapurple;
+}
+.sectionMusicStepsWrapper .informationWrapperCurvedTL .curvedTL{
+    position: absolute;
+    top: -64px;
+    left: 0;
+    height: 64px;
+    width: 46%;
+    background-color: white;
+    border-radius: 40px 40px 0px 0px;
 
-    .curvedTL{
+    &::before{
+        content: "";
+        height: 20px;
+        width: 20px;
         position: absolute;
-        top: -64px;
-        left: 0;
-        height: 64px;
-        width: 46%;
+        bottom: 0px;
+        right: -20px;
         background-color: white;
-        border-radius: 40px 40px 0px 0px;
-
-        &::before{
-            content: "";
-            height: 20px;
-            width: 20px;
-            position: absolute;
-            bottom: 0px;
-            right: -20px;
-            background-color: white;
-            border-radius: 0px 20px 0px 0px;
-        }
-        &::after{
-            content: "";
-            position: absolute;
-            height: 20px;
-            width: 20px;
-            bottom: 0px;
-            right: -20px;
-            background-color: #72e2cd71;
-            border-radius: 0px 20px 0px 20px;
-        }
+        border-radius: 0px 20px 0px 0px;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        bottom: 0px;
+        right: -20px;
+        background-color: #72e2cd71;
+        border-radius: 0px 20px 0px 20px;
     }
 }
 
