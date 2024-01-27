@@ -24,12 +24,12 @@
     }
 }
 
-.animationScaleIn{
-    animation: fadein linear both;
+.animationScaleInside{
+    animation: scaleIn linear both;
     animation-timeline: view();
     animation-range: entry 50% cover 40%;
 }
-@keyframes fadein {
+@keyframes scaleIn {
     from{
         opacity: 0;
         scale: 0.6; 
