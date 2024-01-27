@@ -107,10 +107,24 @@
             display: flex;
             height: 500px;
             width: 600px;
-            background-color: #AA78DF;
+            background-color: rebeccapurple;
             background-position: bottom;
             background-size: contain;
             background-repeat: no-repeat;
+
+            animation: scaleIn linear both;
+            animation-timeline: view();
+            animation-range: entry 50% cover 40%;
+        }
+        @keyframes scaleIn {
+            from {
+                opacity: 0%;
+                scale: 0.6;
+            }
+            to {
+                opacity: 100%;
+                scale: 1; 
+            }
         }
         .genderInfoWrapper .informationWrapper{
             border-radius: 20px 20px 40px 40px;
