@@ -71,7 +71,7 @@ export const HomePage = () => {
 
                 <div className="genderInfoWrapper">
                     <div className="flexColumn">
-                        <image className="animationScaleIn" style={{backgroundImage: `url(${Boys})`}} alt="boys"></image>
+                        <image className="" style={{backgroundImage: `url(${Boys})`}} alt="boys"></image>
                         <div className="informationWrapper">
                             <h2><span>MALE </span> DANCERS</h2>
                             <line className="pimpPurple"></line>
@@ -82,7 +82,7 @@ export const HomePage = () => {
                     </div>
 
                     <div className="flexColumn">
-                        <image className="animationScaleIn" style={{backgroundImage: `url(${Girls})`}}></image>
+                        <image className="" style={{backgroundImage: `url(${Girls})`}}></image>
                         <div className="informationWrapper">
                             <h2><span>FEMALE </span>DANCERS</h2>
                             <line className="pimpPurple"></line>
