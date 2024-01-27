@@ -162,6 +162,7 @@
     justify-content: center;
     align-self: center;
     background-color: white;
+    border: 1px solid rebeccapurple;
   
     .curvedBR{
       position: absolute;
@@ -207,6 +208,7 @@
     justify-content: center;
     align-self: center;
     background-color: white;
+    border: 1px solid rebeccapurple;
 
     .curvedTL{
         position: absolute;
