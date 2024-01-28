@@ -72,7 +72,7 @@ export const Chap3HorizontalScrollCarousel = () => {
                         <image className="darkYellow"></image>
                         <div className="informationWrapper">
                             <h2>
-                                From the natural human body and foot movements, they also created the basic kassarokpa steps.                             
+                                From the natural human body and foot movements, they created the basic kassarokpa steps.                             
                             </h2>
                         </div>
                     </div>

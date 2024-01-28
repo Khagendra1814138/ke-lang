@@ -107,7 +107,7 @@ export const AboutPage = () => {
                             <h2><span>FLOWER</span> DECORATION</h2>
                             <line className="mediumSteelBlue"></line>
                             <p>
-                                Fresh flowers and lush plants branches and leafs are used to decorate the chyabrung. The flowers and plants branches stem are tucked under the leather ropes on the chyabrung. The flowers are used to bless the bride and groom during wedding dance.                       
+                                Fresh flowers and lush plants branches and leafs are used to decorate the chyabrung. The flowers and plants branches stem are tucked under the leather ropes on the chyabrung. The flowers with rice beads are used to bless the bride and groom during wedding ceremony kelang.                       
                             </p>
                         </div>
 
@@ -125,7 +125,7 @@ export const AboutPage = () => {
                             <h2><span>WETTING</span> CHYABRUNG</h2>
                             <line className="mediumSteelBlue"></line>
                             <p>
-                                Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound.                            
+                                Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound. Sometimes “Tongba ko chokra” (millet alcohol beverage) is used to wet the skin.                            
                             </p>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ export const AboutPage = () => {
                             <h2>TUNING <span>PANGRA</span> KEY</h2>
                             <line className="mediumSteelBlue"></line>
                             <p>
-                                Before starting to play the chyabrung, the huksagay/chyang skin of the chyabrung is wetted. A piece of cloth or rag is soaked with water, and the soaked cloth is placed in the middle of the skin. This makes the skin looser in the middle, which helps the chyabrung to produce much richer and louder sound.                     
+                                To tune the pangra chabi (key), the string tightened to the pangra is pulled slowly until the tip of the chabi touches the huksagay skin. Physically you will see a small bump through the skin if pulled too hard. Keep striking the skin and pulling or loosening the chabi string until you hear the perfect vibrating resound from the chyabrung drum. Then lock the chabi string in the same place.                     
                             </p>
                         </div>
 

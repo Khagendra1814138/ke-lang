@@ -29,6 +29,10 @@ import wedding from "../../Images/homeImages/wedding.png";
 import blessing from "../../Images/homeImages/blessing.png";
 
 import chyabrungLarge from "../../Images/homeImages/chyabrungLarge.jpg";
+import futureGeneration from "../../Images/homeImages/futureGeneration.png";
+import ourCulture from "../../Images/homeImages/ourCulture.png";
+import goodOverEvil from "../../Images/homeImages/goodOverEvil.png";
+
 
 export const HomePage = () => {
     const navigate = useNavigate();
@@ -71,7 +75,7 @@ export const HomePage = () => {
 
                 <div className="genderInfoWrapper">
                     <div className="flexColumn">
-                        <image className="" style={{backgroundImage: `url(${Boys})`}} alt="boys"></image>
+                        <image className="animationScaleIn" style={{backgroundImage: `url(${Boys})`}} alt="boys"></image>
                         <div className="informationWrapper">
                             <h2><span>MALE </span> DANCERS</h2>
                             <line className="pimpPurple"></line>
@@ -82,7 +86,7 @@ export const HomePage = () => {
                     </div>
 
                     <div className="flexColumn">
-                        <image className="" style={{backgroundImage: `url(${Girls})`}}></image>
+                        <image className="animationScaleIn" style={{backgroundImage: `url(${Girls})`}}></image>
                         <div className="informationWrapper">
                             <h2><span>FEMALE </span>DANCERS</h2>
                             <line className="pimpPurple"></line>
@@ -320,11 +324,17 @@ export const HomePage = () => {
                             </div>
                             <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Kelang Myth<ArrowRight size={40}/></button>
                         </div>
-                        <image className="imageRoundedTRBL darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+
+                        <div className="importanceImageFrame imageRoundedTLBR darkYellow animationFloatUP">
+                            <image className="imageRoundedTLBR" style={{backgroundImage: `url(${blessing})`}}></image>
+                        </div>   
                     </div>
 
                     <div className="flexRowWrapper">
-                        <image className="imageRoundedTLBR darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+                        <div className="importanceImageFrame imageRoundedTRBL darkYellow animationFloatUP">
+                            <image className="imageRightSide imageRoundedTRBL" style={{backgroundImage: `url(${ourCulture})`}}></image>
+                        </div>
+
                         <div className="informationWrapper yellow">  
                             <h2>OUR <span>CULTURE</span> DANCE</h2>
                             <line className="darkYellow"></line>
@@ -342,17 +352,22 @@ export const HomePage = () => {
                                 Whenever the sound of the Chyabrung drum resounds in the air, the tragic story of two brothers “Kesamay” and “Namsamay” are remembered and honoured. As the kelang dance is performed, it reminds us and teach us all that good always triumphs over evil at the end.                           
                             </p>
                         </div>
-                        <image className="imageRoundedTRBL darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+
+                        <div className="importanceImageFrame imageRoundedTLBR darkYellow animationFloatUP">
+                            <image className="imageRoundedTLBR imageBottom" style={{backgroundImage: `url(${goodOverEvil})`}}></image>
+                        </div>
                     </div>
 
                     <div className="flexRowWrapper">
-                        <image className="imageRoundedTLBR darkYellow animationFloatUP" style={{backgroundImage: `url(${blessing})`}}></image>
+                        <div className="importanceImageFrame imageRoundedTRBL darkYellow animationFloatUP">
+                            <image className="imageRoundedTRBL imageBottom" style={{backgroundImage: `url(${futureGeneration})`}}></image>
+                        </div>
+
                         <div className="informationWrapper yellow">  
                             <h2>FOR THE <span>NEXT</span> GENERATION</h2>
                             <line className="darkYellow"></line>
                             <p>
-                                After all, kelang/chyabrung is a dance for everyone to enjoy and have fun. When the chyabrung dance is performed, it teaches and shows all age group people from young, teens to old about our cultural dance and helps the dance to be passed down to the next young generation. From theba, to son to grandson and so on.                            
-                            </p>
+                                After all, kelang/chyabrung is a dance for everyone to enjoy and have fun. When the chyabrung dance is performed, it teaches and shows all group of people from kind, teens to old about our cultural dance. Performing the kelang helps the dance to be passed down to the next young generation. From theba, to son to grandson and so on.                            </p>
                         </div>
                     </div>
                 </div>

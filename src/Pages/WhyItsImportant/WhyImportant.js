@@ -7,8 +7,9 @@ import { Chapter2 } from "./chapter2";
 import { Chap3HorizontalScrollCarousel } from "./chapter3";
 
 //Images Imports
-import pujari from "../../Images/myth/pujari.jpg";
+import paintingKe from "../../Images/myth/paintingKe.jpg";
 import hill from "../../Images/myth/hill.jpg";
+import kelangPaint from "../../Images/myth/kelangPaint.jpg";
 
 
 export const WhyImportantPage = ()=> {
@@ -48,7 +49,7 @@ export const WhyImportantPage = ()=> {
                         The origin myth of the kelang dates back to the ancient times, during the start of human civilization, when the almighty Tagera Ningwaphumang created earth and humans. The story of kelang starts with two siblings, a brother “Kesingen” and a sister “Khappura”.                    
                     </h3>
                 </div>
-                <div className="largeImage" style={{backgroundImage: `url(${pujari})`}}></div>
+                <div className="largeImage" style={{backgroundImage: `url(${paintingKe})`}}></div>
 
                 {/* <div className="imagesWith">
                     <div className="ba animationFloatRight" style={{backgroundImage: `url(${hill})`}}></div>
@@ -91,7 +92,7 @@ export const WhyImportantPage = ()=> {
                         Initially, the Ke drummers did not know how to dance. They just carried the drum in their neck suspended down to the abdomen with the help of rope and roam in the jungle only playing the drum without dance any steps.                    
                     </h3>
                 </div>
-                <div className="largeImage" style={{backgroundImage: `url(${hill})`}}></div>
+                <div className="largeImage" style={{backgroundImage: `url(${kelangPaint})`}}></div>
             </section>
 
             <Chap3HorizontalScrollCarousel/>

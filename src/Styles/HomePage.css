@@ -107,25 +107,12 @@
             display: flex;
             height: 500px;
             width: 600px;
-            background-color: rebeccapurple;
+            background-color: #AA78DF;
             background-position: bottom;
             background-size: contain;
             background-repeat: no-repeat;
-
-            animation: scaleIn linear both;
-            animation-timeline: view();
-            animation-range: entry 50% cover 40%;
         }
-        @keyframes scaleIn {
-            from {
-                opacity: 0%;
-                scale: 0.6;
-            }
-            to {
-                opacity: 100%;
-                scale: 1; 
-            }
-        }
+        
         .genderInfoWrapper .informationWrapper{
             border-radius: 20px 20px 40px 40px;
         }
@@ -572,24 +559,49 @@
     width: 520px;
     border-radius: 40px;
 }
-
 .chyabrungInfoContainer image{
     height: 500px;
     width: 660px;
     border-radius: 40px;
+}
 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.chyabrungInfoContainer .importanceImageFrame{
+    height: 500px;
+    width: 660px;
     overflow: hidden;
+    position: relative;
+
+    &::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 50%);
+        background-color: #FFC97B;
+    }
+}
+.chyabrungInfoContainer .importanceImageFrame image{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    background-size: contain;
+}
+.imageRightSide{
+    background-position-x: 210px;
+}
+.imageBottom{
+    background-position: bottom;
 }
 
 .chyabrungInfoContainer .imageRoundedTLBR{
-    border-radius: 40px 300px 40px 300px;
+    border-radius: 40px 250px 40px 250px;
 }
 .chyabrungInfoContainer .imageRoundedTRBL{
-    border-radius: 300px 40px 300px 40px;
+    border-radius: 250px 40px 250px 40px;
 }
 
     /* .secOverflowHidden .purpleBgParahraph h2 span{
@@ -625,7 +637,7 @@
         border-radius: 3rem;
     }
 
-    .chyabrungInfoContainer image{
+    .chyabrungInfoContainer .importanceImageFrame{
         height: 350px;
         width: 350px;
     }
