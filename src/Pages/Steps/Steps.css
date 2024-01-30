@@ -42,6 +42,16 @@
   width: 540px;
 }
 
+@media only screen and (max-width: 1800px) {
+  .sectionStepsTypes image{
+    height: 400px;
+    width: 500px;
+  }
+  .sectionStepsTypes .flexRowWrapper .informationWrapper{
+    width: 440px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .sectionStepsTypes image{
     height: 300px;
@@ -324,6 +334,17 @@ map .col3 button:nth-child(1){
   display: flex;
   justify-content: center;
   align-self: center;
+}
+
+@media only screen and (max-width: 1800px) {
+  .animalStepsWrapper image{
+    height: 400px;
+    width: 500px;
+  }
+
+  .animalStepsWrapper .informationWrapper:nth-child(1){
+    width: 440px;
+  }
 }
 
 @media only screen and (max-width: 850px) {

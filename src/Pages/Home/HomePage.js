@@ -7,6 +7,7 @@ import "../../Styles/HomePage.css";
 import "../../Styles/wrappers&colors.css";
 import "../../Styles/videoSection.css";
 import "../../Styles/animation.css";
+import "../../Styles/largeImage.css";
 
 import YoutubeEmbed from "../../Components/YoutubeEmbed/YoutubeEmbed.js";
 import ParallaxMouse from "../Paralax/ParallaxMouse";
@@ -309,6 +310,7 @@ export const HomePage = () => {
                         <button className="madeButton" onClick={() => navigate("/WhenPerformed")}>Show More<ArrowRight size={40}/></button>
                     </div>
                 </div>
+                
                 
                 <div className="chyabrungInfoContainer lightYellow">
                     <h1> THE <span>IMPORTANCE</span> OF KELANG </h1>

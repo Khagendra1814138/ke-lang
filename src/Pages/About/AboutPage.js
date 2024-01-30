@@ -77,7 +77,7 @@ export const AboutPage = () => {
 
                 <div className="flexRowWrapper">
                     <div className="informationWrapper">
-                        <h2><span>RIGHT</span> HAND</h2>
+                        <h2><span>LEFT</span> HAND</h2>
                         <line className="mediumSteelBlue"></line>
                         <p>
                             The left hand or your weaker hand is normally used to hold the kesangla and hit the “singsagay” side of the chyabrung, which produces the “Dhung” sound.                        
@@ -232,15 +232,13 @@ export const AboutPage = () => {
 
 
             <section className="sectionSizeandSoundWrapper lightSteelBlue">
-                <div className="flexRowWrapperCenter">
-                    <div className="informationWrapper">
-                        <p>
-                            There is no exact dimension for the chyabrung because the size varies from region to region. For exmaple, typically, Taplejung, Sikkim and Sankhuwasabha have small chyabrung. Terhathum and Panchthar have medium size chyabrung. Illam and Dhankuta have larger size chyabrung.
-                        </p>
-                    </div>
-                    <h1><span>SIZE</span> AND <span>SOUND</span> OF THE CHYABRUNG</h1>
+                <h1><span>SIZE</span> AND <span>SOUND</span> OF THE CHYABRUNG</h1>
+                <div className="informationWrapper">
+                    <p>
+                        There is no exact dimension for the chyabrung because the size varies from region to region. For exmaple, typically, Taplejung, Sikkim and Sankhuwasabha have small chyabrung. Terhathum and Panchthar have medium size chyabrung. Illam and Dhankuta have larger size chyabrung.
+                    </p>
                 </div>
-
+            
                 <div className="flexRowWrapper">
                     <div className="largeChyabrungImage darkSteelBlue animationFade">
                         <image style={{backgroundImage: `url(${taplejungChyabrung})`}}></image>

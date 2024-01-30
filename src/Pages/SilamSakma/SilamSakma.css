@@ -4,7 +4,13 @@
     padding: 0rem 0rem 30rem 0rem;
     display: grid;
     gap: 150px;
+
+    background-image: url(../../Images/backgrounds/dkahaPattern12.png);
+    background-size: 200px 200px;
+    background-attachment: fixed;
+    background-position: center;
 }
+
 
 .wassaaaa{
     height: 500px;

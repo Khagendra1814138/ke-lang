@@ -7,7 +7,7 @@ export const SilamSakmaPage = () => {
         <div className="silamSakmaPage">
             <hero className="heroWrapper">
                 <div className="heroInformationFrame">
-                    <h1>CLOTHES AND ACCESSORIES</h1>
+                    <h1>SILAM SAKMA</h1>
                 </div>
 
                 <div className="heroeCurvedWrapper">

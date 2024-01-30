@@ -14,23 +14,23 @@ import kelangPaint from "../../Images/myth/kelangPaint.jpg";
 
 export const WhyImportantPage = ()=> {
   
-    const stickySection = [...document.querySelectorAll(".sticky")]
+    // const stickySection = [...document.querySelectorAll(".sticky")]
 
-    window.addEventListener('scroll', (e) => {
-        for(let i=0; i < stickySection.length; i++){
-            transfrom(stickySection[i])
-        }
-    })
+    // window.addEventListener('scroll', (e) => {
+    //     for(let i=0; i < stickySection.length; i++){
+    //         transfrom(stickySection[i])
+    //     }
+    // })
 
-    function transfrom(section){
-        const offsetTop = section.parentElement.offsetTop;
-        const scrollSection = section.querySelector('.scrollSection');
-        let percentage = ((window.scrollY - offsetTop) / window.innerHeight) * 100;
+    // function transfrom(section){
+    //     const offsetTop = section.parentElement.offsetTop;
+    //     const scrollSection = section.querySelector('.scrollSection');
+    //     let percentage = ((window.scrollY - offsetTop) / window.innerHeight) * 100;
         
-        percentage = percentage < 0 ? 0 : percentage > 700 ? 700 : percentage;
-        scrollSection.style.transfrom = `translate3d(${-(percentage)}vw, 0, 0)`;
-    }
-
+    //     percentage = percentage < 0 ? 0 : percentage > 700 ? 700 : percentage;
+    //     scrollSection.style.transfrom = `translate3d(${-(percentage)}vw, 0, 0)`;
+    // }
+    
     return (
         <div className="whyImportantPage">
             <hero className="heroWrapper">

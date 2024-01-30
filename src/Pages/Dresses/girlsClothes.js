@@ -5,6 +5,7 @@ import './clothesAccessories.css';
 import gunyuCholo from '../../Images/clothing/gunyuCholo.jpg';
 import mekli from '../../Images/clothing/mekli.jpg';
 import sareeBlous from '../../Images/clothing/sareeBlous.jpg';
+import femaleDress from '../../Images/clothing/femaleDress.png';
 import patuka from '../../Images/clothing/patuka.jpg';
 import lacchaDori from '../../Images/clothing/lacchaDori.jpg';
 
@@ -38,7 +39,7 @@ export const GirlsClothes = () => {
                     </div>
                 </div>
 
-                <image className="longCenterImage darkBrown" style={{backgroundImage: `url(${mekli})`}}></image>
+                <image className="longCenterImage darkBrown" style={{backgroundImage: `url(${femaleDress})`}}></image>
 
                 <div className="flexColumnWrapper"> 
                     <div className="imageFrame darkBrown">

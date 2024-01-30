@@ -10,8 +10,8 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url(../Images/backgrounds/dhaka7.png);
-    background-size: 200px 200px;
+    background-image: url(../Images/backgrounds/moon.png);
+    background-size: 250px 250px;
     background-attachment: fixed;
     background-position: center;
 }
@@ -42,39 +42,11 @@
     }
 
 
-
 .headerFrame{
     height: 60rem;
     width: 100%;
 }
 
-.largeImage{
-    position: relative;
-    width: 100%;
-    height: 44rem;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    &::before{
-        position: absolute;
-        content: "";
-        height: 100%;
-        width: 100%;
-        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.192) 45%, rgb(61, 89, 90));
-        border-radius: 40px;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .largeImage{
-        height: 34rem;
-    }
-}
 
 
 .sectionKeangIntroWrapper{
@@ -127,6 +99,16 @@
             color: #5021FF;
         }
 @media only screen and (max-width: 1800px) {
+    .genderInfoWrapper .flexColumn image{
+        height: 400px;
+        width: 500px;
+    }
+    .genderInfoWrapper .flexColumn p{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
     .sectionKeangIntroWrapper .genderInfoWrapper{
         justify-content: center;
     }
@@ -288,10 +270,33 @@
         }
     }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1900px) {
+    .sectionMusicStepsWrapper image{
+        height: 500px;
+        width: 500px;
+    }
+
+    .sectionMusicStepsWrapper .flex{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 1500px) {
     .sectionMusicStepsWrapper .flex{
         &:nth-child(2),  &:nth-child(4){
             margin-top: 0rem;
+        }
+    }
+
+    .sectionMusicStepsWrapper .flexColumnn{
+        gap: 40px;
+        
+        &:nth-child(3){
+            padding-top: 40px;
+        }
+
+        &:nth-child(4){
+            padding-top: 0px;
+            padding-bottom: 40px;
         }
     }
 }
@@ -307,18 +312,6 @@
     }
     .sectionMusicStepsWrapper .flex{
         width: auto;
-    }
-    .sectionMusicStepsWrapper .flexColumnn{
-        gap: 40px;
-        
-        &:nth-child(3){
-            padding-top: 40px;
-        }
-
-        &:nth-child(4){
-            padding-top: 0px;
-            padding-bottom: 40px;
-        }
     }
 }
 
@@ -372,12 +365,20 @@
         color: #4B79A1;
     }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1900px) {
+    .sectionAboutChyabrungWrapper .aboutChyabrungInfoWrapper image{
+        height: 500px;
+        width: 500px;
+    } 
+    .sectionAboutChyabrungWrapper  .aboutChyabrungInfoWrapper p{
+        width: 440px;
+    }
+}
+@media only screen and (max-width: 1600px) {
     .sectionAboutChyabrungWrapper .aboutChyabrungInfoWrapper{
         justify-content: space-evenly;
     }
 }
-  
 @media only screen and (max-width: 900px) {
     .sectionSteps span{
         border-radius: 20px;
@@ -412,7 +413,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
+    .sectionClothingWrapper h1{
+        text-shadow: 2px 2px white;
+    }
     .sectionClothingWrapper h1 span{
         color: #91553B;
     }
@@ -547,8 +552,14 @@
     align-items: center;
     gap: 40px;
 }
+.chyabrungInfoContainer h1{
+    text-shadow: 2px 4px white;
+}
 .chyabrungInfoContainer h1 span {
     color: #ED9B27;
+}
+.chyabrungInfoContainer h2{
+    text-shadow: 1px 1px white;
 }
 .chyabrungInfoContainer .flexRowWrapper h2 span {
     color: #ED9B27;

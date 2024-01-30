@@ -3,8 +3,8 @@
     display: grid;
     gap: 150px;
 
-    background-image: url(../../Images/backgrounds/dhaka8.png);
-    background-size: 200px 200px;
+    background-image: url(../../Images/backgrounds/dhakaPattern10.png);
+    background-size: 250px 250px;
     background-attachment: fixed;
     background-position: center;
 }
@@ -15,11 +15,38 @@
 
 
 .sectionBeatsWrapper{
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 40px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
+.sectionBeatsWrapper image{
+    height: 680px;
+    width: 600px;
+    border-radius: 40px;
+    display: flex;
+}
 
+.sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper{
+    width: 50%;
+    gap: 20px;
+}
+
+.sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper h2{
+    text-align: start;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sectionBeatsWrapper .flexRowWrapper .flexColumnWrapper{
+        width: 100%;
+        gap: 20px;
+    }
+}
