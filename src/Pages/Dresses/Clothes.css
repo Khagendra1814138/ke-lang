@@ -64,8 +64,22 @@
     width: 450px;
     background-color: #91553B;
 }
-
-
+@media only screen and (max-width: 1900px) {
+    .sectionDhakaWrapper .flexRowWrapper .dhakaMadeImage{
+        height: 500px;
+        width: 550px;
+    }
+    .sectionDhakaWrapper .flexRowWrapper .informationWrapper{
+        width: 440px;
+    }
+    
+}
+@media only screen and (max-width: 1600px) {
+    .sectionDhakaWrapper .flexRowWrapper .informationWrapper{
+        width: 500px;
+    }
+    
+}
 
 .sectionBoysClothingWrapper{
     display: flex;

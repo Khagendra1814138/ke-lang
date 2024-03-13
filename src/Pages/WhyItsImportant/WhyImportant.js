@@ -28,7 +28,7 @@ export const WhyImportantPage = ()=> {
     //     let percentage = ((window.scrollY - offsetTop) / window.innerHeight) * 100;
         
     //     percentage = percentage < 0 ? 0 : percentage > 700 ? 700 : percentage;
-    //     scrollSection.style.transfrom = `translate3d(${-(percentage)}vw, 0, 0)`;
+    //     scrollSection.style.transform = `translate3d(${-(percentage)}vw, 0, 0)`;
     // }
     
     return (

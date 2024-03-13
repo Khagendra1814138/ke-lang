@@ -16,6 +16,9 @@
     gap: 40px;
     justify-content: center;
 }
+    .row1 button{
+        margin-top: 20px;
+    }
     .row1 .imageFrame{
         height: 400px;
         width: 420px;
@@ -37,7 +40,12 @@
         height: 340px;
         width: 450px;
     }
-
+@media only screen and (max-width: 1900px) {
+    .row1 .informationWrapper{
+        height: 340px;
+        width: 380px;
+    }
+}
 
 .row2{
     display: flex;
@@ -47,7 +55,7 @@
 }
     .row2 .flexColumnWrapper .imageFrame{
         height: 400px;
-        width: 100%;
+        width: 360px;
         border-radius: 40px;
         position: relative;
         overflow: hidden;
@@ -72,8 +80,6 @@
         right: 50%;
         transform: translate(38%, 50%);
     }
-
-
     .row2 .flexColumnWrapper .informationWrapper{
         width: 300px;
         height: 300px;
@@ -84,8 +90,16 @@
         width: 500px;
         border-radius: 40px;
     }
-
-
+@media only screen and (max-width: 1900px) {
+    .row2 #flexWrap{
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .row2 #flexWrap{
+        flex-direction: column;
+    }
+}
 .row3{
     display: flex;
     flex-wrap: wrap;
@@ -93,31 +107,30 @@
     justify-content: space-between;
     align-items: center;
 }
+    .row3 .imageFrame{
+        height: 400px;
+        width: 300px;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    .row3 .imageFrame .roundBottomImage{
+        height: 100%;
+        width: 100%;
+        border: 15px solid white;
+        position: absolute;
+        border-radius: 20px 20px 300px 300px;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 38%);
+    }
 
-.clothingFrame .row3 .imageFrame{
-    height: 400px;
-    width: 300px;
-    border-radius: 40px;
-    position: relative;
-    overflow: hidden;
-}
-.clothingFrame .row3 .imageFrame .roundBottomImage{
-    height: 100%;
-    width: 100%;
-    border: 15px solid white;
-    position: absolute;
-    border-radius: 20px 20px 300px 300px;
-    bottom: 50%;
-    right: 50%;
-    transform: translate(50%, 38%);
-}
+    .row3 .informationWrapper{
+        height: 340px;
+        width: 260px;
+    }
 
-
-.clothingFrame .row3 .informationWrapper{
-    height: 340px;
-    width: 260px;
-}
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1900px) {
     .row2{
         justify-content: center;
     }
@@ -125,6 +138,7 @@
         justify-content: center;
     }
 }
+
 @media only screen and (max-width: 900px) {
     .row2{
         justify-content: center;

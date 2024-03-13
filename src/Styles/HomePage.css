@@ -637,6 +637,22 @@
     align-items: center;
 }  */
 
+@media only screen and (max-width: 1400px) {
+    #orderMythParagraph{
+        order: 2;
+    }
+    #orderMythImage{
+        order: 1;
+    }
+
+    #orderImage {
+        order: 1;
+    }
+    #orderParagraph {
+        order: 2;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .chyabrungInfoContainer .informationWrapper{
         width: 290px;

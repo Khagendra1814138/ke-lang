@@ -232,7 +232,14 @@
         width: 440px;
     }
 }
-
+@media only screen and (max-width: 1500px) {
+    /* #orderImage{
+        order: 1;
+    }
+    #orderParagraph{
+        order: 2;
+    } */
+}
 @media only screen and (max-width: 900px) {
     .sectionPreparingWrapper .imageFrame{
         height: 350px;

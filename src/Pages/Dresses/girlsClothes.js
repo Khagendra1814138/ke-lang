@@ -41,7 +41,7 @@ export const GirlsClothes = () => {
 
                 <image className="longCenterImage darkBrown" style={{backgroundImage: `url(${femaleDress})`}}></image>
 
-                <div className="flexColumnWrapper"> 
+                <div id="flexWrap" className="flexColumnWrapper"> 
                     <div className="imageFrame darkBrown">
                         <image className="roundRightImage" style={{backgroundImage: `url(${sareeBlous})`}}></image>
                     </div>

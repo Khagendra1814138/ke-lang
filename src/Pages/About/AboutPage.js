@@ -103,7 +103,7 @@ export const AboutPage = () => {
 
                 <div className="flexRowWrapper">
                     <div className="flexColumnWrapper">
-                        <div className="informationWrapper">
+                        <div id="orderParagraph" className="informationWrapper">
                             <h2><span>FLOWER</span> DECORATION</h2>
                             <line className="mediumSteelBlue"></line>
                             <p>
@@ -111,7 +111,7 @@ export const AboutPage = () => {
                             </p>
                         </div>
 
-                        <div className="imageFrame darkSteelBlue animationFloatUP">
+                        <div id="orderImage" className="imageFrame darkSteelBlue animationFloatUP">
                             <image className="imageLeafL" style={{backgroundImage: `url(${wetting})`}}></image>
                         </div>
                     </div>

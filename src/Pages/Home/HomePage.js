@@ -315,7 +315,7 @@ export const HomePage = () => {
                 <div className="chyabrungInfoContainer lightYellow">
                     <h1> THE <span>IMPORTANCE</span> OF KELANG </h1>
                     <div className="flexRowWrapper">
-                        <div className="flexColumnn">
+                        <div id="orderMythParagraph" className="flexColumnn">
                             <div className="informationWrapper yellow">  
                                 <h2>THE <span>MYTH</span> OF KELANG</h2>
                                 <line className="darkYellow"></line>
@@ -327,7 +327,7 @@ export const HomePage = () => {
                             <button className="madeButton" onClick={() => navigate("/WhyImportant")}>Kelang Myth<ArrowRight size={40}/></button>
                         </div>
 
-                        <div className="importanceImageFrame imageRoundedTLBR darkYellow animationFloatUP">
+                        <div id="orderMythImage" className="importanceImageFrame imageRoundedTLBR darkYellow animationFloatUP">
                             <image className="imageRoundedTLBR" style={{backgroundImage: `url(${blessing})`}}></image>
                         </div>   
                     </div>
@@ -347,7 +347,7 @@ export const HomePage = () => {
                     </div>
 
                     <div className="flexRowWrapper">
-                        <div className="informationWrapper yellow">  
+                        <div id="orderParagraph" className="informationWrapper yellow">  
                             <h2><span>GOOD</span> ALWAYS TRIUMPHS <span>EVIL</span></h2>
                             <line className="darkYellow"></line>
                             <p>
@@ -355,7 +355,7 @@ export const HomePage = () => {
                             </p>
                         </div>
 
-                        <div className="importanceImageFrame imageRoundedTLBR darkYellow animationFloatUP">
+                        <div id="orderImage" className="importanceImageFrame imageRoundedTLBR darkYellow animationFloatUP">
                             <image className="imageRoundedTLBR imageBottom" style={{backgroundImage: `url(${goodOverEvil})`}}></image>
                         </div>
                     </div>

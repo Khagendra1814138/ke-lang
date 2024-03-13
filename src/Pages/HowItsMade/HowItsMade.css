@@ -81,3 +81,14 @@
     height: 300px;
     width: 540px;
 }
+
+@media only screen and (max-width: 1900px) {
+    .sectionKeAssembleWrapper .flexRowWrapper .assemblyImageFrame{
+        height: 400px;
+        width: 550px;
+    } 
+    .sectionKeAssembleWrapper .flexRowWrapper .informationWrapper{
+        height: 300px;
+        width: 440px;
+    }
+}

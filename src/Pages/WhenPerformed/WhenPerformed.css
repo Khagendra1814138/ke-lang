@@ -62,6 +62,25 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 1900px) {
+    .sectionHouseTreeChautaraWrapper .imageFrame{
+        height: 500px;
+        width: 500px;
+    }
+    .sectionHouseTreeChautaraWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+        width: 440px;
+    }
+    .sectionHouseTreeChautaraWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .sectionHouseTreeChautaraWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .sectionHouseTreeChautaraWrapper .imageFrame{
         height: 400px;
@@ -152,6 +171,29 @@
     right: 50%;
     transform: translate(50%, 50%);
 }
+@media only screen and (max-width: 1900px) {
+    .sectionMarrigeWrapper .imageFrame{
+        height: 400px;
+        width: 500px;
+        border-radius: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .sectionMarrigeWrapper .flexRowWrapper .informationWrapper{
+        width: 440px;
+    }
+    .sectionMarrigeWrapper .flexRowWrapper .headingWrapper{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .sectionMarrigeWrapper .flexRowWrapper .headingWrapper{
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .sectionMarrigeWrapper .imageFrame{
         height: 400px;
@@ -226,6 +268,25 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 1900px) {
+    .sectionTangnamWrapper .imageFrame{
+        height: 500px;
+        width: 500px;
+    }
+    .sectionTangnamWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+        width: 440px;
+    }
+    .sectionTangnamWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .sectionTangnamWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .sectionTangnamWrapper .imageFrame{
         height: 400px;
@@ -293,6 +354,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (max-width: 1900px) {
+    .sectionOtherOccasionWrapper .imageFrame{
+        height: 500px;
+        width: 500px;
+    }
+    .sectionOtherOccasionWrapper .flexRowWrapper .flexColumnWrapper .informationWrapper{
+        width: 440px;
+    }
+    .sectionOtherOccasionWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .sectionOtherOccasionWrapper .flexRowWrapper .flexColumnWrapper .headingWrapper{
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 900px) {

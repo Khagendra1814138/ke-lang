@@ -28,7 +28,7 @@ export const BoysClothes = () => {
             <div className="row2">
                 <div className="flexColumnWrapper">
                     <div className="informationWrapper">
-                        <h2><span>Daura surual</span></h2>
+                        <h2><span>Daura Surual</span></h2>
                         <line className="darkBrown"></line>
                         <p>
                             Daura is a long, loose shirt with V-neck and full sleeves that comes down slightly over the knee. It wraps around the body and is fastened with four laces. the Suruwal is the trouser. Daura surual is either worn in plain colour or with little Dhaka touch.                                
@@ -41,7 +41,7 @@ export const BoysClothes = () => {
 
                 <image className="longCenterImage darkBrown" style={{backgroundImage: `url(${mensClothing})`}}></image>
 
-                <div className="flexColumnWrapper"> 
+                <div id="flexWrap" className="flexColumnWrapper"> 
                     <div className="imageFrame darkBrown">
                         <image className="roundRightImage" style={{backgroundImage: `url(${blazerCoat})`}}></image>
                     </div>
